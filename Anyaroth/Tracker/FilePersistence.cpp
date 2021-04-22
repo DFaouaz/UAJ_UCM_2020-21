@@ -1,4 +1,6 @@
 #include "FilePersistence.h"
+#include "TrackerEvent.h"
+
 #include <iostream>
 #include <fstream>
 

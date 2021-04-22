@@ -1,7 +1,10 @@
 #pragma once
 #include "IPersistence.h"
+
 #include <queue>
 #include <string>
+
+class TrackerEvent;
 
 class FilePersistence :
     public IPersistence
