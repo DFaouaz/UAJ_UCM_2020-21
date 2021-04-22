@@ -6,7 +6,13 @@ TrackerEvent::TrackerEvent()
 
 std::string TrackerEvent::ToJSON() const
 {
-    return std::string();
+    std::string json;
+
+    json = "{";
+    json += "\"id_session\":" + _id_session;
+    json += "}";
+
+    return json;
 }
 
 void TrackerEvent::Set_Session_ID(std::string id)
