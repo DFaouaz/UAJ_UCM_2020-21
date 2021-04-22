@@ -8,9 +8,8 @@
 #include <vector>
 #include <map>
 #include <list>
+#include <string>
 
-#include "FileNotFoundError.h"
-#include "FileFormatError.h"
 #include "Vector2D.h"
 
 using namespace std;

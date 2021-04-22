@@ -1,5 +1,4 @@
 #include "ObjectLayer.h"
-#include "AnyarothError.h"
 #include <json.hpp>
 #include <fstream>
 
@@ -56,11 +55,7 @@ ObjectLayer::ObjectLayer(std::string filename, std::string name) : _name(name)
 				_objectsPos.push_back(pair<Vector2D, std::string>( Vector2D(x, y),_data));
 			}
 		}
-		else
-			throw AnyarothError("No se ha encontrado la capa introducida");
 
 		file.close();
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 }

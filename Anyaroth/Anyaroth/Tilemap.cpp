@@ -155,6 +155,4 @@ void Tilemap::loadTileMap(const string & filename)
 
 		file.close();
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 }

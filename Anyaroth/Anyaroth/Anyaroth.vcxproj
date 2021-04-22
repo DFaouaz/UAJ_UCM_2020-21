@@ -87,9 +87,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Json\nlohmann;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -103,9 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -116,14 +120,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Json\nlohmann;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)Box2D\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>Box2D.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
     <Manifest>
@@ -139,11 +144,14 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -350,7 +358,6 @@
     <ClInclude Include="FloatingHead.h" />
     <ClInclude Include="FramedImageUI.h" />
     <ClInclude Include="AnimatedSpriteComponent.h" />
-    <ClInclude Include="AnyarothError.h" />
     <ClInclude Include="Arm.h" />
     <ClInclude Include="GoodCredits.h" />
     <ClInclude Include="Knife.h" />
@@ -440,8 +447,6 @@
     <ClInclude Include="ParallaxBackGround.h" />
     <ClInclude Include="ParallaxLayer.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="FileFormatError.h" />
-    <ClInclude Include="FileNotFoundError.h" />
     <ClInclude Include="FrameComponent.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
@@ -459,7 +464,6 @@
     <ClInclude Include="PoolWrapper.h" />
     <ClInclude Include="PopUpPanel.h" />
     <ClInclude Include="RenderComponent.h" />
-    <ClInclude Include="SDLError.h" />
     <ClInclude Include="ShakeEvent.h" />
     <ClInclude Include="Shop.h" />
     <ClInclude Include="ShopEvent.h" />

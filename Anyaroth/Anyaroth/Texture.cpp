@@ -23,10 +23,8 @@ void Texture::setColor(Uint8 red, Uint8 green, Uint8 blue)
 void Texture::load(string filename, uint nRows, uint nCols)
 {
 	SDL_Surface* tempSurface = IMG_Load(filename.c_str());
-	if (tempSurface == nullptr) throw SDLError();
 	free();
 	_texture = SDL_CreateTextureFromSurface(_renderer, tempSurface);
-	if (_texture == nullptr) throw SDLError();
 	_numRows = nRows;
 	_numCols = nCols;
 	_w = tempSurface->w;
@@ -39,10 +37,8 @@ void Texture::load(string filename, uint nRows, uint nCols)
 void Texture::load(int width, int height, Uint8 red, Uint8 green, Uint8 blue, Uint8 alpha)
 {
 	SDL_Surface* tempSurface = SDL_CreateRGBSurface(0, width, height, 32, red, green, blue, alpha);
-	if (tempSurface == nullptr) throw SDLError();
 	free();
 	_texture = SDL_CreateTextureFromSurface(_renderer, tempSurface);
-	if (_texture == nullptr) throw SDLError();
 	_numRows = 1;
 	_numCols = 1;
 	_w = tempSurface->w;
@@ -84,13 +80,12 @@ void Texture::loadFromText(string text, const Font* font, SDL_Color color)
 {
 	if (text == "") text = " ";
 	SDL_Surface* textSurface = font->generateSurface(text, color);
-	if (textSurface == nullptr) throw SDLError();
 	free();
 	_texture = SDL_CreateTextureFromSurface(_renderer, textSurface);
 	if (_texture == nullptr)
 	{
 		_w = _h = 0;
-		throw SDLError();
+		return;
 	}
 	_w = textSurface->w;
 	_h = textSurface->h;

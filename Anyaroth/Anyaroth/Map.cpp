@@ -70,8 +70,6 @@ Map::Map(string filename, Game* game, Player* player, Texture* tileset, BulletPo
 		}
 		file.close();
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 
 	createObjects();
 }

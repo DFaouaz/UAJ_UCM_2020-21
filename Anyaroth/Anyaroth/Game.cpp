@@ -1,5 +1,4 @@
 #include "Game.h"
-#include "AnyarothError.h"
 #include "ParticleManager.h"
 #include <ctime>
 #include <json.hpp>
@@ -28,8 +27,6 @@ void Game::createTextures()
 			_textures.insert(pair <string, Texture*>(id, new Texture(_renderer, SPRITES_PATH + name, fil, col)));
 		}
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 
 	input.close();
 }
@@ -55,8 +52,6 @@ void Game::createFonts()
 			_fonts.insert(pair <string, Font*>(id, new Font(FONTS_PATH + name, size)));
 		}
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 
 	input.close();
 }
@@ -90,8 +85,6 @@ void Game::createSounds()
 			_soundManager->addMusic(id, SOUNDS_PATH + name);
 		}
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 
 	input.close();
 }
@@ -125,8 +118,6 @@ void Game::createDialogues()
 			_dialogues.insert(pair <string, Dialogue>(id, Dialogue{ getTexture(face),voice,name, conversation,faces,sounds }));
 		}
 	}
-	else
-		throw AnyarothError("No se ha encontrado el archivo introducido");
 
 	input.close();
 }

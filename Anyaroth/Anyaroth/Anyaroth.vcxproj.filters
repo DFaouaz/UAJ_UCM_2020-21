@@ -549,18 +549,6 @@
     <ClInclude Include="Collectable.h">
       <Filter>Archivos de encabezado\Objects\Collectables</Filter>
     </ClInclude>
-    <ClInclude Include="AnyarothError.h">
-      <Filter>Archivos de encabezado\Errors</Filter>
-    </ClInclude>
-    <ClInclude Include="FileFormatError.h">
-      <Filter>Archivos de encabezado\Errors</Filter>
-    </ClInclude>
-    <ClInclude Include="FileNotFoundError.h">
-      <Filter>Archivos de encabezado\Errors</Filter>
-    </ClInclude>
-    <ClInclude Include="SDLError.h">
-      <Filter>Archivos de encabezado\Errors</Filter>
-    </ClInclude>
     <ClInclude Include="Canvas.h">
       <Filter>Archivos de encabezado\HUD</Filter>
     </ClInclude>
@@ -1046,9 +1034,6 @@
     </Filter>
     <Filter Include="Archivos de encabezado\Components">
       <UniqueIdentifier>{8b61b847-011a-43be-883e-1b47fbb3a169}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Errors">
-      <UniqueIdentifier>{69c63846-7219-49d1-83b4-1cae3fbd80bc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Archivos de encabezado\HUD">
       <UniqueIdentifier>{11921b7b-d2ca-4135-920e-df01cfeb1718}</UniqueIdentifier>
