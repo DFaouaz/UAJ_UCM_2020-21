@@ -3,6 +3,7 @@
 // TODO: incluir la clase ISerializer
 //#include ...
 
+class ISerializer;
 
 class IPersistence
 {

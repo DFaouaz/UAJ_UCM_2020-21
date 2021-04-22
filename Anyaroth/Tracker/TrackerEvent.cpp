@@ -1,6 +1,10 @@
 #include "TrackerEvent.h"
 
-std::string TrackerEvent::ToJSON()
+TrackerEvent::TrackerEvent()
+{
+}
+
+std::string TrackerEvent::ToJSON() const
 {
     return std::string();
 }

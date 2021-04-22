@@ -5,6 +5,7 @@
 
 #include "ISerializer.h"
 
+class TrackerEvent;
 
 class JsonSerializer : public ISerializer
 {

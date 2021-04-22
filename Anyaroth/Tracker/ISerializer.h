@@ -4,7 +4,8 @@
 #define ISERIALIZER_H
 
 #include <string>
-#include <TrackerEvent.h>
+
+class TrackerEvent;
 
 class ISerializer
 {
