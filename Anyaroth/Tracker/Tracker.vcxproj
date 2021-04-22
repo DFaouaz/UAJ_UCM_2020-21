@@ -141,10 +141,14 @@
   <ItemGroup>
     <ClInclude Include="FilePersistence.h" />
     <ClInclude Include="IPersistence.h" />
+    <ClInclude Include="ISerializer.h" />
+    <ClInclude Include="JsonSerializer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FilePersistence.cpp" />
     <ClCompile Include="IPersistence.cpp" />
+    <ClCompile Include="ISerializer.cpp" />
+    <ClCompile Include="JsonSerializer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

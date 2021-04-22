@@ -21,12 +21,24 @@
     <ClInclude Include="FilePersistence.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="ISerializer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSerializer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FilePersistence.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="IPersistence.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ISerializer.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSerializer.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
