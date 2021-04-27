@@ -14,6 +14,7 @@ public:
 	~JsonSerializer();
 
 	virtual std::string Serialize(const TrackerEvent& trackerEvent) const;
+	virtual std::string GetExtension() const;
 };
 
 #endif

@@ -1,12 +1,14 @@
 #include "FilePersistence.h"
 #include "TrackerEvent.h"
+#include "Tracker.h"
 
 #include <iostream>
 #include <fstream>
 
 FilePersistence::FilePersistence(ISerializer* serializer, const std::string& filepath) : IPersistence(serializer)
 {
-	fileName = filepath;
+	this->filepath = filepath;
+	filename = std::to_string(Tracker::GetTimestamp()) + serializer->GetExtension();
 }
 
 FilePersistence::~FilePersistence()
@@ -23,7 +25,7 @@ void FilePersistence::Send(const TrackerEvent& evt)
 void FilePersistence::Flush()
 {
 	// Create and open the text file
-	std::ofstream file(fileName);
+	std::ofstream file(filepath + filename);
 
 	std::string serializedText;
 	while (!eventQueue.empty())

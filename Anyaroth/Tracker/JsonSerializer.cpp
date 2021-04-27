@@ -13,3 +13,8 @@ std::string JsonSerializer::Serialize(const TrackerEvent& trackerEvent) const
 {
 	return trackerEvent.ToJSON();
 }
+
+std::string JsonSerializer::GetExtension() const
+{
+	return ".json";
+}

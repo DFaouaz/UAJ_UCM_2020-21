@@ -14,6 +14,7 @@ public:
 	virtual ~ISerializer();
 
 	virtual std::string Serialize(const TrackerEvent& trackerEvent) const = 0;
+	virtual std::string GetExtension() const = 0;
 
 };
 
