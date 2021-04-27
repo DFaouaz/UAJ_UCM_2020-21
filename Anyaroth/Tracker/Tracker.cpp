@@ -1,10 +1,16 @@
 #include "Tracker.h"
 #include "IPersistence.h"
-using namespace std;
+
 
 Tracker* Tracker::_instance = nullptr;
 
-Tracker::Tracker() = default;
+Tracker::Tracker() : _persistenceObject(nullptr)
+{
+}
+
+Tracker::~Tracker()
+{
+}
 
 Tracker* Tracker::getInstance() {
     if (_instance == nullptr)
@@ -12,7 +18,7 @@ Tracker* Tracker::getInstance() {
     return _instance;
 }
 
-void Tracker::Init(IPersistence* persistence, string sesion)
+void Tracker::Init(IPersistence* persistence, const std::string& sesion)
 {
     _persistenceObject = persistence;
     _sesionID = GenerateMD5(sesion);
@@ -20,14 +26,23 @@ void Tracker::Init(IPersistence* persistence, string sesion)
 
 void Tracker::End()
 {
+    _persistenceObject->Flush();
 }
 
 void Tracker::TrackEvent(TrackerEvent* event)
 {
-    _persistenceObject->Send(event);
+    _persistenceObject->Send(*event);
 }
 
-string GenerateMD5(string input)
+void Tracker::TrackEvent(const std::string& id, const std::string& attr)
+{
+    TrackerEvent tEvent = TrackerEvent();
+    tEvent.setSessionID(_sesionID); // TODO: session ID should not be in every single event
+
+    _persistenceObject->Send(tEvent);
+}
+
+std::string Tracker::GenerateMD5(const std::string& input)
 {
     return md5(input);
 }

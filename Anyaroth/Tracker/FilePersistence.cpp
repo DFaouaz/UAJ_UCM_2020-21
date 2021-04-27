@@ -4,6 +4,15 @@
 #include <iostream>
 #include <fstream>
 
+FilePersistence::FilePersistence(ISerializer* serializer, const std::string& filepath) : IPersistence(serializer)
+{
+	fileName = filepath;
+}
+
+FilePersistence::~FilePersistence()
+{
+}
+
 // Receives a tracker event and adds it to the event queue
 void FilePersistence::Send(const TrackerEvent& evt)
 {
@@ -20,7 +29,7 @@ void FilePersistence::Flush()
 	while (!eventQueue.empty())
 	{
 		TrackerEvent evt = eventQueue.front(); eventQueue.pop();
-		serializedText.append(serializer.Serialize(evt));
+		serializedText.append(serializer->Serialize(evt));
 	}
 
 	// Write the serialized text to the file

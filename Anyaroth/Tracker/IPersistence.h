@@ -1,16 +1,16 @@
 #pragma once
-// TODO: incluir la clase TrackerEvent
-// TODO: incluir la clase ISerializer
+#include "TrackerEvent.h"
+#include "ISerializer.h"
 //#include ...
 
-class ISerializer;
 
 class IPersistence
 {
 protected:
 	ISerializer* serializer;
 public:
-	IPersistence(ISerializer* serializer) : serializer(serializer) {};
+	IPersistence(ISerializer* serializer);
+	~IPersistence();
 
 	virtual void Send(const TrackerEvent& evt) = 0;
 	virtual void Flush() = 0;

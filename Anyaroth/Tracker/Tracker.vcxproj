@@ -152,6 +152,7 @@
     <ClCompile Include="IPersistence.cpp" />
     <ClCompile Include="ISerializer.cpp" />
     <ClCompile Include="JsonSerializer.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="Tracker.cpp" />
     <ClCompile Include="TrackerEvent.cpp" />
