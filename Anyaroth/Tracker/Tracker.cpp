@@ -1,11 +1,12 @@
 #include "Tracker.h"
 #include "IPersistence.h"
 #include <chrono>
+#include "PersistenceFactory.h"
+#include "SerializerFactory.h"
 
+Tracker* Tracker::_instance = nullptr;	
 
-Tracker* Tracker::_instance = nullptr;
-
-Tracker::Tracker() : _persistenceObject(nullptr)
+Tracker::Tracker() : _persistenceObject(nullptr), _serializer(nullptr)
 {
 }
 
@@ -19,43 +20,58 @@ Tracker* Tracker::GetInstance() {
     return _instance;
 }
 
-void Tracker::Init(IPersistence* persistence, const std::string& session)
+void Tracker::Init(const TrackerSettings& settings)
 {
-    _persistenceObject = persistence;
-    _sessionID = GenerateMD5(session + std::to_string(GetTimestamp()));
+    if (_instance != nullptr) return; // Cannot initialize more than once
+
+    _instance = GetInstance();
+
+    // Configure tracker
+    _instance->_sessionID = GenerateMD5(settings.appID + std::to_string(GetTimestamp()));
+    _instance->_serializer = SerializerFactory::Create(settings);
+    _instance->_persistenceObject = PersistenceFactory::Create(settings, _instance->_serializer);
+
+    // Init persitence thread
+    // TODO: do stuff...
 }
 
 void Tracker::End()
 {
-    _persistenceObject->Flush();
+    if (_instance == nullptr) return;
+    _instance->_persistenceObject->Flush();
 }
 
 void Tracker::TrackEvent(TrackerEvent* event)
 {
-    _persistenceObject->Send(*event);
+    if (_instance == nullptr) return;
+    _instance->_persistenceObject->Send(*event);
 }
 
 void Tracker::TrackEvent(const std::string& id, const std::string& info)
 {
+    if (_instance == nullptr) return;
     TrackerEvent tEvent = TrackerEvent(id, info);
-    _persistenceObject->Send(tEvent);
+    _instance->_persistenceObject->Send(tEvent);
 }
 
 void Tracker::TrackEvent(const std::string& id, const std::vector<std::string>& info)
 {
+    if (_instance == nullptr) return;
     TrackerEvent tEvent = TrackerEvent(id, info);
-    _persistenceObject->Send(tEvent);
+    _instance->_persistenceObject->Send(tEvent);
 }
 
 void Tracker::TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr)
 {
+    if (_instance == nullptr) return;
     TrackerEvent tEvent = TrackerEvent(id, attr);
-    _persistenceObject->Send(tEvent);
+    _instance->_persistenceObject->Send(tEvent);
 }
 
-const std::string& Tracker::GetSessionID() const
+const std::string& Tracker::GetSessionID()
 {
-    return _sessionID;
+    if (_instance == nullptr) return "";
+    return _instance->_sessionID;
 }
 
 long long Tracker::GetTimestamp()

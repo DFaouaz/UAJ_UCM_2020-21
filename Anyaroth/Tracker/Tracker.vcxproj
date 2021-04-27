@@ -144,8 +144,11 @@
     <ClInclude Include="ISerializer.h" />
     <ClInclude Include="JsonSerializer.h" />
     <ClInclude Include="md5.h" />
+    <ClInclude Include="PersistenceFactory.h" />
+    <ClInclude Include="SerializerFactory.h" />
     <ClInclude Include="Tracker.h" />
     <ClInclude Include="TrackerEvent.h" />
+    <ClInclude Include="TrackerSettings.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FilePersistence.cpp" />
@@ -154,8 +157,11 @@
     <ClCompile Include="JsonSerializer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="md5.cpp" />
+    <ClCompile Include="PersistenceFactory.cpp" />
+    <ClCompile Include="SerializerFactory.cpp" />
     <ClCompile Include="Tracker.cpp" />
     <ClCompile Include="TrackerEvent.cpp" />
+    <ClCompile Include="TrackerSettings.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

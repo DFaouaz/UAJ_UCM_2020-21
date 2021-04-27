@@ -1,4 +1,5 @@
 #pragma once
+#include "TrackerSettings.h"
 #include "md5.h"
 #include <string>
 #include <vector>
@@ -6,6 +7,7 @@
 
 class TrackerEvent;
 class IPersistence;
+class ISerializer;
 
 class Tracker
 {
@@ -13,7 +15,8 @@ private:
 	static Tracker* _instance;
 	std::string _sessionID = "";
 	IPersistence* _persistenceObject;
-	std::string GenerateMD5(const std::string& input);
+	ISerializer* _serializer;
+	static std::string GenerateMD5(const std::string& input);
 
 public:
 	Tracker();
@@ -21,14 +24,14 @@ public:
 
 	// Creates the instance if needed and returns it
 	static Tracker* GetInstance();
-	void Init(IPersistence* persistence, const std::string& session = "");
-	void End();
-	void TrackEvent(TrackerEvent* event);
-	void TrackEvent(const std::string& id, const std::string& info);
-	void TrackEvent(const std::string& id, const std::vector<std::string>& info); 
-	void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
+	static void Init(const TrackerSettings& settings = TrackerSettings::Default);
+	static void End();
+	static void TrackEvent(TrackerEvent* event);
+	static void TrackEvent(const std::string& id, const std::string& info);
+	static void TrackEvent(const std::string& id, const std::vector<std::string>& info);
+	static void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
 
-	const std::string& GetSessionID() const;
+	static const std::string& GetSessionID();
 
 	// Utilities
 	static long long GetTimestamp();

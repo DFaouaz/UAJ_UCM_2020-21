@@ -16,7 +16,7 @@ private:
     std::string filename;
 
 public:
-    FilePersistence(ISerializer* serializer, const std::string& filepath = "./");
+    FilePersistence(ISerializer* serializer, const std::string& filepath);
     ~FilePersistence();
 
     virtual void Send(const TrackerEvent& evt);
