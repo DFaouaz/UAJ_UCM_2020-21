@@ -31,7 +31,7 @@ void FilePersistence::Flush()
 	while (!eventQueue.empty())
 	{
 		TrackerEvent evt = eventQueue.front(); eventQueue.pop();
-		serializedText.append(serializer->Serialize(evt));
+		serializedText = serializer->Append(serializedText, serializer->Serialize(evt));
 	}
 
 	// Write the serialized text to the file

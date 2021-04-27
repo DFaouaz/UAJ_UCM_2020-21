@@ -2,6 +2,7 @@
 #include "md5.h"
 #include <string>
 #include <vector>
+#include <map>
 
 class TrackerEvent;
 class IPersistence;
@@ -24,7 +25,8 @@ public:
 	void End();
 	void TrackEvent(TrackerEvent* event);
 	void TrackEvent(const std::string& id, const std::string& info);
-	void TrackEvent(const std::string& id, const std::vector<std::string>& info);
+	void TrackEvent(const std::string& id, const std::vector<std::string>& info); 
+	void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
 
 	const std::string& GetSessionID() const;
 

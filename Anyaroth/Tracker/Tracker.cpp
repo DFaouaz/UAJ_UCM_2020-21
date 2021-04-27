@@ -47,6 +47,12 @@ void Tracker::TrackEvent(const std::string& id, const std::vector<std::string>& 
     _persistenceObject->Send(tEvent);
 }
 
+void Tracker::TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr)
+{
+    TrackerEvent tEvent = TrackerEvent(id, attr);
+    _persistenceObject->Send(tEvent);
+}
+
 const std::string& Tracker::GetSessionID() const
 {
     return _sessionID;
