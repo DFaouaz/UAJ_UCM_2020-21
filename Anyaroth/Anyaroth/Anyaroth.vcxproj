@@ -87,14 +87,14 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann;$(SolutionDir)Tracker</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Box2D_d.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;$(SolutionDir)DebugSLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D_d.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;Tracker$(Platform)_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann;$(SolutionDir)Tracker</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D_d.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;Tracker$(Platform)_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib;$(SolutionDir)x64\DebugSLib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -120,16 +120,17 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann;$(SolutionDir)Tracker</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Box2D.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;Tracker$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2_image-2.0.1\lib\x86;$(SolutionDir)SDL2_mixer-2.0.4\lib\x86;$(SolutionDir)SDL2-2.0.9\lib\x86;$(SolutionDir)Box2D\lib;$(SolutionDir)ReleaseSLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <SubSystem>Windows</SubSystem>
     </Link>
     <Manifest>
       <AdditionalManifestFiles>%(AdditionalManifestFiles)</AdditionalManifestFiles>
@@ -144,14 +145,15 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2-2.0.9\include;$(SolutionDir)SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2_mixer-2.0.4\include;$(SolutionDir)SDL2_image-2.0.1\include;$(SolutionDir)Box2D\include;$(SolutionDir)Json\nlohmann;$(SolutionDir)Tracker</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Box2D.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;Tracker$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_ttf-2.0.14\lib\x64;$(SolutionDir)SDL2_image-2.0.1\lib\x64;$(SolutionDir)SDL2_mixer-2.0.4\lib\x64;$(SolutionDir)SDL2-2.0.9\lib\x64;$(SolutionDir)Box2D\lib;$(SolutionDir)x64\ReleaseSLib</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -500,6 +502,11 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\assets\sprites\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tracker\Tracker.vcxproj">
+      <Project>{ec1eb38a-cf36-4c53-8e57-8a6067749f0c}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
