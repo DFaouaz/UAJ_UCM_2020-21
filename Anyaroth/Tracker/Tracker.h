@@ -7,7 +7,6 @@
 
 class TrackerEvent;
 class IPersistence;
-class ISerializer;
 
 class Tracker
 {
@@ -15,8 +14,8 @@ private:
 	static Tracker* _instance;
 	std::string _sessionID = "";
 	IPersistence* _persistenceObject;
-	ISerializer* _serializer;
 	static std::string GenerateMD5(const std::string& input);
+	static bool _initialized;
 
 public:
 	Tracker();
@@ -28,7 +27,6 @@ public:
 	static void End();
 	static void TrackEvent(TrackerEvent* event);
 	static void TrackEvent(const std::string& id, const std::string& info);
-	static void TrackEvent(const std::string& id, const std::vector<std::string>& info);
 	static void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
 
 	static const std::string& GetSessionID();

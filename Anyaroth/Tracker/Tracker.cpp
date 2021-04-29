@@ -5,8 +5,9 @@
 #include "SerializerFactory.h"
 
 Tracker* Tracker::_instance = nullptr;	
+bool Tracker::_initialized = false;
 
-Tracker::Tracker() : _persistenceObject(nullptr), _serializer(nullptr)
+Tracker::Tracker() : _persistenceObject(nullptr)
 {
 }
 
@@ -28,49 +29,44 @@ void Tracker::Init(const TrackerSettings& settings)
 
     // Configure tracker
     _instance->_sessionID = GenerateMD5(settings.appID + std::to_string(GetTimestamp()));
-    _instance->_serializer = SerializerFactory::Create(settings);
-    _instance->_persistenceObject = PersistenceFactory::Create(settings, _instance->_serializer);
+    ISerializer* serializer = SerializerFactory::Create(settings);
+    _instance->_persistenceObject = PersistenceFactory::Create(settings, serializer);
 
+
+    _initialized = true;
     // Init persitence thread
     // TODO: do stuff...
 }
 
 void Tracker::End()
 {
-    if (_instance == nullptr) return;
+    if (!_initialized) return;
     _instance->_persistenceObject->Flush();
 }
 
 void Tracker::TrackEvent(TrackerEvent* event)
 {
-    if (_instance == nullptr) return;
+    if (!_initialized) return;
     _instance->_persistenceObject->Send(*event);
 }
 
 void Tracker::TrackEvent(const std::string& id, const std::string& info)
 {
-    if (_instance == nullptr) return;
-    TrackerEvent tEvent = TrackerEvent(id, info);
-    _instance->_persistenceObject->Send(tEvent);
-}
-
-void Tracker::TrackEvent(const std::string& id, const std::vector<std::string>& info)
-{
-    if (_instance == nullptr) return;
+    if (!_initialized) return;
     TrackerEvent tEvent = TrackerEvent(id, info);
     _instance->_persistenceObject->Send(tEvent);
 }
 
 void Tracker::TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr)
 {
-    if (_instance == nullptr) return;
+    if (!_initialized) return;
     TrackerEvent tEvent = TrackerEvent(id, attr);
     _instance->_persistenceObject->Send(tEvent);
 }
 
 const std::string& Tracker::GetSessionID()
 {
-    if (_instance == nullptr) return "";
+    if (!_initialized) return "";
     return _instance->_sessionID;
 }
 

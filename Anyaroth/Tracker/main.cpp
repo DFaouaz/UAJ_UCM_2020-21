@@ -9,7 +9,6 @@ int main() {
 
 	Tracker::TrackEvent("jugador_dispara", "asjhasd");
 	Tracker::TrackEvent("button_pressed", "pause_button");
-	Tracker::TrackEvent("button_pressed", std::vector<std::string>( { "resume", "bullet_01" }));
 	Tracker::TrackEvent("level_end", "level_08");
 	Tracker::TrackEvent("dict_info", std::map<std::string, std::string>(
 	{ 
