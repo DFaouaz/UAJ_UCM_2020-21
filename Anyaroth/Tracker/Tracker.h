@@ -24,6 +24,7 @@ public:
 	// Creates the instance if needed and returns it
 	static Tracker* GetInstance();
 	static void Init(const TrackerSettings& settings = TrackerSettings::Default);
+	static void Flush();
 	static void End();
 	static void TrackEvent(TrackerEvent* event);
 	static void TrackEvent(const std::string& id, const std::string& info);

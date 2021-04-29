@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-#include <vector>
 #include <map>
 
 class TrackerEvent
@@ -8,12 +7,11 @@ class TrackerEvent
 private:
 	long long _timestamp;
 	std::string _eventID;
-	std::vector<std::string> _info;
+	std::string _info;
 	std::map<std::string, std::string> _attr;
 
 public:
 	TrackerEvent(const std::string& id, const std::string info);
-	TrackerEvent(const std::string& id, const std::vector<std::string>& info);
 	TrackerEvent(const std::string& id, const std::map<std::string, std::string>& attr);
 	~TrackerEvent();
 

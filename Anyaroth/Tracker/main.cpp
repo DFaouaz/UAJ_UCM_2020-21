@@ -17,6 +17,8 @@ int main() {
 		{ "damage_received", "124" } 
 	}));
 
+	Tracker::Flush();
+
 	// End of the system
 	Tracker::End();
 

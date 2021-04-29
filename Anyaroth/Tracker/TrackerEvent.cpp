@@ -5,13 +5,6 @@ TrackerEvent::TrackerEvent(const std::string& id, const std::string info)
 {
     _timestamp = Tracker::GetTimestamp();
     _eventID = id;
-    _info = { info };
-}
-
-TrackerEvent::TrackerEvent(const std::string& id, const std::vector<std::string>& info)
-{
-    _timestamp = Tracker::GetTimestamp();
-    _eventID = id;
     _info = info;
 }
 
@@ -19,7 +12,7 @@ TrackerEvent::TrackerEvent(const std::string& id, const std::map<std::string, st
 {
     _timestamp = Tracker::GetTimestamp();
     _eventID = id;
-    _info = {};
+    _info = "";
     _attr = attr;
 }
 
@@ -34,17 +27,8 @@ std::string TrackerEvent::ToJSON() const
     json += "\"timestamp\" : " + std::to_string(_timestamp) + ",\n";
     json += "\"event_id\" : \"" + _eventID + "\",\n";
 
-
     // Info
-    json += "\"info\" : [";
-    if (_info.size() != 0) json += "\n";
-
-    for (size_t i = 0; i < _info.size(); i++) {
-        json += "\"" + _info[i] + "\"";
-        if (i != _info.size() - 1) json += ",";
-        json += "\n";
-    }
-    json += "],\n";
+    json += "\"info\" : \"" + _info + "\",\n";
 
     // Attributes
     json += "\"attributes\" : {";

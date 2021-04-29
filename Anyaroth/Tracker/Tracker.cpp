@@ -13,6 +13,8 @@ Tracker::Tracker() : _persistenceObject(nullptr)
 
 Tracker::~Tracker()
 {
+    if (_persistenceObject != nullptr)
+        delete _persistenceObject;
 }
 
 Tracker* Tracker::GetInstance() {
@@ -23,7 +25,7 @@ Tracker* Tracker::GetInstance() {
 
 void Tracker::Init(const TrackerSettings& settings)
 {
-    if (_instance != nullptr) return; // Cannot initialize more than once
+    if (_initialized) return; // Cannot initialize more than once
 
     _instance = GetInstance();
 
@@ -39,10 +41,20 @@ void Tracker::Init(const TrackerSettings& settings)
     // TODO: do stuff...
 }
 
-void Tracker::End()
+void Tracker::Flush()
 {
     if (!_initialized) return;
     _instance->_persistenceObject->Flush();
+}
+
+void Tracker::End()
+{
+    if (!_initialized) return;
+
+    _instance->_persistenceObject->Flush();
+    _initialized = false;
+
+    delete _instance;
 }
 
 void Tracker::TrackEvent(TrackerEvent* event)

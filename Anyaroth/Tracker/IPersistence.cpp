@@ -7,5 +7,6 @@ IPersistence::IPersistence(ISerializer* serializer)
 
 IPersistence::~IPersistence()
 {
-	// maybe delete serializer here
+	if (serializer != nullptr)
+		delete serializer;
 }
