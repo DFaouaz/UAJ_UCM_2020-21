@@ -19,5 +19,9 @@ int main() {
 
 	// End of the system
 	Tracker::End();
+
+	Tracker::TrackEvent("button_pressed", "pause_button");
+	Tracker::TrackEvent("level_end", "level_08");
+	Tracker::End();
 	return 0;
 }

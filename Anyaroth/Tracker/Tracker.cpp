@@ -31,6 +31,7 @@ void Tracker::Init(const TrackerSettings& settings)
     _instance->_sessionID = GenerateMD5(settings.appID + std::to_string(GetTimestamp()));
     ISerializer* serializer = SerializerFactory::Create(settings);
     _instance->_persistenceObject = PersistenceFactory::Create(settings, serializer);
+    _instance->_persistenceObject->Open();
 
 
     _initialized = true;

@@ -25,9 +25,22 @@ void FilePersistence::Send(const TrackerEvent& evt)
 void FilePersistence::Flush()
 {
 	// Create and open the text file
-	std::ofstream file(filepath + filename);
+	std::ifstream file;
+	file.open(filepath + filename);
 
 	std::string serializedText;
+
+	file.seekg(0, std::ios::end);
+	serializedText.reserve(file.tellg());
+	file.seekg(0, std::ios::beg);
+
+	serializedText.assign((std::istreambuf_iterator<char>(file)),
+		std::istreambuf_iterator<char>());
+	file.close();
+
+	std::ofstream fileO;
+	fileO.open(filepath + filename);
+
 	while (!eventQueue.empty())
 	{
 		TrackerEvent evt = eventQueue.front(); eventQueue.pop();
@@ -35,8 +48,16 @@ void FilePersistence::Flush()
 	}
 
 	// Write the serialized text to the file
-	file << serializedText;
+	fileO << serializedText;
 
 	// Close the file
+	fileO.close();
+}
+
+void FilePersistence::Open()
+{
+	std::ofstream file;
+	file.open(filepath + filename);
+	file << "";
 	file.close();
 }

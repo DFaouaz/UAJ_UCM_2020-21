@@ -14,5 +14,6 @@ public:
 
 	virtual void Send(const TrackerEvent& evt) = 0;
 	virtual void Flush() = 0;
+	virtual void Open() = 0;
 };
 

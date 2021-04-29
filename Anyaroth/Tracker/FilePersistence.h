@@ -21,5 +21,6 @@ public:
 
     virtual void Send(const TrackerEvent& evt);
     virtual void Flush();
+    virtual void Open();
 };
 
