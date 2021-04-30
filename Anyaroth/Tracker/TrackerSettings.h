@@ -17,7 +17,10 @@ public:
 	std::string appID;
 	FormatType format;
 	StorageType storage;
-	std::string host; // This is the net host or the filepath
+	std::string filepath;
+	std::string host;
+	uint32_t port;
+
 	float flushInterval;
 
 	static TrackerSettings Default;

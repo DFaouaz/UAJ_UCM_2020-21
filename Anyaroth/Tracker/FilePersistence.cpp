@@ -9,21 +9,43 @@ FilePersistence::FilePersistence(ISerializer* serializer, const std::string& fil
 {
 	this->filepath = filepath;
 	filename = std::to_string(Tracker::GetTimestamp()) + serializer->GetExtension();
+	initialized = false;
 }
 
 FilePersistence::~FilePersistence()
 {
 }
 
+bool FilePersistence::Open()
+{
+	bool result = true;
+	try {
+		std::ofstream file;
+		file.open(filepath + filename);
+		file << "";
+		file.close();
+	}
+	catch (const std::exception& e)
+	{
+		std::cerr << "An error ocurred trying to open file:\n" + filepath + filename << "\n";
+		std::cerr << "Error: " << e.what() << '\n';
+		result = false;
+	}
+
+	return initialized = result;
+}
+
 // Receives a tracker event and adds it to the event queue
 void FilePersistence::Send(const TrackerEvent& evt)
 {
+	if (!initialized) return;
 	eventQueue.push(evt);
 }
 
 // Flushes all the content inside the event queue into a file
 void FilePersistence::Flush()
 {
+	if (!initialized) return;
 	// Create and open the text file
 	std::ifstream file;
 	file.open(filepath + filename);
@@ -52,12 +74,4 @@ void FilePersistence::Flush()
 
 	// Close the file
 	fileO.close();
-}
-
-void FilePersistence::Open()
-{
-	std::ofstream file;
-	file.open(filepath + filename);
-	file << "";
-	file.close();
 }

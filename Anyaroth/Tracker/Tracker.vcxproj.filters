@@ -78,6 +78,12 @@
     <ClInclude Include="CVSSerializer.h">
       <Filter>Archivos de encabezado\Serializers</Filter>
     </ClInclude>
+    <ClInclude Include="ServerPersistence.h">
+      <Filter>Archivos de encabezado\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPRequest.hpp">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tracker.cpp">
@@ -115,6 +121,9 @@
     </ClCompile>
     <ClCompile Include="CVSSerializer.cpp">
       <Filter>Archivos de origen\Serializers</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPersistence.cpp">
+      <Filter>Archivos de origen\Persistence</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

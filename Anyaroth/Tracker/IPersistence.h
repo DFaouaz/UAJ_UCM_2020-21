@@ -1,7 +1,6 @@
 #pragma once
 #include "TrackerEvent.h"
 #include "ISerializer.h"
-//#include ...
 
 
 class IPersistence
@@ -12,8 +11,8 @@ public:
 	IPersistence(ISerializer* serializer);
 	~IPersistence();
 
+	virtual bool Open() = 0;
 	virtual void Send(const TrackerEvent& evt) = 0;
 	virtual void Flush() = 0;
-	virtual void Open() = 0;
 };
 

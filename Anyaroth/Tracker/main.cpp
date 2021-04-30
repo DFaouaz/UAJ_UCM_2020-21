@@ -8,10 +8,13 @@ int main() {
 	TrackerSettings mySettings = {
 		"",
 		TrackerSettings::FormatType::CSV,
-		TrackerSettings::StorageType::LOCAL,
+		TrackerSettings::StorageType::NET,
 		"./",
+		"localhost",
+		8080,
 		3.0f
 	};
+
 	Tracker::Init(mySettings);
 
 	Tracker::TrackEvent("jugador_dispara", "asjhasd");
@@ -25,9 +28,6 @@ int main() {
 	}));
 
 	Tracker::Flush();
-
-	// End of the system
-	Tracker::End();
 
 	Tracker::TrackEvent("button_pressed", "pause_button");
 	Tracker::TrackEvent("level_end", "level_08");

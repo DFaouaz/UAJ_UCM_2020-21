@@ -4,11 +4,11 @@
 #include <queue>
 #include <string>
 
-class TrackerEvent;
 
 class FilePersistence : public IPersistence
 {
 private:
+    bool initialized;
     std::queue<TrackerEvent> eventQueue;
 
     std::string filepath;
@@ -19,8 +19,8 @@ public:
     FilePersistence(ISerializer* serializer, const std::string& filepath);
     ~FilePersistence();
 
+    virtual bool Open();
     virtual void Send(const TrackerEvent& evt);
     virtual void Flush();
-    virtual void Open();
 };
 
