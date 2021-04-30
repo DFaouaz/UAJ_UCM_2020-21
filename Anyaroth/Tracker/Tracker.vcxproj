@@ -269,10 +269,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CVSSerializer.h" />
     <ClInclude Include="FilePersistence.h" />
     <ClInclude Include="IPersistence.h" />
     <ClInclude Include="ISerializer.h" />
-    <ClInclude Include="JsonSerializer.h" />
+    <ClInclude Include="JSONSerializer.h" />
     <ClInclude Include="md5.h" />
     <ClInclude Include="PersistenceFactory.h" />
     <ClInclude Include="SerializerFactory.h" />
@@ -281,10 +282,11 @@
     <ClInclude Include="TrackerSettings.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CVSSerializer.cpp" />
     <ClCompile Include="FilePersistence.cpp" />
     <ClCompile Include="IPersistence.cpp" />
     <ClCompile Include="ISerializer.cpp" />
-    <ClCompile Include="JsonSerializer.cpp" />
+    <ClCompile Include="JSONSerializer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="PersistenceFactory.cpp" />

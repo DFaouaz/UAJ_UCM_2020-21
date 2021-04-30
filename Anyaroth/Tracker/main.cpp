@@ -5,7 +5,14 @@
 
 int main() {
 	// Initilitation
-	Tracker::Init();
+	TrackerSettings mySettings = {
+		"",
+		TrackerSettings::FormatType::CSV,
+		TrackerSettings::StorageType::LOCAL,
+		"./",
+		3.0f
+	};
+	Tracker::Init(mySettings);
 
 	Tracker::TrackEvent("jugador_dispara", "asjhasd");
 	Tracker::TrackEvent("button_pressed", "pause_button");

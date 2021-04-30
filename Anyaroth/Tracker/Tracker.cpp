@@ -28,6 +28,7 @@ void Tracker::Init(const TrackerSettings& settings)
     if (_initialized) return; // Cannot initialize more than once
 
     _instance = GetInstance();
+    _instance->_settings = settings;
 
     // Configure tracker
     _instance->_sessionID = GenerateMD5(settings.appID + std::to_string(GetTimestamp()));
@@ -37,6 +38,10 @@ void Tracker::Init(const TrackerSettings& settings)
 
 
     _initialized = true;
+
+    // Init trace
+    TrackEvent("application_start", settings.appID);
+
     // Init persitence thread
     // TODO: do stuff...
 }
@@ -50,6 +55,9 @@ void Tracker::Flush()
 void Tracker::End()
 {
     if (!_initialized) return;
+
+    // End trace
+    TrackEvent("application_ends", _instance->_settings.appID);
 
     _instance->_persistenceObject->Flush();
     _initialized = false;

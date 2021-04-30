@@ -17,6 +17,8 @@ private:
 	static std::string GenerateMD5(const std::string& input);
 	static bool _initialized;
 
+	TrackerSettings _settings;
+
 public:
 	Tracker();
 	~Tracker();

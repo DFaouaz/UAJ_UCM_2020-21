@@ -16,6 +16,7 @@ public:
 	~TrackerEvent();
 
 	virtual std::string ToJSON() const;
+	virtual std::string ToCSV() const;
 
 	void SetEventID(const std::string& id);
 	const std::string& GetEventID() const;

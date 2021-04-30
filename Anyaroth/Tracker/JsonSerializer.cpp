@@ -1,15 +1,15 @@
 #include "JSONSerializer.h"
 #include "TrackerEvent.h"
 
-JsonSerializer::JsonSerializer()
+JSONSerializer::JSONSerializer()
 {
 }
 
-JsonSerializer::~JsonSerializer()
+JSONSerializer::~JSONSerializer()
 {
 }
 
-std::string JsonSerializer::Append(const std::string& content, const std::string& data) const
+std::string JSONSerializer::Append(const std::string& content, const std::string& data) const
 {
 	std::string result = content;
 	if (content == "") result = "[\n]";
@@ -28,12 +28,12 @@ std::string JsonSerializer::Append(const std::string& content, const std::string
 	return result;
 }
 
-std::string JsonSerializer::Serialize(const TrackerEvent& trackerEvent) const
+std::string JSONSerializer::Serialize(const TrackerEvent& trackerEvent) const
 {
 	return trackerEvent.ToJSON();
 }
 
-std::string JsonSerializer::GetExtension() const
+std::string JSONSerializer::GetExtension() const
 {
 	return ".json";
 }

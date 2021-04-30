@@ -13,59 +13,74 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de origen\Persistence">
+      <UniqueIdentifier>{ce5f9be3-db88-43aa-9d41-e703399a94e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Factories">
+      <UniqueIdentifier>{713ee8c8-e343-4dea-a23f-1bb7958e19e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Serializers">
+      <UniqueIdentifier>{8593dc11-a5c2-4178-8747-58351f4cdc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Utilities">
+      <UniqueIdentifier>{00bdb203-c434-484b-9641-07e2ee7ac9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\TrackerEvents">
+      <UniqueIdentifier>{dbc279c0-9e23-436c-a07e-fcbd1866b2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Factories">
+      <UniqueIdentifier>{2613e9f4-2255-436c-be57-709607a318da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\TrackerEvents">
+      <UniqueIdentifier>{d2e47991-055d-4854-b6eb-a524b92541ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utilities">
+      <UniqueIdentifier>{00cfc4b1-7a68-4986-8110-c2d68eafb719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Serializers">
+      <UniqueIdentifier>{8dcadf3c-788c-4ea5-91a3-837c331d15fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Persistence">
+      <UniqueIdentifier>{d916321d-0edb-40eb-9b52-f68f69b4d2c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IPersistence.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="FilePersistence.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="ISerializer.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="JsonSerializer.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="md5.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Tracker.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="TrackerEvent.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="TrackerSettings.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="PersistenceFactory.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Factories</Filter>
     </ClInclude>
     <ClInclude Include="SerializerFactory.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackerEvent.h">
+      <Filter>Archivos de encabezado\TrackerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializer.h">
+      <Filter>Archivos de encabezado\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSerializer.h">
+      <Filter>Archivos de encabezado\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePersistence.h">
+      <Filter>Archivos de encabezado\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="IPersistence.h">
+      <Filter>Archivos de encabezado\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="CVSSerializer.h">
+      <Filter>Archivos de encabezado\Serializers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FilePersistence.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="ISerializer.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="JsonSerializer.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="md5.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Tracker.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="IPersistence.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="TrackerEvent.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -74,11 +89,32 @@
     <ClCompile Include="TrackerSettings.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="FilePersistence.cpp">
+      <Filter>Archivos de origen\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="IPersistence.cpp">
+      <Filter>Archivos de origen\Persistence</Filter>
+    </ClCompile>
     <ClCompile Include="PersistenceFactory.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Factories</Filter>
     </ClCompile>
     <ClCompile Include="SerializerFactory.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="ISerializer.cpp">
+      <Filter>Archivos de origen\Serializers</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSerializer.cpp">
+      <Filter>Archivos de origen\Serializers</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Archivos de origen\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackerEvent.cpp">
+      <Filter>Archivos de origen\TrackerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="CVSSerializer.cpp">
+      <Filter>Archivos de origen\Serializers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

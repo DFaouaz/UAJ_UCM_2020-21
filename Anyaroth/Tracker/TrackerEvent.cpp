@@ -49,6 +49,17 @@ std::string TrackerEvent::ToJSON() const
     return json;
 }
 
+std::string TrackerEvent::ToCSV() const
+{
+    std::string csv;
+    csv += std::to_string(_timestamp) + "," + _eventID + "," + _info;
+
+    for (auto entry : _attr)
+        csv += "," + entry.first + "," + entry.second;
+
+    return csv;
+}
+
 void TrackerEvent::SetEventID(const std::string& id)
 {
     _eventID = id;

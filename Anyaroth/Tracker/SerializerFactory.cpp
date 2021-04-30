@@ -1,18 +1,19 @@
 #include "SerializerFactory.h"
 #include "JsonSerializer.h"
+#include "CVSSerializer.h"
 
 ISerializer* SerializerFactory::Create(TrackerSettings settings)
 {
 	switch (settings.format)
 	{
 	case TrackerSettings::FormatType::JSON:
-		return new JsonSerializer();
+		return new JSONSerializer();
 		break;
-	case TrackerSettings::FormatType::CSV: // TODO: cambiar
-		return new JsonSerializer();
+	case TrackerSettings::FormatType::CSV:
+		return new CVSSerializer();
 		break;
 	default:
-		return new JsonSerializer();
+		return new JSONSerializer();
 		break;
 	}
 
