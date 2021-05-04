@@ -60,9 +60,24 @@ std::string TrackerEvent::ToCSV() const
     return csv;
 }
 
+void TrackerEvent::SetTimeStamp()
+{
+    _timestamp = Tracker::GetTimestamp();
+}
+
 void TrackerEvent::SetEventID(const std::string& id)
 {
     _eventID = id;
+}
+
+void TrackerEvent::SetEventInfo(const std::string& info)
+{
+    _info = info;
+}
+
+void TrackerEvent::SetEventAttr(const std::map<std::string, std::string>& attr)
+{
+    _attr = attr;
 }
 
 const std::string& TrackerEvent::GetEventID() const

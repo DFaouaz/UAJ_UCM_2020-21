@@ -84,6 +84,12 @@
     <ClInclude Include="HTTPRequest.hpp">
       <Filter>Archivos de encabezado\Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="ProgressionEvent.h">
+      <Filter>Archivos de encabezado\TrackerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="InstantEvent.h">
+      <Filter>Archivos de encabezado\TrackerEvents</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tracker.cpp">
@@ -124,6 +130,12 @@
     </ClCompile>
     <ClCompile Include="ServerPersistence.cpp">
       <Filter>Archivos de origen\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionEvent.cpp">
+      <Filter>Archivos de origen\TrackerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="InstantEvent.cpp">
+      <Filter>Archivos de origen\TrackerEvents</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

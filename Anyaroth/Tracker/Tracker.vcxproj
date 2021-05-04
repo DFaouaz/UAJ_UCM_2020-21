@@ -272,11 +272,13 @@
     <ClInclude Include="CVSSerializer.h" />
     <ClInclude Include="FilePersistence.h" />
     <ClInclude Include="HTTPRequest.hpp" />
+    <ClInclude Include="InstantEvent.h" />
     <ClInclude Include="IPersistence.h" />
     <ClInclude Include="ISerializer.h" />
     <ClInclude Include="JSONSerializer.h" />
     <ClInclude Include="md5.h" />
     <ClInclude Include="PersistenceFactory.h" />
+    <ClInclude Include="ProgressionEvent.h" />
     <ClInclude Include="SerializerFactory.h" />
     <ClInclude Include="ServerPersistence.h" />
     <ClInclude Include="Tracker.h" />
@@ -286,12 +288,14 @@
   <ItemGroup>
     <ClCompile Include="CVSSerializer.cpp" />
     <ClCompile Include="FilePersistence.cpp" />
+    <ClCompile Include="InstantEvent.cpp" />
     <ClCompile Include="IPersistence.cpp" />
     <ClCompile Include="ISerializer.cpp" />
     <ClCompile Include="JSONSerializer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="PersistenceFactory.cpp" />
+    <ClCompile Include="ProgressionEvent.cpp" />
     <ClCompile Include="SerializerFactory.cpp" />
     <ClCompile Include="ServerPersistence.cpp" />
     <ClCompile Include="Tracker.cpp" />

@@ -84,6 +84,33 @@ void Tracker::TrackEvent(const std::string& id, const std::map<std::string, std:
     _instance->_persistenceObject->Send(tEvent);
 }
 
+void Tracker::TrackProgressionEvent(const ProgressionType& id)
+{
+    if (!_initialized) return;
+    ProgressionEvent pEvent = ProgressionEvent(id);
+    _instance->_persistenceObject->Send(pEvent);
+}
+void Tracker::TrackProgressionEvent(const ProgressionType& id, const std::map<std::string, std::string>& attr)
+{
+    if (!_initialized) return;
+    ProgressionEvent pEvent = ProgressionEvent(id, attr);
+    _instance->_persistenceObject->Send(pEvent);
+}
+
+void Tracker::TrackInstantEvent(const InstantType& id)
+{
+    if (!_initialized) return;
+    InstantEvent pEvent = InstantEvent(id);
+    _instance->_persistenceObject->Send(pEvent);
+}
+
+void Tracker::TrackInstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr)
+{
+    if (!_initialized) return;
+    InstantEvent pEvent = InstantEvent(id, attr);
+    _instance->_persistenceObject->Send(pEvent);
+}
+
 const std::string& Tracker::GetSessionID()
 {
     if (!_initialized) return "";
