@@ -44,7 +44,8 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 	std::vector<std::string> results;
 
 	// Split
-	while (foundIndex >= 0) {
+	while (foundIndex >= 0) 
+	{
 		foundIndex = content.find("\n", initIndex);
 		splitted = content.substr(initIndex, foundIndex - initIndex);
 		initIndex = foundIndex + 1;
@@ -55,8 +56,10 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 	std::string value;
 	char token;
 
-	try {
-		for (std::string str : results) {
+	try 
+	{
+		for (std::string str : results) 
+		{
 			std::stringstream ss;
 			ss.str(str);
 			if (!(ss >> id >> token >> value)) throw std::exception();
@@ -70,7 +73,7 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 			{
 				if (value == "json")
 					settings.format = FormatType::JSON;
-				else if (value == "cvs")
+				else if (value == "csv")
 					settings.format = FormatType::CSV;
 				else
 					settings.format = FormatType::JSON;
@@ -79,28 +82,31 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 			{
 				if (value == "local")
 					settings.storage = StorageType::LOCAL;
-				else if (value == "cvs")
+				else if (value == "net")
 					settings.storage = StorageType::NET;
 				else
 					settings.storage = StorageType::LOCAL;
 			}
-
 			else if (id == "filepath")
 			{
 				settings.filepath = value;
 			}
-			else if (id == "host") {
+			else if (id == "host") 
+			{
 				settings.host = value;
 			}
-			else if (id == "port") {
+			else if (id == "port") 
+			{
 				settings.port = static_cast<uint32_t>(std::stoul(value));
 			}
-			else if (id == "flush_interval") {
+			else if (id == "flush_interval") 
+			{
 				settings.flushInterval = (float)std::atof(value.c_str());
 			}
 		}
 	}
-	catch (const std::exception& e) {
+	catch (const std::exception& e) 
+	{
 		printf("Config file format not valid\nIt should be \"parameter_name : value\"\n");
 		settings = Default;
 		return settings;
