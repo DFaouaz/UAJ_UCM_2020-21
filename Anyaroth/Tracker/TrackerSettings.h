@@ -24,6 +24,8 @@ public:
 	float flushInterval;
 
 	static TrackerSettings Default;
+
+	static TrackerSettings FromFile(const std::string& filepath);
 };
 
 

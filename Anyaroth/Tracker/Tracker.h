@@ -38,7 +38,7 @@ public:
 	static void TrackInstantEvent(const InstantType& id);
 	static void TrackInstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr);
 
-	static const std::string& GetSessionID();
+	static std::string GetSessionID();
 
 	// Utilities
 	static long long GetTimestamp();

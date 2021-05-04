@@ -1,0 +1,6 @@
+format : json
+storage : local
+filepath : ./ 
+host : localhost
+port : 8080
+flush_interval : 3.0

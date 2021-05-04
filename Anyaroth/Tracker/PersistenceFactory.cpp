@@ -7,9 +7,9 @@ IPersistence* PersistenceFactory::Create(TrackerSettings settings, ISerializer* 
 	switch (settings.storage)
 	{
 	case TrackerSettings::StorageType::LOCAL:
-		return new FilePersistence(serializer, settings.host);
+		return new FilePersistence(serializer, settings.filepath);
 		break;
-	case TrackerSettings::StorageType::NET: // TODO: cambiar
+	case TrackerSettings::StorageType::NET:
 		return new ServerPersistence(serializer, settings.host, settings.port);
 		break;
 	default:

@@ -111,7 +111,7 @@ void Tracker::TrackInstantEvent(const InstantType& id, const std::map<std::strin
     _instance->_persistenceObject->Send(pEvent);
 }
 
-const std::string& Tracker::GetSessionID()
+std::string Tracker::GetSessionID()
 {
     if (!_initialized) return "";
     return _instance->_sessionID;
