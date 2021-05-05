@@ -3,6 +3,7 @@
 #include <chrono>
 #include "PersistenceFactory.h"
 #include "SerializerFactory.h"
+#include <thread>
 
 Tracker* Tracker::_instance = nullptr;	
 bool Tracker::_initialized = false;
@@ -36,19 +37,48 @@ void Tracker::Init(const TrackerSettings& settings)
     _instance->_persistenceObject = PersistenceFactory::Create(settings, serializer);
     _initialized = _instance->_persistenceObject->Open();
 
-    if (!_initialized) End(); // Close tracker immediately
+    if (!_initialized) {
+        End(); // Close tracker immediately
+        return;
+    }
 
     // Init trace
     TrackEvent("application_start", settings.appID);
 
-    // Init persitence thread
-    // TODO: do stuff...
+    if (settings.flushInterval > 0.0) {
+        _instance->flushThread = std::thread([&] {
+            AsyncFlush();
+        });
+    }
 }
 
 void Tracker::Flush()
 {
     if (!_initialized) return;
+
+    if (_instance->_settings.flushInterval > 0.0) return;
+
+    // Defensive code
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Flush();
+}
+
+void Tracker::AsyncFlush() {    
+    printf("Async flushing thread started successfully\n");
+
+    while (_initialized) {
+        std::unique_lock<std::mutex> lck(_instance->persistenceMutex);
+        _instance->awakeCond.wait_for(lck, std::chrono::milliseconds((int)(_instance->_settings.flushInterval * 1000)), [&] { return !_initialized; });
+        _instance->_persistenceObject->Flush();
+        printf("Async flush done\n");
+    }
+
+    // Last flush
+    _instance->persistenceMutex.lock();
+    _instance->_persistenceObject->Flush();
+    _instance->persistenceMutex.unlock();
+
+    printf("Async flushing thread ended successfully\n");
 }
 
 void Tracker::End()
@@ -58,8 +88,13 @@ void Tracker::End()
     // End trace
     TrackEvent("application_ends", _instance->_settings.appID);
 
-    _instance->_persistenceObject->Flush();
+    Flush();
+
     _initialized = false;
+    _instance->awakeCond.notify_all();
+
+    if(_instance->flushThread.joinable())
+        _instance->flushThread.join();
 
     delete _instance;
 }
@@ -67,6 +102,8 @@ void Tracker::End()
 void Tracker::TrackEvent(TrackerEvent* event)
 {
     if (!_initialized) return;
+
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(*event);
 }
 
@@ -74,6 +111,8 @@ void Tracker::TrackEvent(const std::string& id, const std::string& info)
 {
     if (!_initialized) return;
     TrackerEvent tEvent = TrackerEvent(id, info);
+
+    std::unique_lock<std::mutex> lock (_instance->persistenceMutex);
     _instance->_persistenceObject->Send(tEvent);
 }
 

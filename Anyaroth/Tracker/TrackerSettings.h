@@ -21,7 +21,7 @@ public:
 	std::string host;
 	uint32_t port;
 
-	float flushInterval;
+	float flushInterval; // If flush interval is greater than 0.0, the tracker assumes async flush should be used.
 
 	static TrackerSettings Default;
 

@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <mutex>
 
 
 class IPersistence;
@@ -20,6 +21,10 @@ private:
 	static bool _initialized;
 
 	TrackerSettings _settings;
+
+	std::thread flushThread;
+	std::condition_variable awakeCond;
+	std::mutex persistenceMutex;
 
 public:
 	Tracker();
@@ -42,5 +47,8 @@ public:
 
 	// Utilities
 	static long long GetTimestamp();
+
+private:
+	static void AsyncFlush();
 };
 
