@@ -120,19 +120,22 @@ void Tracker::TrackEvent(const std::string& id, const std::map<std::string, std:
 {
     if (!_initialized) return;
     TrackerEvent tEvent = TrackerEvent(id, attr);
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(tEvent);
 }
 
-void Tracker::TrackProgressionEvent(const ProgressionType& id)
+void Tracker::TrackProgressionEvent(const ProgressionEvent::ProgressionType& type)
 {
     if (!_initialized) return;
-    ProgressionEvent pEvent = ProgressionEvent(id);
+    ProgressionEvent pEvent = ProgressionEvent(type);
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }
-void Tracker::TrackProgressionEvent(const ProgressionType& id, const std::map<std::string, std::string>& attr)
+void Tracker::TrackProgressionEvent(const ProgressionEvent::ProgressionType& type, const std::map<std::string, std::string>& attr)
 {
     if (!_initialized) return;
-    ProgressionEvent pEvent = ProgressionEvent(id, attr);
+    ProgressionEvent pEvent = ProgressionEvent(type, attr);
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }
 
@@ -140,6 +143,7 @@ void Tracker::TrackInstantEvent(const InstantType& id)
 {
     if (!_initialized) return;
     InstantEvent pEvent = InstantEvent(id);
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }
 
@@ -147,6 +151,7 @@ void Tracker::TrackInstantEvent(const InstantType& id, const std::map<std::strin
 {
     if (!_initialized) return;
     InstantEvent pEvent = InstantEvent(id, attr);
+    std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }
 

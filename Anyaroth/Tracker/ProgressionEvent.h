@@ -1,13 +1,15 @@
 #pragma once
 #include "TrackerEvent.h"
 
-enum class ProgressionType
-{
-	INITIALIZED, PROGRESSED, COMPLETED
-};
 
 class ProgressionEvent : public TrackerEvent
 {
+public:
+	enum class ProgressionType
+	{
+		INITIALIZED, PROGRESSED, COMPLETED
+	};
+
 private:
 	std::map<ProgressionType, std::string> mapOfMarks = {
 		{ProgressionType::INITIALIZED,"initialized"},
@@ -15,8 +17,8 @@ private:
 		{ProgressionType::COMPLETED, "completed"}
 	};
 public:
-	ProgressionEvent(const ProgressionType& id);
-	ProgressionEvent(const ProgressionType& id, const std::map<std::string, std::string>& attr);
+	ProgressionEvent(const ProgressionType& type);
+	ProgressionEvent(const ProgressionType& type, const std::map<std::string, std::string>& attr);
 	~ProgressionEvent();
 };
 

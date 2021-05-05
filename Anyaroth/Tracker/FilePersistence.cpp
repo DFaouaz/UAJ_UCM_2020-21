@@ -53,7 +53,7 @@ void FilePersistence::Flush()
 	std::string serializedText;
 
 	file.seekg(0, std::ios::end);
-	serializedText.reserve(file.tellg());
+	serializedText.reserve((size_t)file.tellg());
 	file.seekg(0, std::ios::beg);
 
 	serializedText.assign((std::istreambuf_iterator<char>(file)),

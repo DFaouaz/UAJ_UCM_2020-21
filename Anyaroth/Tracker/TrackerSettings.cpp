@@ -31,7 +31,7 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 	std::string content;
 
 	file.seekg(0, std::ios::end);
-	content.reserve(file.tellg());
+	content.reserve((size_t)file.tellg());
 	file.seekg(0, std::ios::beg);
 
 	content.assign((std::istreambuf_iterator<char>(file)),
@@ -105,7 +105,7 @@ TrackerSettings TrackerSettings::FromFile(const std::string& filepath)
 			}
 		}
 	}
-	catch (const std::exception& e) 
+	catch (...) 
 	{
 		printf("Config file format not valid\nIt should be \"parameter_name : value\"\n");
 		settings = Default;

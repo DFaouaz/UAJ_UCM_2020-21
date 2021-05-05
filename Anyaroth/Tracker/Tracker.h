@@ -38,8 +38,8 @@ public:
 	static void TrackEvent(TrackerEvent* event);
 	static void TrackEvent(const std::string& id, const std::string& info);
 	static void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
-	static void TrackProgressionEvent(const ProgressionType& id);
-	static void TrackProgressionEvent(const ProgressionType& id, const std::map<std::string, std::string>& attr);
+	static void TrackProgressionEvent(const ProgressionEvent::ProgressionType& type);
+	static void TrackProgressionEvent(const ProgressionEvent::ProgressionType& type, const std::map<std::string, std::string>& attr);
 	static void TrackInstantEvent(const InstantType& id);
 	static void TrackInstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr);
 
