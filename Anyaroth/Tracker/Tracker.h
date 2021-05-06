@@ -40,8 +40,8 @@ public:
 	static void TrackEvent(const std::string& id, const std::map<std::string, std::string>& attr);
 	static void TrackProgressionEvent(const ProgressionEvent::ProgressionType& type);
 	static void TrackProgressionEvent(const ProgressionEvent::ProgressionType& type, const std::map<std::string, std::string>& attr);
-	static void TrackInstantEvent(const InstantType& id);
-	static void TrackInstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr);
+	static void TrackInstantEvent(const InstantEvent::InstantType& id);
+	static void TrackInstantEvent(const InstantEvent::InstantType& id, const std::map<std::string, std::string>& attr);
 
 	static std::string GetSessionID();
 

@@ -19,6 +19,13 @@ void LevelManager::setLevel(int l)
 	switch (l)
 	{
 	case LevelManager::Tutorial:
+
+		Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
+			{
+				{ "Level", "Tutorial" }
+			})
+		);
+		
 		_currentMap = new Map(TILEMAPS_PATH + "Tutorial.json", _game, _player, _game->getTexture("TilesetTutorial"), _enemyBulletPool);
 		setParallax();
 
@@ -51,6 +58,21 @@ void LevelManager::setLevel(int l)
 		break;
 	case LevelManager::Safe1_1:
 		_currentSafeZone = new Map(TILEMAPS_PATH + "Safe1-1.json", _game, _player, _game->getTexture("TilesetTutorial"), _enemyBulletPool);
+		if (!first)
+		{
+			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
+				{
+					{ "Level", "Tutorial" },
+					{"Zone", "DashZone"}
+				})
+			);
+			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
+				{
+					{ "Level", "Tutorial" }
+				})
+			);
+			first = true;
+		}
 		setParallax();
 		_game->getSoundManager()->playMusic("alarm", -1);
 		break;

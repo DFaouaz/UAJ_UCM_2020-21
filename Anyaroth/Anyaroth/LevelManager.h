@@ -14,7 +14,7 @@ private:
 
 	Map* _currentMap = nullptr;
 	Map* _currentSafeZone = nullptr;
-
+	bool first = false;
 	void setParallax();
 	void setBackground();
 

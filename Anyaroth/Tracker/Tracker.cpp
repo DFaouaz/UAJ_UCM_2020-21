@@ -139,7 +139,7 @@ void Tracker::TrackProgressionEvent(const ProgressionEvent::ProgressionType& typ
     _instance->_persistenceObject->Send(pEvent);
 }
 
-void Tracker::TrackInstantEvent(const InstantType& id)
+void Tracker::TrackInstantEvent(const InstantEvent::InstantType& id)
 {
     if (!_initialized) return;
     InstantEvent pEvent = InstantEvent(id);
@@ -147,7 +147,7 @@ void Tracker::TrackInstantEvent(const InstantType& id)
     _instance->_persistenceObject->Send(pEvent);
 }
 
-void Tracker::TrackInstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr)
+void Tracker::TrackInstantEvent(const InstantEvent::InstantType& id, const std::map<std::string, std::string>& attr)
 {
     if (!_initialized) return;
     InstantEvent pEvent = InstantEvent(id, attr);

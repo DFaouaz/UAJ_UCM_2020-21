@@ -89,6 +89,21 @@ void Enemy::die()
 	_body->filterCollisions(DEAD_ENEMIES, FLOOR | PLATFORMS);
 
 	_game->getSoundManager()->playSFX(_deathSound);
+
+	if (GameManager::getInstance()->getCurrentLevel() != LevelManager::Level::Tutorial)
+	{
+		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			{
+				{ "MuertoAMelee", _dropMelee ? "Si" : "No"},
+				{ "Vida", "" + to_string(_player->getLife()) },
+				{ "MunicionCargador", to_string( _player->getCurrentGun()->getClip()) },
+				{ "MunicionParaRecargar",  to_string(_player->getCurrentGun()->getMagazine()) },
+				{ "MunicionMaxima", "" + to_string(_player->getCurrentGun()->getMaxClip()+ _player->getCurrentGun()->getMaxMagazine()) }
+
+			})
+		);
+
+	}
 }
 
 void Enemy::drop()

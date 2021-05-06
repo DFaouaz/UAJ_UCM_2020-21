@@ -103,6 +103,7 @@ public:
 	inline bool isDead() const { return GameObject::isDead(); }
 
 	inline int getMaxLife() const { return _life.getMaxLife(); }
+	inline int getLife() const { return _life.getLife(); }
 	inline void setMaxLife(int amount) { _life.setMaxLife(amount); }
 
 	void clearAmmo();

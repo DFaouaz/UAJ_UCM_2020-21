@@ -1,16 +1,18 @@
 #pragma once
 #include "TrackerEvent.h"
 
-enum class InstantType
-{
-	NOSE
-};
+
 
 class InstantEvent : public TrackerEvent
 {
+public:
+	enum class InstantType
+	{
+		LAUNCH
+	};
 private:
 	std::map<InstantType, std::string> mapOfMarks = {
-		{InstantType::NOSE,"nose"}
+		{InstantType::LAUNCH,"Lanzado"}
 	};
 public:
 	InstantEvent(const InstantType& id);

@@ -46,6 +46,7 @@ public:
 	inline int getMagazine() const { return _magazine; }
 	inline int getClip() const { return _clip; }
 	inline int getMaxClip() const { return _maxClip; }
+	inline int getMaxMagazine() const { return _maxMagazine; }
 
 	inline const GunType& getGunID() const { return _id; }
 	inline const ArmAnimType& getAnimType() const { return _animType; }

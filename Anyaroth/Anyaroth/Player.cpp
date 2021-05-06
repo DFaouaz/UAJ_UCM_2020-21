@@ -235,6 +235,13 @@ void Player::subLife(int damage)
 		}
 		_playerPanel->updateLifeBar(_life.getLife(), _life.getMaxLife());
 	}
+	else if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
+		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			{
+				{ "Level", "Tutorial" },
+				{"BalaAbsorbidaTorreta", "Si"}
+			})
+		);
 }
 
 bool Player::handleEvent(const SDL_Event& event)
@@ -810,6 +817,7 @@ void Player::stunPlayer()
 
 void Player::melee()
 {
+	//Melee tutorial
 	if(_melee->isActive())
 		_melee->endMelee();
 
@@ -819,10 +827,19 @@ void Player::melee()
 	_isMeleeing = false;
 
 	_game->getSoundManager()->playSFX("melee");
+	if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
+		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			{
+				{ "Level", "Tutorial" },
+				{"AtaqueMeleeRealizado", "Si"}
+			})
+		);
 }
 
 void Player::shoot()
 {
+
+	//Disparo tutorial
 	if (!_stunned)
 	{
 		if (_currentGun->canShoot() && !isReloading())

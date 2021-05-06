@@ -1,5 +1,6 @@
 #pragma once
 #include "LevelManager.h"
+#include "Tracker.h"
 
 class GameManager
 {

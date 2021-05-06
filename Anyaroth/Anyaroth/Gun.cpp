@@ -1,5 +1,6 @@
 #include "Gun.h"
 #include "ParticleManager.h"
+#include "GameManager.h"
 #include <algorithm>
 
 Gun::Gun(Game* game, Texture* armTexture, Texture* bulletTexture, string shotSoundTag, double speed, double damage, double range, int maxClip, int maxMagazine, int maxCadence, EffectInterface* effect, GunType id, Texture* iconTexture, bool automatic, BulletAnimType bType) : _armTexture(armTexture), _bulletTexture(bulletTexture), _shotSoundTag(shotSoundTag), _iconTexture(iconTexture)
@@ -49,6 +50,13 @@ void Gun::shoot(BulletPool* bulletPool, const Vector2D& position, double angle, 
 			}
 			ParticleManager::GetParticleManager()->CreateSimpleParticle(_bulletTexture, 0.5, particlePos, 15, 135 + 90 * dir, 400, 4);
 		}
+		if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
+			Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+				{
+					{ "Level", "Tutorial" },
+					{"DiparoJugador", "Realizado"}
+				})
+			);
 	}
 }
 
@@ -59,6 +67,14 @@ void Gun::enemyShoot(BulletPool* bulletPool, const Vector2D& position, double an
 		_cadence = _maxCadence;
 
 		_game->getSoundManager()->playSFX(_shotSoundTag, _id); //Reproduce el sonido de disparo
+
+		if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
+			Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+				{
+					{ "Level", "Tutorial" },
+					{"DisparoTorreta", "Realizado"}
+				})
+			);
 
 		//Disparar la bala aqui
 		Bullet* b = bulletPool->getUnusedObject();
