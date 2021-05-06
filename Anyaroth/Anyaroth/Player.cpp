@@ -236,10 +236,9 @@ void Player::subLife(int damage)
 		_playerPanel->updateLifeBar(_life.getLife(), _life.getMaxLife());
 	}
 	else if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
-		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+		Tracker::TrackInstantEvent("dash_bullet_absorbed", std::map<std::string, std::string>(
 			{
-				{ "Level", "Tutorial" },
-				{"BalaAbsorbidaTorreta", "Si"}
+				{ "level_id", "tutorial" }
 			})
 		);
 }
@@ -828,10 +827,9 @@ void Player::melee()
 
 	_game->getSoundManager()->playSFX("melee");
 	if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
-		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+		Tracker::TrackInstantEvent("player_melee_attack", std::map<std::string, std::string>(
 			{
-				{ "Level", "Tutorial" },
-				{"AtaqueMeleeRealizado", "Si"}
+				{ "level_id", "tutorial" }
 			})
 		);
 }

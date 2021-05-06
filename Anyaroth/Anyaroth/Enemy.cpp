@@ -92,13 +92,14 @@ void Enemy::die()
 
 	if (GameManager::getInstance()->getCurrentLevel() != LevelManager::Level::Tutorial)
 	{
-		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+		Tracker::TrackInstantEvent("enemy_death", std::map<std::string, std::string>(
 			{
-				{ "MuertoAMelee", _dropMelee ? "Si" : "No"},
-				{ "Vida", "" + to_string(_player->getLife()) },
-				{ "MunicionCargador", to_string( _player->getCurrentGun()->getClip()) },
-				{ "MunicionParaRecargar",  to_string(_player->getCurrentGun()->getMagazine()) },
-				{ "MunicionMaxima", "" + to_string(_player->getCurrentGun()->getMaxClip()+ _player->getCurrentGun()->getMaxMagazine()) }
+				{ "melee_death", _dropMelee ? "yes" : "no"},
+				{ "player_life", to_string(_player->getLife()) },
+				{ "player_max_life", to_string(_player->getMaxLife()) },
+				{ "player_clip_ammo", to_string( _player->getCurrentGun()->getClip()) },
+				{ "player_magazine_ammo",  to_string(_player->getCurrentGun()->getMagazine()) },
+				{ "player_max_ammo", to_string(_player->getCurrentGun()->getMaxClip()+ _player->getCurrentGun()->getMaxMagazine()) }
 
 			})
 		);

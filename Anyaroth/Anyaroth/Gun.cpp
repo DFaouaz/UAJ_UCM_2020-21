@@ -51,10 +51,9 @@ void Gun::shoot(BulletPool* bulletPool, const Vector2D& position, double angle, 
 			ParticleManager::GetParticleManager()->CreateSimpleParticle(_bulletTexture, 0.5, particlePos, 15, 135 + 90 * dir, 400, 4);
 		}
 		if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
-			Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			Tracker::TrackInstantEvent("player_shot_fired", std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"DiparoJugador", "Realizado"}
+					{ "level_id", "tutorial" },
 				})
 			);
 	}
@@ -69,10 +68,9 @@ void Gun::enemyShoot(BulletPool* bulletPool, const Vector2D& position, double an
 		_game->getSoundManager()->playSFX(_shotSoundTag, _id); //Reproduce el sonido de disparo
 
 		if (GameManager::getInstance()->getCurrentLevel() == LevelManager::Level::Tutorial)
-			Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			Tracker::TrackInstantEvent("turret_shot_fired", std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"DisparoTorreta", "Realizado"}
+					{ "level_id", "tutorial" }
 				})
 			);
 

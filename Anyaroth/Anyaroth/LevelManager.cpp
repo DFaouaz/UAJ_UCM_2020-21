@@ -22,7 +22,7 @@ void LevelManager::setLevel(int l)
 
 		Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 			{
-				{ "Level", "Tutorial" }
+				{ "level_id", "tutorial" }
 			})
 		);
 		
@@ -62,13 +62,13 @@ void LevelManager::setLevel(int l)
 		{
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "DashZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "dash_zone"}
 				})
 			);
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" }
+					{ "level_id", "tutorial" }
 				})
 			);
 			first = true;

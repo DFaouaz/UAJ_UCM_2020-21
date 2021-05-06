@@ -102,23 +102,23 @@ public:
 		if(nameDialogue == "Tutorial1")
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "FirstZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "first_zone"}
 				})
 			);
 		else if (nameDialogue == "Tutorial2")
 		{
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "FirstZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "first_zone"}
 				})
 			);
 
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "JumpZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "jump_zone"}
 				})
 			);
 		}
@@ -127,15 +127,15 @@ public:
 		{
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "JumpZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "jump_zone"}
 				})
 			);
 
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "PistolZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "pistol_zone"}
 				})
 			);
 		}
@@ -143,15 +143,15 @@ public:
 		{
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "PistolZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "pistol_zone"}
 				})
 			);
 
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "DaggerZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "dagger_zone"}
 				})
 			);
 		}
@@ -159,15 +159,15 @@ public:
 		{
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "DaggerZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "dagger_zone"}
 				})
 			);
 
 			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"Zone", "DashZone"}
+					{ "level_id", "tutorial" },
+					{ "zone", "dash_zone"}
 				})
 			);
 		}

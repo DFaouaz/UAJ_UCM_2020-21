@@ -139,18 +139,18 @@ void Tracker::TrackProgressionEvent(const ProgressionEvent::ProgressionType& typ
     _instance->_persistenceObject->Send(pEvent);
 }
 
-void Tracker::TrackInstantEvent(const InstantEvent::InstantType& id)
+void Tracker::TrackInstantEvent(const std::string& info)
 {
     if (!_initialized) return;
-    InstantEvent pEvent = InstantEvent(id);
+    InstantEvent pEvent = InstantEvent(info);
     std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }
 
-void Tracker::TrackInstantEvent(const InstantEvent::InstantType& id, const std::map<std::string, std::string>& attr)
+void Tracker::TrackInstantEvent(const std::string& info, const std::map<std::string, std::string>& attr)
 {
     if (!_initialized) return;
-    InstantEvent pEvent = InstantEvent(id, attr);
+    InstantEvent pEvent = InstantEvent(info, attr);
     std::unique_lock<std::mutex> lock(_instance->persistenceMutex);
     _instance->_persistenceObject->Send(pEvent);
 }

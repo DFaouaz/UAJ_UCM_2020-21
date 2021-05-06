@@ -32,10 +32,9 @@ void TutorialBuddy::beginCollision(GameObject * other, b2Contact* contact)
 	if (other->getTag() == "Bullet" || other->getTag() == "Melee")
 	{
 		if (other->getTag() == "Melee")
-			Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+			Tracker::TrackInstantEvent("dummy_melee_received", std::map<std::string, std::string>(
 				{
-					{ "Level", "Tutorial" },
-					{"AtaqueMeleeRecibidoPorBuddy", "Si"}
+					{ "level_id", "tutorial" }
 				})
 			);
 		_anim->playAnim(AnimatedSpriteComponent::EnemyDie);

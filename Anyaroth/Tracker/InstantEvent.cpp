@@ -1,18 +1,18 @@
 #include "InstantEvent.h"
 #include "Tracker.h"
 
-InstantEvent::InstantEvent(const InstantType& id)
+InstantEvent::InstantEvent(const std::string& info)
 {
 	this->SetTimeStamp();
 	this->SetEventID("instant_event");
-	this->SetEventInfo(mapOfMarks[id]);
+	this->SetEventInfo(info);
 }
 
-InstantEvent::InstantEvent(const InstantType& id, const std::map<std::string, std::string>& attr)
+InstantEvent::InstantEvent(const std::string& info, const std::map<std::string, std::string>& attr)
 {
 	this->SetTimeStamp();
 	this->SetEventID("instant_event");
-	this->SetEventInfo(mapOfMarks[id]);
+	this->SetEventInfo(info);
 	this->SetEventAttr(attr);
 }
 

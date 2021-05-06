@@ -29,10 +29,9 @@ void TutorialBullsEye::beginCollision(GameObject * other, b2Contact* contact)
 {
 	if (!_hasBeenHit && other->getTag() == "Bullet")
 	{
-		Tracker::TrackInstantEvent(InstantEvent::InstantType::LAUNCH, std::map<std::string, std::string>(
+		Tracker::TrackInstantEvent("bullseye_shot_received", std::map<std::string, std::string>(
 			{
-				{ "Level", "Tutorial" },
-				{"AciertoDisparoDiana", "Si"}
+				{ "level_id", "tutorial" }
 			})
 		);
 
