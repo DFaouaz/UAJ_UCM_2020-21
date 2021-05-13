@@ -16,6 +16,14 @@
 # Mono auto generated files
 mono_crash.*
 
+# Dependencies for Anyaroth
+Box2D/
+Json/
+SDL2-2.0.9/
+SDL2_image-2.0.1/
+SDL2_mixer-2.0.4/
+SDL2_ttf-2.0.14/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugSLib/
