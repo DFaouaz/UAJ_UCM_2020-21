@@ -1,5 +1,4 @@
 #include "TutorialBullsEye.h"
-#include "Tracker.h"
 
 TutorialBullsEye::TutorialBullsEye(Game* g, Player* player, Vector2D pos) : Enemy( g,  player,  pos, g->getTexture("TutorialBullseye"))
 {
@@ -29,11 +28,6 @@ void TutorialBullsEye::beginCollision(GameObject * other, b2Contact* contact)
 {
 	if (!_hasBeenHit && other->getTag() == "Bullet")
 	{
-		Tracker::TrackInstantEvent("bullseye_shot_received", std::map<std::string, std::string>(
-			{
-				{ "level_id", "tutorial" }
-			})
-		);
 
 		_hasBeenHit = true;
 		_anim->playAnim(AnimatedSpriteComponent::EnemyDie);
