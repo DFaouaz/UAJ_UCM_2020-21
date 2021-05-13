@@ -11,8 +11,6 @@
 #include "DialoguePanel.h"
 #include "SoundManager.h"
 
-#include "Tracker.h"
-
 // Resolución interna del juego
 const int GAME_RESOLUTION_X = 1920;
 const int GAME_RESOLUTION_Y = 1080;
@@ -72,6 +70,8 @@ private:
 	//valor entre 1 y 10
 	double _controllerSensitivity = 10;
 
+	int step = 0;
+
 public:
 	Game();
 	~Game();
@@ -98,80 +98,6 @@ public:
 	inline Texture* getTexture(string nameText) { return _textures[nameText]; }
 	inline Font* getFont(string nameFont) { return _fonts[nameFont]; }
 	inline Dialogue getDialogue(string nameDialogue) { 
-
-		if(nameDialogue == "Tutorial1")
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "first_zone"}
-				})
-			);
-		else if (nameDialogue == "Tutorial2")
-		{
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "first_zone"}
-				})
-			);
-
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "jump_zone"}
-				})
-			);
-		}
-
-		else if (nameDialogue == "Tutorial4")
-		{
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "jump_zone"}
-				})
-			);
-
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "pistol_zone"}
-				})
-			);
-		}
-		else if (nameDialogue == "Tutorial6")
-		{
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "pistol_zone"}
-				})
-			);
-
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "dagger_zone"}
-				})
-			);
-		}
-		else if (nameDialogue == "Tutorial7")
-		{
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::COMPLETED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "dagger_zone"}
-				})
-			);
-
-			Tracker::TrackProgressionEvent(ProgressionEvent::ProgressionType::INITIALIZED, std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" },
-					{ "zone", "dash_zone"}
-				})
-			);
-		}
-		
 		return _dialogues[nameDialogue]; }
 	inline SDL_GameController* getJoystick() const { return _joystick; }
 	inline bool isJoystick() const { return _joystickAttached; }

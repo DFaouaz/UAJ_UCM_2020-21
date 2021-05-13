@@ -31,12 +31,6 @@ void TutorialBuddy::beginCollision(GameObject * other, b2Contact* contact)
 {
 	if (other->getTag() == "Bullet" || other->getTag() == "Melee")
 	{
-		if (other->getTag() == "Melee")
-			Tracker::TrackInstantEvent("dummy_melee_received", std::map<std::string, std::string>(
-				{
-					{ "level_id", "tutorial" }
-				})
-			);
 		_anim->playAnim(AnimatedSpriteComponent::EnemyDie);
 
 		BodyComponent* otherBody = other->getComponent<BodyComponent>();
