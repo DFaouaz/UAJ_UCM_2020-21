@@ -5,6 +5,50 @@
 
 using namespace nlohmann;
 
+void Game::readEvents()
+{
+	ifstream file;
+	file.open(INFO_PATH + "1620918779587.json");
+	if (file.is_open())
+	{
+		json jFile;
+		file >> jFile;
+		int numEvents = jFile.size();
+		for (int i = 0; i < numEvents; i++)
+		{
+			// read only input event
+			if (jFile[i]["event_id"] == "input")
+			{
+				json attributes = jFile[i]["attributes"];
+
+				SDL_Event e;
+				int button = stoi(attributes["button"].get<string>());
+				e.button.button = button;
+				int buttonState = stoi(attributes["buttonState"].get<string>());
+				e.button.state = buttonState;
+				int key = stoi(attributes["key"].get<string>());
+				e.key.keysym.sym = key;
+				int keyRepeat = stoi(attributes["keyRepeat"].get<string>());
+				e.key.repeat = keyRepeat;
+				int type = stoi(attributes["type"].get<string>());
+				e.type = type;
+
+				int x = stoi(attributes["keyRepeat"].get<string>());
+				int y = stoi(attributes["type"].get<string>());
+				Mouse m(x, y);
+
+				InputEvent input(e, m);
+
+				int step = stoi(attributes["step"].get<string>());
+				_inputEvents.push(make_pair(step, input));
+			}
+
+		}
+	}
+
+	file.close();
+}
+
 void Game::createTextures()
 {
 	ifstream input;
@@ -175,6 +219,8 @@ Game::Game()
 	//Show cursor
 	SDL_ShowCursor(true);
 
+	//---Read events
+	readEvents();
 	//---Create textures
 	createTextures();
 	//---Create fonts

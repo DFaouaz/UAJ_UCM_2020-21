@@ -1024,6 +1024,9 @@
     <ClInclude Include="Trigger.h">
       <Filter>Archivos de encabezado\Objects\Interactables</Filter>
     </ClInclude>
+    <ClInclude Include="InputEvent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Archivos de código fuente">

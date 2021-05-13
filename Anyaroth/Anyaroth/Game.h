@@ -12,6 +12,7 @@
 #include "SoundManager.h"
 
 #include "Tracker.h"
+#include <Anyaroth/InputEvent.h>
 
 // Resolución interna del juego
 const int GAME_RESOLUTION_X = 1920;
@@ -61,6 +62,8 @@ private:
 	map <string, Texture*> _textures;
 	map <string, Font*> _fonts;
 	map <string, Dialogue> _dialogues;
+
+	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, less<pair<int, InputEvent>>> _inputEvents;
 	
 	SDL_GameController* _joystick = nullptr;
 	bool _joystickAttached;//Indica si hay algun mando conectado se este usando o no
@@ -84,6 +87,7 @@ public:
 	void handleEvents();
 
 	//Metodos
+	void readEvents();
 	void createTextures();
 	void createFonts();
 	void createSounds();
