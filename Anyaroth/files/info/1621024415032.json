@@ -1,0 +1,1544 @@
+[
+{
+"timestamp" : 1621024415032,
+"event_id" : "application_start",
+"info" : "Anyaroth",
+"attributes" : {}
+},
+{
+"timestamp" : 1621024418770,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "634",
+"keyRepeat" : "0",
+"step" : "0",
+"type" : "1026",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024429109,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "680",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024429561,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "709",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024429982,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "735",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430082,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "741",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430191,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "748",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430267,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "753",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430587,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "773",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430670,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "778",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430754,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "783",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024430838,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "789",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024432553,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "896",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024432670,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "903",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024432754,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "908",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024432855,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "915",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024432939,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "920",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433056,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "927",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433124,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "931",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433242,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "939",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433326,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "944",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433443,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "951",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433527,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "957",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433644,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "964",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433729,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "969",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024433846,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "976",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024435914,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1106",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024436082,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1116",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024437594,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1211",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024437729,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1219",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438316,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1256",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438417,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1262",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438517,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1268",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438635,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1276",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438719,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1281",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438836,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1288",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024438937,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1295",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439021,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1300",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439122,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1306",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439239,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1314",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439340,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1320",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439441,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1326",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439542,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1332",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439642,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1339",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439743,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1345",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439844,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1351",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024439945,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1358",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024440062,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1365",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024440364,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1384",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024440482,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1391",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024440701,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1405",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024440851,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1414",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024441053,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1427",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024441156,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "8",
+"buttonState" : "0",
+"key" : "101",
+"keyRepeat" : "0",
+"step" : "1433",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024441322,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1444",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024441542,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1457",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024441658,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1465",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024442750,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1533",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024442935,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1545",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024443120,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1556",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024443254,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1564",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024444212,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1624",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024444362,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1634",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024445522,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1706",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024445992,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1736",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024446061,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1740",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024446345,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1758",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024447321,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1819",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024447572,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1834",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024447572,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1834",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024447756,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1846",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024448954,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1921",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024449458,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1952",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024449458,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1952",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024449878,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1979",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024454047,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2239",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024454281,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2254",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024454735,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2282",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024454987,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2298",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024455608,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2337",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024455844,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2351",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024455961,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2359",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024456163,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2371",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024456517,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2393",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024456785,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2410",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024457675,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2466",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024457893,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2479",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024458078,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2491",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024458397,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2511",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024459253,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2564",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024459488,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2579",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024459757,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2596",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024460026,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2613",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024462023,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2738",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024462341,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2757",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024464491,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2892",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024464659,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2902",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024466372,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3009",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024466624,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3025",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024468471,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "3141",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024468892,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "3167",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024469702,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3217",
+"type" : "769",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024470256,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "41",
+"buttonState" : "0",
+"key" : "27",
+"keyRepeat" : "0",
+"step" : "3252",
+"type" : "768",
+"xMouse" : "-1",
+"yMouse" : "-1"
+}
+},
+{
+"timestamp" : 1621024471952,
+"event_id" : "application_ends",
+"info" : "Anyaroth",
+"attributes" : {}
+}
+]

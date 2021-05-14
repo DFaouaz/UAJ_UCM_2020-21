@@ -9,7 +9,7 @@ using namespace nlohmann;
 void Game::readEvents()
 {
 	ifstream file;
-	file.open(INFO_PATH + "1621020819446.json");
+	file.open(INFO_PATH + "1621023677619.json");
 	if (file.is_open())
 	{
 		json jFile;

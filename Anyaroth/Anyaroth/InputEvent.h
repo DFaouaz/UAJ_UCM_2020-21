@@ -14,11 +14,19 @@ struct InputEvent
 
 	inline bool operator<(InputEvent const& a) const
 	{
-		return true;
+		return a.event.type < event.type && a.event.key.keysym.sym < a.event.key.keysym.sym;
+	}
+	inline bool operator<=(InputEvent const& a) const
+	{
+		return a.event.type < event.type&& a.event.key.keysym.sym < a.event.key.keysym.sym;
 	}
 
 	inline bool operator>(InputEvent const& a) const
 	{
-		return true;
+		return a.event.type < event.type&& a.event.key.keysym.sym < a.event.key.keysym.sym;
+	}
+	inline bool operator>=(InputEvent const& a) const
+	{
+		return a.event.type < event.type&& a.event.key.keysym.sym < a.event.key.keysym.sym;
 	}
 };
