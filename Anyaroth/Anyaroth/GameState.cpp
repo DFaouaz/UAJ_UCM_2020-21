@@ -110,6 +110,11 @@ bool GameState::handleEvent(const SDL_Event& event)
 	return handled;
 }
 
+bool GameState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>>& events)
+{
+	return false;
+}
+
 bool GameState::pre_handleEvent()
 {
 	return _mainCamera->pre_handleEvent();

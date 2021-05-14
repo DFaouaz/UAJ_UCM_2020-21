@@ -254,11 +254,30 @@ bool Player::handleEvent(const SDL_Event& event)
 			}
 			else if (event.key.keysym.sym == SDLK_LSHIFT && !isDashing() && !_onDash && _dashEnabled)
 				_isDashing = true;
+			else if (event.key.keysym.sym == SDLK_a)
+				_jMoveLeft = true;
+			else if (event.key.keysym.sym == SDLK_d)
+				_jMoveRight = true;
+			else if (event.key.keysym.sym == SDLK_s)
+				_jMoveDown = true; 
+			else if (event.key.keysym.sym == SDLK_SPACE)
+				_jJump = true;
 		}
 		else if (event.type == SDL_KEYUP && !event.key.repeat)
 		{
 			if (isJumping() && event.key.keysym.sym == SDLK_SPACE)
+			{
 				cancelJump();
+				_jJump = false;
+			}
+			else if (event.key.keysym.sym == SDLK_SPACE)
+				_jJump = false;
+			else if (event.key.keysym.sym == SDLK_a)
+				_jMoveLeft = false;
+			else if (event.key.keysym.sym == SDLK_d)
+				_jMoveRight = false;
+			else if (event.key.keysym.sym == SDLK_s)
+				_jMoveDown = false;
 		}
 		else if ((event.type == SDL_MOUSEBUTTONDOWN && event.button.state == SDL_PRESSED))
 		{

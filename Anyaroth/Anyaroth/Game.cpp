@@ -9,7 +9,7 @@ using namespace nlohmann;
 void Game::readEvents()
 {
 	ifstream file;
-	file.open(INFO_PATH + "1620918779587.json");
+	file.open(INFO_PATH + "1621020819446.json");
 	if (file.is_open())
 	{
 		json jFile;
@@ -274,7 +274,10 @@ void Game::run()
 		lag += elapsed;
 
 		start();
-		handleEvents();
+		if (getCurrentState()->getType() == "Play")
+			handleEventsBot();
+		else
+			handleEvents();
 
 		while (lag >= FRAME_RATE && !_stateMachine->currentState()->hasToStart())
 		{
@@ -283,7 +286,6 @@ void Game::run()
 			lag -= FRAME_RATE;
 		}
 		render();
-		step++;
 	}
 }
 
@@ -350,21 +352,14 @@ void Game::handleEvents()
 		}
 		else if (_usingJoystick && (event.type == SDL_MOUSEBUTTONDOWN || event.type == SDL_KEYDOWN))
 			changeControlMode();
-		if (event.type == SDL_KEYDOWN || event.type == SDL_MOUSEBUTTONDOWN)
-		{
-			Tracker::TrackEvent("input", std::map<std::string, std::string>(
-				{
-					{ "step", to_string(step) },
-					{ "type", to_string(event.type) },
-					{ "key", to_string(event.key.keysym.sym) },
-					{ "keyRepeat", to_string(event.key.repeat) },
-					{ "button", to_string(event.button.button) },
-					{ "buttonState", to_string(event.button.state) }
-
-				})
-			);
-		}
 		_stateMachine->currentState()->handleEvent(event);
 		
 	}
+}
+
+void Game::handleEventsBot()
+{
+	bool handled = _stateMachine->currentState()->pre_handleEvent();
+
+	_stateMachine->currentState()->handleEventBot(_inputEvents);
 }

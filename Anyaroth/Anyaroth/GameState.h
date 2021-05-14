@@ -9,6 +9,7 @@
 #include "PauseStateHUD.h"
 #include "DebugDraw.h"
 #include "CollisionManager.h"
+#include <Anyaroth/InputEvent.h>
 
 class Game;
 class CutScene;
@@ -25,6 +26,8 @@ private:
 protected:
 	Game* _gameptr = nullptr;
 	b2World* _world = nullptr;
+
+	string _type = "";
 
 	list<GameObject*> _stages;
 
@@ -56,6 +59,7 @@ public:
 
 	virtual bool pre_handleEvent();
 	virtual bool handleEvent(const SDL_Event& event);
+	virtual bool handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>>& events);
 
 	virtual void updateWorld(float timestep, int p_iterations, int V_iterations);
 	inline b2World* getWorld() const { return _world; }
@@ -77,4 +81,6 @@ public:
 	Vector2D getMousePositionOnScreen() const;
 	Vector2D getMousePositionOnCamera() const;
 	void setMousePositionInWorld(Vector2D coord);
+
+	string getType() { return _type; }
 };

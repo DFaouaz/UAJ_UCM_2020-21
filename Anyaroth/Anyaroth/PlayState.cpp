@@ -6,11 +6,14 @@
 #include "WeaponManager.h"
 #include "CutScene.h"
 #include "checkML.h"
+#include "Tracker.h"
 #include <json.hpp>
 
 using namespace nlohmann;
 
-PlayState::PlayState(Game* g) : GameState(g) {}
+PlayState::PlayState(Game* g) : GameState(g) {
+	_type = "Play";
+}
 
 PlayState::~PlayState()
 {
@@ -72,6 +75,33 @@ void PlayState::start()
 bool PlayState::handleEvent(const SDL_Event& event)
 {
 	GameState::handleEvent(event);
+	if (event.type == SDL_KEYDOWN || event.type == SDL_MOUSEBUTTONDOWN || event.type == SDL_KEYUP || event.type == SDL_MOUSEBUTTONUP)
+	{
+		
+		int xMouse = -1;
+		int yMouse = -1;
+
+		if (event.type == SDL_MOUSEBUTTONDOWN)
+		{
+			Vector2D pos = getMousePositionInWorld();
+			xMouse = pos.getX();
+			yMouse = pos.getY();
+		}
+
+		Tracker::TrackEvent("input", std::map<std::string, std::string>(
+			{
+				{ "step", to_string(_step) },
+				{ "type", to_string(event.type) },
+				{ "key", to_string(event.key.keysym.sym) },
+				{ "keyRepeat", to_string(event.key.repeat) },
+				{ "button", to_string(event.button.button) },
+				{ "buttonState", to_string(event.button.state) },
+				{ "xMouse", to_string(xMouse) },
+				{ "yMouse", to_string(yMouse) }
+
+			})
+		);
+	}
 
 	bool handled = false;
 	if (((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || (event.type == SDL_CONTROLLERBUTTONDOWN && event.cbutton.button == SDL_CONTROLLER_BUTTON_START))
@@ -82,6 +112,36 @@ bool PlayState::handleEvent(const SDL_Event& event)
 		handled = true;
 	}
 
+	return handled;
+}
+
+bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>>& events)
+{
+	pair<int, InputEvent> evento = events.top();
+	events.pop();
+	bool handled = false;
+	bool finished = false;
+	while (evento.first <= _step)
+	{
+		//.....
+		GameState::handleEvent(evento.second.event);
+		if (((evento.second.event.type == SDL_KEYDOWN && evento.second.event.key.keysym.sym == SDLK_ESCAPE) || (evento.second.event.type == SDL_CONTROLLERBUTTONDOWN && evento.second.event.cbutton.button == SDL_CONTROLLER_BUTTON_START))
+			&& !GameManager::getInstance()->getOnDialogue() && !GameManager::getInstance()->getOnShop())
+		{
+			_gameptr->setTimestep(0);
+			_gameptr->pushState(new PauseState(_gameptr));
+			handled = true;
+		}
+		if (events.empty())
+			finished = true;
+		else
+		{
+			evento = events.top();
+			events.pop();
+		}
+	}
+	if (!finished)
+		events.push(evento);
 	return handled;
 }
 
@@ -200,4 +260,5 @@ void PlayState::update(double deltaTime)
 			});
 		}
 	}
+	_step++;
 }

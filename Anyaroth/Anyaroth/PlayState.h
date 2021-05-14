@@ -16,6 +16,7 @@ private:
 	ParticlePool* _particlePool = nullptr;
 
 	LevelManager _levelManager;
+	int _step = 0;
 
 public:
 	PlayState(Game* g);
@@ -24,6 +25,7 @@ public:
 	virtual void start();
 	virtual void update(double deltaTime);
 	virtual bool handleEvent(const SDL_Event& event);
+	virtual bool handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>>& events);
 
 	void saveGame();
 	void loadGame();

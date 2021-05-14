@@ -62,7 +62,7 @@ private:
 	map <string, Font*> _fonts;
 	map <string, Dialogue> _dialogues;
 
-	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, less<pair<int, InputEvent>>> _inputEvents;
+	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>> _inputEvents;
 	
 	SDL_GameController* _joystick = nullptr;
 	bool _joystickAttached;//Indica si hay algun mando conectado se este usando o no
@@ -74,8 +74,6 @@ private:
 	//valor entre 1 y 10
 	double _controllerSensitivity = 10;
 
-	int step = 0;
-
 public:
 	Game();
 	~Game();
@@ -86,6 +84,7 @@ public:
 	void update(double deltaTime);
 	void render() const;
 	void handleEvents();
+	void handleEventsBot();
 
 	//Metodos
 	void readEvents();
