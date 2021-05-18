@@ -41,6 +41,8 @@ protected:
 	DebugDraw _debugger;
 	CollisionManager _colManager;
 
+	int _mouseX = 0, _mouseY = 0;
+
 public:
 	GameState(Game* g);
 	virtual ~GameState();
@@ -78,9 +80,11 @@ public:
 	virtual void addCutScene(CutScene* cutScene);
 
 	Vector2D getMousePositionInWorld() const;
+	Vector2D getMousePositionInWorldBot() const;
 	Vector2D getMousePositionOnScreen() const;
 	Vector2D getMousePositionOnCamera() const;
 	void setMousePositionInWorld(Vector2D coord);
+	void setMousePositionInWorldBot(Vector2D coord);
 
 	string getType() { return _type; }
 };

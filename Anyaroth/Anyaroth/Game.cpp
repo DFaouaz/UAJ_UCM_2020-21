@@ -34,8 +34,8 @@ void Game::readEvents()
 				int type = stoi(attributes["type"].get<string>());
 				e.type = type;
 
-				int x = stoi(attributes["keyRepeat"].get<string>());
-				int y = stoi(attributes["type"].get<string>());
+				int x = stoi(attributes["xMouse"].get<string>());
+				int y = stoi(attributes["yMouse"].get<string>());
 				Mouse m(x, y);
 
 				InputEvent input(e, m);

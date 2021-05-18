@@ -183,6 +183,11 @@ Vector2D GameState::getMousePositionInWorld() const
 	return Vector2D(xMousePos, yMousePos);
 }
 
+Vector2D GameState::getMousePositionInWorldBot() const
+{
+	return Vector2D(_mouseX, _mouseY);
+}
+
 Vector2D GameState::getMousePositionOnScreen() const
 {
 	int winWidth = 0;	int winHeight = 0;
@@ -259,6 +264,12 @@ void GameState::setMousePositionInWorld(Vector2D coord)
 	yMousePos += yBorder/2;
 
 	SDL_WarpMouseInWindow(_gameptr->getWindow(), xMousePos, yMousePos);
+}
+
+void GameState::setMousePositionInWorldBot(Vector2D coord)
+{
+	_mouseX = coord.getX();
+	_mouseY = coord.getY();
 }
 
 void GameState::initializeCamera()
