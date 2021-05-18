@@ -121,11 +121,13 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 	events.pop();
 	bool handled = false;
 	bool finished = false;
-	while (evento.first <= _step)
+	while (evento.first <= _step && !finished)
 	{
 		if (evento.second.mouse.x != -1 && evento.second.mouse.y != -1)
 			setMousePositionInWorldBot(Vector2D(evento.second.mouse.x, evento.second.mouse.y));
+
 		GameState::handleEvent(evento.second.event);
+
 		if (((evento.second.event.type == SDL_KEYDOWN && evento.second.event.key.keysym.sym == SDLK_ESCAPE) || (evento.second.event.type == SDL_CONTROLLERBUTTONDOWN && evento.second.event.cbutton.button == SDL_CONTROLLER_BUTTON_START))
 			&& !GameManager::getInstance()->getOnDialogue() && !GameManager::getInstance()->getOnShop())
 		{
@@ -133,6 +135,7 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 			_gameptr->pushState(new PauseState(_gameptr));
 			handled = true;
 		}
+
 		if (events.empty())
 			finished = true;
 		else
@@ -141,8 +144,10 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 			events.pop();
 		}
 	}
+
 	if (!finished)
 		events.push(evento);
+
 	return handled;
 }
 
