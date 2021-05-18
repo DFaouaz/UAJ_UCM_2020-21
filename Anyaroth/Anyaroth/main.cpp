@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 {
 	try
 	{
-		// Tracker init (ejemplo, aqui quiza no deberia de ir)
+		// Tracker init 
 		Tracker::Init(TrackerSettings::FromFile("./tracker_config"));
 
 		Game game;

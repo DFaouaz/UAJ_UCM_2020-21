@@ -23,7 +23,7 @@ void PlayerArm::update(double deltaTime)
 			mousePos = { _transform->getPosition().getX() + 200, _transform->getPosition().getY() };
 	}
 	else
-		mousePos = getGame()->getCurrentState()->getMousePositionInWorldBot();
+		mousePos = getGame()->getCurrentState()->getMousePositionInWorld();
 
 	lookAtTarget(mousePos);
 	handleFlipState(mousePos);

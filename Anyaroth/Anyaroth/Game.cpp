@@ -9,7 +9,7 @@ using namespace nlohmann;
 void Game::readEvents()
 {
 	ifstream file;
-	file.open(INFO_PATH + "1621350654080.json");
+	file.open(INFO_PATH + _replaySettings.recordFileName + ".json");
 	if (file.is_open())
 	{
 		json jFile;
@@ -202,11 +202,15 @@ void Game::toggleFullscreen()
 
 Game::Game()
 {
-	//---Read events
-	readEvents();
+	// Replay settings
+	_replaySettings = ReplaySettings::FromFile("./replay_config.cfg");
 
-	//time_t seed = time(NULL);
-	time_t seed = _botSeed;
+	//---Read events if replaying
+	if(_replaySettings.replaying)	
+		readEvents();
+
+	// If replaying, use stored bot seed
+	time_t seed = _replaySettings.replaying ? _botSeed : time(NULL);
 	srand(seed);//random seed
 
 	Tracker::TrackEvent("seed", std::map<std::string, std::string>(
@@ -285,8 +289,8 @@ void Game::run()
 		lag += elapsed;
 
 		start();
-		if (getCurrentState()->getType() == "Play")
-			handleEventsBot();
+		if (_replaySettings.replaying && getCurrentState()->getType() == "Play")
+			handleEventsBot(); // Handle the events of the replay
 		else
 			handleEvents();
 

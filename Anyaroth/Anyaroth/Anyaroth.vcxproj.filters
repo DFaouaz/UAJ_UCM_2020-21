@@ -499,6 +499,9 @@
     <ClCompile Include="TutorialBuddy.cpp">
       <Filter>Archivos de código fuente\Objects\Enemies\GroundEnemies</Filter>
     </ClCompile>
+    <ClCompile Include="ReplaySettings.cpp">
+      <Filter>Archivos de código fuente\Others</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -1026,6 +1029,9 @@
     </ClInclude>
     <ClInclude Include="InputEvent.h">
       <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaySettings.h">
+      <Filter>Archivos de encabezado\Others</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

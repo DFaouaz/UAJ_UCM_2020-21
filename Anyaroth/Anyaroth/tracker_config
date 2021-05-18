@@ -1,7 +1,7 @@
 app_id : Anyaroth
 format : json
 storage : local
-filepath : ./ 
+filepath : ../files/info/ 
 host : localhost
 port : 8080
 flush_interval : 3.0

@@ -147,6 +147,10 @@ void GameState::addCutScene(CutScene * cutScene)
 
 Vector2D GameState::getMousePositionInWorld() const
 {
+	// If Replaying => Return mouse position from the stored replay
+	if (_gameptr->getReplaySettings().replaying)
+		return getMousePositionInWorldBot();
+
 	int winWidth = 0;	int winHeight = 0;
 	SDL_GetWindowSize(_gameptr->getWindow(), &winWidth, &winHeight);
 
@@ -224,7 +228,7 @@ Vector2D GameState::getMousePositionOnScreen() const
 
 Vector2D GameState::getMousePositionOnCamera() const
 {
-	Vector2D camPos = getMousePositionInWorldBot() - _mainCamera->getCameraPosition();
+	Vector2D camPos = getMousePositionInWorld() - _mainCamera->getCameraPosition();
 	Vector2D mousePos = Vector2D(camPos.getX() * CAMERA_RESOLUTION_X / _mainCamera->getCameraSize().getX(), camPos.getY() * CAMERA_RESOLUTION_Y / _mainCamera->getCameraSize().getY());
 
 	return mousePos;

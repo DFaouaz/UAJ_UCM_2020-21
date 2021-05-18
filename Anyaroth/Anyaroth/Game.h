@@ -12,6 +12,7 @@
 #include "SoundManager.h"
 
 #include <Anyaroth/InputEvent.h>
+#include "ReplaySettings.h"
 
 // Resolución interna del juego
 const int GAME_RESOLUTION_X = 1920;
@@ -75,6 +76,9 @@ private:
 	double _controllerSensitivity = 10;
 	time_t _botSeed;
 
+	// Replay -------------
+	ReplaySettings _replaySettings;
+
 public:
 	Game();
 	~Game();
@@ -114,6 +118,8 @@ public:
 	inline SDL_Window* getWindow() const { return _window; }
 
 	inline SoundManager* getSoundManager() const { return _soundManager; }
+
+	inline ReplaySettings getReplaySettings() const { return _replaySettings; }
 
 	inline void setTimestep(float timestep) { _timestep = timestep; }
 	inline void setExit(bool quit) { _exit = quit; }

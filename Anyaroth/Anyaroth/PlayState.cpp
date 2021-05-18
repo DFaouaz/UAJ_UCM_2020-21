@@ -88,19 +88,22 @@ bool PlayState::handleEvent(const SDL_Event& event)
 			yMouse = pos.getY();
 		}
 
-		Tracker::TrackEvent("input", std::map<std::string, std::string>(
-			{
-				{ "step", to_string(_step) },
-				{ "type", to_string(event.type) },
-				{ "key", to_string(event.key.keysym.sym) },
-				{ "keyRepeat", to_string(event.key.repeat) },
-				{ "button", to_string(event.button.button) },
-				{ "buttonState", to_string(event.button.state) },
-				{ "xMouse", to_string(xMouse) },
-				{ "yMouse", to_string(yMouse) }
+		if (_gameptr->getReplaySettings().recording)
+		{
+			Tracker::TrackEvent("input", std::map<std::string, std::string>(
+				{
+					{ "step", to_string(_step) },
+					{ "type", to_string(event.type) },
+					{ "key", to_string(event.key.keysym.sym) },
+					{ "keyRepeat", to_string(event.key.repeat) },
+					{ "button", to_string(event.button.button) },
+					{ "buttonState", to_string(event.button.state) },
+					{ "xMouse", to_string(xMouse) },
+					{ "yMouse", to_string(yMouse) }
 
-			})
-		);
+				})
+			);
+		}
 	}
 
 	bool handled = false;
