@@ -9,7 +9,7 @@ using namespace nlohmann;
 void Game::readEvents()
 {
 	ifstream file;
-	file.open(INFO_PATH + "1621023677619.json");
+	file.open(INFO_PATH + "1621349809981.json");
 	if (file.is_open())
 	{
 		json jFile;
@@ -43,6 +43,8 @@ void Game::readEvents()
 				int step = stoi(attributes["step"].get<string>());
 				_inputEvents.push(make_pair(step, input));
 			}
+			else if (jFile[i]["event_id"] == "seed")
+				_botSeed = stoi(jFile[i]["attributes"]["seed"].get<string>());
 
 		}
 	}
@@ -200,7 +202,18 @@ void Game::toggleFullscreen()
 
 Game::Game()
 {
-	srand(time(NULL));//random seed
+	//---Read events
+	readEvents();
+
+	//time_t seed = time(NULL);
+	time_t seed = _botSeed;
+	srand(seed);//random seed
+
+	Tracker::TrackEvent("seed", std::map<std::string, std::string>(
+		{
+			{ "seed", to_string(seed) }
+		})
+	);
 
 	SDL_Init(SDL_INIT_TIMER | SDL_INIT_AUDIO | SDL_INIT_VIDEO | SDL_INIT_EVENTS| SDL_INIT_GAMECONTROLLER);
 	TTF_Init(); //Ventana del tamaño de la pantalla de cada dispositivo
@@ -220,8 +233,6 @@ Game::Game()
 	//Show cursor
 	SDL_ShowCursor(true);
 
-	//---Read events
-	readEvents();
 	//---Create textures
 	createTextures();
 	//---Create fonts

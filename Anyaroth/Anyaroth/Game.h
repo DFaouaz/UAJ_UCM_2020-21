@@ -73,6 +73,7 @@ private:
 
 	//valor entre 1 y 10
 	double _controllerSensitivity = 10;
+	time_t _botSeed;
 
 public:
 	Game();

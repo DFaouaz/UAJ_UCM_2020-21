@@ -224,7 +224,7 @@ Vector2D GameState::getMousePositionOnScreen() const
 
 Vector2D GameState::getMousePositionOnCamera() const
 {
-	Vector2D camPos = getMousePositionInWorld() - _mainCamera->getCameraPosition();
+	Vector2D camPos = getMousePositionInWorldBot() - _mainCamera->getCameraPosition();
 	Vector2D mousePos = Vector2D(camPos.getX() * CAMERA_RESOLUTION_X / _mainCamera->getCameraSize().getX(), camPos.getY() * CAMERA_RESOLUTION_Y / _mainCamera->getCameraSize().getY());
 
 	return mousePos;
