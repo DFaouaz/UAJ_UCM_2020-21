@@ -42,6 +42,7 @@ protected:
 	CollisionManager _colManager;
 
 	int _mouseX = 0, _mouseY = 0;
+	int _mouseScreenX = 0, _mouseScreenY = 0;
 
 public:
 	GameState(Game* g);
@@ -81,10 +82,13 @@ public:
 
 	Vector2D getMousePositionInWorld() const;
 	Vector2D getMousePositionInWorldBot() const;
+	Vector2D getMousePositionOnScreenBot() const;
 	Vector2D getMousePositionOnScreen() const;
 	Vector2D getMousePositionOnCamera() const;
 	void setMousePositionInWorld(Vector2D coord);
 	void setMousePositionInWorldBot(Vector2D coord);
+
+	void setMousePositionOnScreenBot(Vector2D coord);
 
 	string getType() { return _type; }
 };

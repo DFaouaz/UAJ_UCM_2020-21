@@ -192,8 +192,16 @@ Vector2D GameState::getMousePositionInWorldBot() const
 	return Vector2D(_mouseX, _mouseY);
 }
 
+Vector2D GameState::getMousePositionOnScreenBot() const
+{
+	return Vector2D(_mouseScreenX, _mouseScreenY);
+}
 Vector2D GameState::getMousePositionOnScreen() const
 {
+	// If Replaying => Return mouse position from the stored replay
+	if (_gameptr->getReplaySettings().replaying && _gameptr->getCurrentState()->getType() == "Play")
+		return getMousePositionOnScreenBot();
+
 	int winWidth = 0;	int winHeight = 0;
 	SDL_GetWindowSize(_gameptr->getWindow(), &winWidth, &winHeight);
 
@@ -228,7 +236,13 @@ Vector2D GameState::getMousePositionOnScreen() const
 
 Vector2D GameState::getMousePositionOnCamera() const
 {
-	Vector2D camPos = getMousePositionInWorld() - _mainCamera->getCameraPosition();
+	Vector2D worldMouse;
+	// If Replaying => Return mouse position from the stored replay
+	if (_gameptr->getReplaySettings().replaying)
+		worldMouse = getMousePositionInWorldBot();
+	else
+		worldMouse = getMousePositionInWorld();
+	Vector2D camPos = worldMouse - _mainCamera->getCameraPosition();
 	Vector2D mousePos = Vector2D(camPos.getX() * CAMERA_RESOLUTION_X / _mainCamera->getCameraSize().getX(), camPos.getY() * CAMERA_RESOLUTION_Y / _mainCamera->getCameraSize().getY());
 
 	return mousePos;
@@ -274,6 +288,12 @@ void GameState::setMousePositionInWorldBot(Vector2D coord)
 {
 	_mouseX = coord.getX();
 	_mouseY = coord.getY();
+}
+
+void GameState::setMousePositionOnScreenBot(Vector2D coord)
+{
+	_mouseScreenX = coord.getX();
+	_mouseScreenY = coord.getY();
 }
 
 void GameState::initializeCamera()

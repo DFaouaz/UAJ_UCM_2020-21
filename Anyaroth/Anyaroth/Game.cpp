@@ -38,7 +38,11 @@ void Game::readEvents()
 				int y = stoi(attributes["yMouse"].get<string>());
 				Mouse m(x, y);
 
-				InputEvent input(e, m);
+				int xS = stoi(attributes["xMouseScreen"].get<string>());
+				int yS = stoi(attributes["yMouseScreen"].get<string>());
+				Mouse mS(xS, yS);
+
+				InputEvent input(e, m, mS);
 
 				int step = stoi(attributes["step"].get<string>());
 				_inputEvents.push(make_pair(step, input));

@@ -50,7 +50,7 @@ void PlayState::start()
 	BulletPool* enemyPool = new BulletPool(_gameptr);
 
 	//Level
-	GameManager::getInstance()->setCurrentLevel(LevelManager::Tutorial);
+	GameManager::getInstance()->setCurrentLevel(LevelManager::Level1_1);
 
 	_level = new GameObject(_gameptr);
 	_levelManager = LevelManager(_gameptr, _player, _level, enemyPool);
@@ -80,13 +80,17 @@ bool PlayState::handleEvent(const SDL_Event& event)
 		
 		int xMouse = -1;
 		int yMouse = -1;
+		int xMouseScreen = -1;
+		int yMouseScreen = -1;
 
-		if (event.type == SDL_MOUSEBUTTONDOWN)
-		{
-			Vector2D pos = getMousePositionInWorld();
-			xMouse = pos.getX();
-			yMouse = pos.getY();
-		}
+
+		Vector2D pos = getMousePositionInWorld();
+		xMouse = pos.getX();
+		yMouse = pos.getY();
+		Vector2D posScreen = getMousePositionOnScreen();
+		xMouseScreen = posScreen.getX();
+		yMouseScreen = posScreen.getY();
+		
 
 		if (_gameptr->getReplaySettings().recording)
 		{
@@ -99,7 +103,9 @@ bool PlayState::handleEvent(const SDL_Event& event)
 					{ "button", to_string(event.button.button) },
 					{ "buttonState", to_string(event.button.state) },
 					{ "xMouse", to_string(xMouse) },
-					{ "yMouse", to_string(yMouse) }
+					{ "yMouse", to_string(yMouse) },
+					{ "xMouseScreen", to_string(xMouseScreen) },
+					{ "yMouseScreen", to_string(yMouseScreen) }
 
 				})
 			);
@@ -127,7 +133,10 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 	while (evento.first <= _step && !finished)
 	{
 		if (evento.second.mouse.x != -1 && evento.second.mouse.y != -1)
+		{
 			setMousePositionInWorldBot(Vector2D(evento.second.mouse.x, evento.second.mouse.y));
+			setMousePositionOnScreenBot(Vector2D(evento.second.mouseScreen.x, evento.second.mouseScreen.y));
+		}
 
 		GameState::handleEvent(evento.second.event);
 
