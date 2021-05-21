@@ -1,0 +1,7596 @@
+[
+{
+"timestamp" : 1621592490186,
+"event_id" : "application_start",
+"info" : "Anyaroth",
+"attributes" : {}
+},
+{
+"timestamp" : 1621592490190,
+"event_id" : "seed",
+"info" : "",
+"attributes" : {
+"seed" : "1621592490"
+}
+},
+{
+"timestamp" : 1621592547740,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "777",
+"keyRepeat" : "0",
+"step" : "0",
+"type" : "1026",
+"xMouse" : "194",
+"xMouseScreen" : "776",
+"yMouse" : "193",
+"yMouseScreen" : "774"
+}
+},
+{
+"timestamp" : 1621592548531,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "71",
+"type" : "768",
+"xMouse" : "310",
+"xMouseScreen" : "1242",
+"yMouse" : "124",
+"yMouseScreen" : "498"
+}
+},
+{
+"timestamp" : 1621592549035,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "102",
+"type" : "768",
+"xMouse" : "399",
+"xMouseScreen" : "1597",
+"yMouse" : "103",
+"yMouseScreen" : "414"
+}
+},
+{
+"timestamp" : 1621592549070,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "104",
+"type" : "768",
+"xMouse" : "399",
+"xMouseScreen" : "1599",
+"yMouse" : "103",
+"yMouseScreen" : "413"
+}
+},
+{
+"timestamp" : 1621592549091,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "106",
+"type" : "768",
+"xMouse" : "400",
+"xMouseScreen" : "1601",
+"yMouse" : "103",
+"yMouseScreen" : "413"
+}
+},
+{
+"timestamp" : 1621592549126,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "108",
+"type" : "768",
+"xMouse" : "403",
+"xMouseScreen" : "1613",
+"yMouse" : "103",
+"yMouseScreen" : "412"
+}
+},
+{
+"timestamp" : 1621592549170,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "111",
+"type" : "768",
+"xMouse" : "415",
+"xMouseScreen" : "1662",
+"yMouse" : "102",
+"yMouseScreen" : "411"
+}
+},
+{
+"timestamp" : 1621592549203,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "113",
+"type" : "768",
+"xMouse" : "418",
+"xMouseScreen" : "1673",
+"yMouse" : "103",
+"yMouseScreen" : "413"
+}
+},
+{
+"timestamp" : 1621592549220,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "114",
+"type" : "768",
+"xMouse" : "418",
+"xMouseScreen" : "1673",
+"yMouse" : "103",
+"yMouseScreen" : "413"
+}
+},
+{
+"timestamp" : 1621592549254,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "116",
+"type" : "768",
+"xMouse" : "418",
+"xMouseScreen" : "1673",
+"yMouse" : "103",
+"yMouseScreen" : "413"
+}
+},
+{
+"timestamp" : 1621592549288,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "118",
+"type" : "768",
+"xMouse" : "417",
+"xMouseScreen" : "1671",
+"yMouse" : "104",
+"yMouseScreen" : "416"
+}
+},
+{
+"timestamp" : 1621592549321,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "120",
+"type" : "768",
+"xMouse" : "416",
+"xMouseScreen" : "1665",
+"yMouse" : "105",
+"yMouseScreen" : "422"
+}
+},
+{
+"timestamp" : 1621592549354,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "122",
+"type" : "768",
+"xMouse" : "413",
+"xMouseScreen" : "1654",
+"yMouse" : "108",
+"yMouseScreen" : "432"
+}
+},
+{
+"timestamp" : 1621592549388,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "124",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549421,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "126",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549455,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "129",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549489,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "131",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549522,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "133",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549556,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "135",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1651",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592549590,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "137",
+"type" : "768",
+"xMouse" : "412",
+"xMouseScreen" : "1648",
+"yMouse" : "109",
+"yMouseScreen" : "438"
+}
+},
+{
+"timestamp" : 1621592549623,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "139",
+"type" : "768",
+"xMouse" : "410",
+"xMouseScreen" : "1643",
+"yMouse" : "109",
+"yMouseScreen" : "439"
+}
+},
+{
+"timestamp" : 1621592549657,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "141",
+"type" : "768",
+"xMouse" : "410",
+"xMouseScreen" : "1640",
+"yMouse" : "110",
+"yMouseScreen" : "440"
+}
+},
+{
+"timestamp" : 1621592549691,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "143",
+"type" : "768",
+"xMouse" : "409",
+"xMouseScreen" : "1638",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549724,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "145",
+"type" : "768",
+"xMouse" : "408",
+"xMouseScreen" : "1635",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549757,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "148",
+"type" : "768",
+"xMouse" : "408",
+"xMouseScreen" : "1635",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549791,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "150",
+"type" : "768",
+"xMouse" : "408",
+"xMouseScreen" : "1634",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549825,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "152",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1630",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549858,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "154",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549892,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "156",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549926,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "158",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549942,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1629",
+"keyRepeat" : "0",
+"step" : "159",
+"type" : "1025",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549959,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "160",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592549993,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "162",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550026,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "164",
+"type" : "768",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550027,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1629",
+"keyRepeat" : "0",
+"step" : "164",
+"type" : "1026",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550043,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "165",
+"type" : "769",
+"xMouse" : "407",
+"xMouseScreen" : "1629",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550245,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1627",
+"keyRepeat" : "0",
+"step" : "178",
+"type" : "1025",
+"xMouse" : "406",
+"xMouseScreen" : "1627",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550330,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1627",
+"keyRepeat" : "0",
+"step" : "183",
+"type" : "1026",
+"xMouse" : "406",
+"xMouseScreen" : "1627",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550498,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1626",
+"keyRepeat" : "0",
+"step" : "194",
+"type" : "1025",
+"xMouse" : "406",
+"xMouseScreen" : "1626",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592550564,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1626",
+"keyRepeat" : "0",
+"step" : "198",
+"type" : "1026",
+"xMouse" : "406",
+"xMouseScreen" : "1626",
+"yMouse" : "109",
+"yMouseScreen" : "439"
+}
+},
+{
+"timestamp" : 1621592550733,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1626",
+"keyRepeat" : "0",
+"step" : "208",
+"type" : "1025",
+"xMouse" : "406",
+"xMouseScreen" : "1626",
+"yMouse" : "109",
+"yMouseScreen" : "439"
+}
+},
+{
+"timestamp" : 1621592550833,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1626",
+"keyRepeat" : "0",
+"step" : "215",
+"type" : "1026",
+"xMouse" : "406",
+"xMouseScreen" : "1626",
+"yMouse" : "109",
+"yMouseScreen" : "438"
+}
+},
+{
+"timestamp" : 1621592551051,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1611",
+"keyRepeat" : "0",
+"step" : "228",
+"type" : "1025",
+"xMouse" : "402",
+"xMouseScreen" : "1610",
+"yMouse" : "110",
+"yMouseScreen" : "440"
+}
+},
+{
+"timestamp" : 1621592551137,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1611",
+"keyRepeat" : "0",
+"step" : "234",
+"type" : "1026",
+"xMouse" : "402",
+"xMouseScreen" : "1611",
+"yMouse" : "110",
+"yMouseScreen" : "441"
+}
+},
+{
+"timestamp" : 1621592551153,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592551438,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "253",
+"type" : "768",
+"xMouse" : "384",
+"xMouseScreen" : "1537",
+"yMouse" : "120",
+"yMouseScreen" : "482"
+}
+},
+{
+"timestamp" : 1621592551640,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "265",
+"type" : "769",
+"xMouse" : "384",
+"xMouseScreen" : "1536",
+"yMouse" : "120",
+"yMouseScreen" : "483"
+}
+},
+{
+"timestamp" : 1621592551758,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "273",
+"type" : "768",
+"xMouse" : "388",
+"xMouseScreen" : "1536",
+"yMouse" : "120",
+"yMouseScreen" : "483"
+}
+},
+{
+"timestamp" : 1621592551875,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "280",
+"type" : "769",
+"xMouse" : "391",
+"xMouseScreen" : "1536",
+"yMouse" : "120",
+"yMouseScreen" : "483"
+}
+},
+{
+"timestamp" : 1621592552026,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "289",
+"type" : "768",
+"xMouse" : "391",
+"xMouseScreen" : "1536",
+"yMouse" : "120",
+"yMouseScreen" : "483"
+}
+},
+{
+"timestamp" : 1621592552514,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "320",
+"type" : "768",
+"xMouse" : "429",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552548,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "322",
+"type" : "768",
+"xMouse" : "433",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552582,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "324",
+"type" : "768",
+"xMouse" : "437",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552615,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "326",
+"type" : "768",
+"xMouse" : "440",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552648,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "328",
+"type" : "768",
+"xMouse" : "444",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552682,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "330",
+"type" : "768",
+"xMouse" : "448",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552716,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "332",
+"type" : "768",
+"xMouse" : "451",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552750,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "334",
+"type" : "768",
+"xMouse" : "455",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552783,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "337",
+"type" : "768",
+"xMouse" : "461",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552816,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "339",
+"type" : "768",
+"xMouse" : "464",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552850,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "341",
+"type" : "768",
+"xMouse" : "468",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552884,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "343",
+"type" : "768",
+"xMouse" : "471",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552917,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "345",
+"type" : "768",
+"xMouse" : "473",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552951,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "347",
+"type" : "768",
+"xMouse" : "474",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592552985,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "349",
+"type" : "768",
+"xMouse" : "474",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553018,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "351",
+"type" : "768",
+"xMouse" : "474",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553035,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "352",
+"type" : "768",
+"xMouse" : "474",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553187,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "362",
+"type" : "769",
+"xMouse" : "479",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553372,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "373",
+"type" : "769",
+"xMouse" : "497",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553405,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "376",
+"type" : "768",
+"xMouse" : "503",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553606,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "388",
+"type" : "769",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553809,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "401",
+"type" : "768",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592553892,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "406",
+"type" : "769",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592554010,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "413",
+"type" : "768",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592554110,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "420",
+"type" : "768",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592554160,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "423",
+"type" : "769",
+"xMouse" : "512",
+"xMouseScreen" : "1528",
+"yMouse" : "122",
+"yMouseScreen" : "491"
+}
+},
+{
+"timestamp" : 1621592554664,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "454",
+"type" : "768",
+"xMouse" : "607",
+"xMouseScreen" : "1788",
+"yMouse" : "133",
+"yMouseScreen" : "534"
+}
+},
+{
+"timestamp" : 1621592554698,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "456",
+"type" : "768",
+"xMouse" : "610",
+"xMouseScreen" : "1785",
+"yMouse" : "132",
+"yMouseScreen" : "531"
+}
+},
+{
+"timestamp" : 1621592554732,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "458",
+"type" : "768",
+"xMouse" : "610",
+"xMouseScreen" : "1771",
+"yMouse" : "128",
+"yMouseScreen" : "515"
+}
+},
+{
+"timestamp" : 1621592554766,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "461",
+"type" : "768",
+"xMouse" : "613",
+"xMouseScreen" : "1756",
+"yMouse" : "123",
+"yMouseScreen" : "492"
+}
+},
+{
+"timestamp" : 1621592554799,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "463",
+"type" : "768",
+"xMouse" : "613",
+"xMouseScreen" : "1740",
+"yMouse" : "117",
+"yMouseScreen" : "471"
+}
+},
+{
+"timestamp" : 1621592554836,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "465",
+"type" : "768",
+"xMouse" : "615",
+"xMouseScreen" : "1736",
+"yMouse" : "116",
+"yMouseScreen" : "465"
+}
+},
+{
+"timestamp" : 1621592554868,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "467",
+"type" : "768",
+"xMouse" : "618",
+"xMouseScreen" : "1734",
+"yMouse" : "115",
+"yMouseScreen" : "463"
+}
+},
+{
+"timestamp" : 1621592554900,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "469",
+"type" : "768",
+"xMouse" : "622",
+"xMouseScreen" : "1734",
+"yMouse" : "115",
+"yMouseScreen" : "463"
+}
+},
+{
+"timestamp" : 1621592554934,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "471",
+"type" : "768",
+"xMouse" : "620",
+"xMouseScreen" : "1710",
+"yMouse" : "121",
+"yMouseScreen" : "487"
+}
+},
+{
+"timestamp" : 1621592554968,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "473",
+"type" : "768",
+"xMouse" : "616",
+"xMouseScreen" : "1676",
+"yMouse" : "128",
+"yMouseScreen" : "513"
+}
+},
+{
+"timestamp" : 1621592555001,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "475",
+"type" : "768",
+"xMouse" : "608",
+"xMouseScreen" : "1633",
+"yMouse" : "133",
+"yMouseScreen" : "535"
+}
+},
+{
+"timestamp" : 1621592555035,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "477",
+"type" : "768",
+"xMouse" : "601",
+"xMouseScreen" : "1599",
+"yMouse" : "136",
+"yMouseScreen" : "546"
+}
+},
+{
+"timestamp" : 1621592555069,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "479",
+"type" : "768",
+"xMouse" : "592",
+"xMouseScreen" : "1552",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592555102,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "482",
+"type" : "768",
+"xMouse" : "590",
+"xMouseScreen" : "1533",
+"yMouse" : "137",
+"yMouseScreen" : "551"
+}
+},
+{
+"timestamp" : 1621592555135,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "484",
+"type" : "768",
+"xMouse" : "589",
+"xMouseScreen" : "1523",
+"yMouse" : "137",
+"yMouseScreen" : "549"
+}
+},
+{
+"timestamp" : 1621592555169,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "486",
+"type" : "768",
+"xMouse" : "589",
+"xMouseScreen" : "1512",
+"yMouse" : "136",
+"yMouseScreen" : "547"
+}
+},
+{
+"timestamp" : 1621592555186,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "487",
+"type" : "768",
+"xMouse" : "589",
+"xMouseScreen" : "1505",
+"yMouse" : "136",
+"yMouseScreen" : "547"
+}
+},
+{
+"timestamp" : 1621592555220,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "489",
+"type" : "768",
+"xMouse" : "590",
+"xMouseScreen" : "1496",
+"yMouse" : "136",
+"yMouseScreen" : "547"
+}
+},
+{
+"timestamp" : 1621592555254,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "491",
+"type" : "768",
+"xMouse" : "589",
+"xMouseScreen" : "1478",
+"yMouse" : "137",
+"yMouseScreen" : "548"
+}
+},
+{
+"timestamp" : 1621592555287,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "493",
+"type" : "768",
+"xMouse" : "588",
+"xMouseScreen" : "1456",
+"yMouse" : "138",
+"yMouseScreen" : "555"
+}
+},
+{
+"timestamp" : 1621592555320,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "495",
+"type" : "768",
+"xMouse" : "585",
+"xMouseScreen" : "1434",
+"yMouse" : "141",
+"yMouseScreen" : "564"
+}
+},
+{
+"timestamp" : 1621592555354,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "497",
+"type" : "768",
+"xMouse" : "583",
+"xMouseScreen" : "1409",
+"yMouse" : "144",
+"yMouseScreen" : "576"
+}
+},
+{
+"timestamp" : 1621592555388,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "499",
+"type" : "768",
+"xMouse" : "584",
+"xMouseScreen" : "1396",
+"yMouse" : "144",
+"yMouseScreen" : "579"
+}
+},
+{
+"timestamp" : 1621592555422,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "501",
+"type" : "768",
+"xMouse" : "584",
+"xMouseScreen" : "1385",
+"yMouse" : "146",
+"yMouseScreen" : "584"
+}
+},
+{
+"timestamp" : 1621592555455,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "504",
+"type" : "768",
+"xMouse" : "588",
+"xMouseScreen" : "1376",
+"yMouse" : "147",
+"yMouseScreen" : "588"
+}
+},
+{
+"timestamp" : 1621592555489,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "506",
+"type" : "768",
+"xMouse" : "589",
+"xMouseScreen" : "1369",
+"yMouse" : "147",
+"yMouseScreen" : "590"
+}
+},
+{
+"timestamp" : 1621592555522,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "508",
+"type" : "768",
+"xMouse" : "591",
+"xMouseScreen" : "1361",
+"yMouse" : "148",
+"yMouseScreen" : "593"
+}
+},
+{
+"timestamp" : 1621592555538,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "509",
+"type" : "768",
+"xMouse" : "592",
+"xMouseScreen" : "1357",
+"yMouse" : "148",
+"yMouseScreen" : "594"
+}
+},
+{
+"timestamp" : 1621592555673,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "517",
+"type" : "769",
+"xMouse" : "607",
+"xMouseScreen" : "1356",
+"yMouse" : "148",
+"yMouseScreen" : "595"
+}
+},
+{
+"timestamp" : 1621592556329,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "558",
+"type" : "769",
+"xMouse" : "497",
+"xMouseScreen" : "718",
+"yMouse" : "118",
+"yMouseScreen" : "473"
+}
+},
+{
+"timestamp" : 1621592556531,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "571",
+"type" : "768",
+"xMouse" : "517",
+"xMouseScreen" : "715",
+"yMouse" : "117",
+"yMouseScreen" : "470"
+}
+},
+{
+"timestamp" : 1621592556647,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "578",
+"type" : "769",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592556782,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "587",
+"type" : "1025",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592556884,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "593",
+"type" : "1026",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592556984,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "599",
+"type" : "1025",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557068,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "604",
+"type" : "1026",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557153,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "610",
+"type" : "1025",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557237,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "615",
+"type" : "1026",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557322,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "620",
+"type" : "1025",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557339,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592557405,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "691",
+"keyRepeat" : "0",
+"step" : "626",
+"type" : "1026",
+"xMouse" : "517",
+"xMouseScreen" : "691",
+"yMouse" : "113",
+"yMouseScreen" : "454"
+}
+},
+{
+"timestamp" : 1621592557826,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "652",
+"type" : "768",
+"xMouse" : "538",
+"xMouseScreen" : "773",
+"yMouse" : "111",
+"yMouseScreen" : "447"
+}
+},
+{
+"timestamp" : 1621592557977,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "661",
+"type" : "769",
+"xMouse" : "747",
+"xMouseScreen" : "1562",
+"yMouse" : "140",
+"yMouseScreen" : "561"
+}
+},
+{
+"timestamp" : 1621592558481,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1437",
+"keyRepeat" : "0",
+"step" : "693",
+"type" : "1025",
+"xMouse" : "720",
+"xMouseScreen" : "1437",
+"yMouse" : "162",
+"yMouseScreen" : "649"
+}
+},
+{
+"timestamp" : 1621592558549,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1437",
+"keyRepeat" : "0",
+"step" : "697",
+"type" : "1026",
+"xMouse" : "720",
+"xMouseScreen" : "1437",
+"yMouse" : "162",
+"yMouseScreen" : "650"
+}
+},
+{
+"timestamp" : 1621592558666,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1433",
+"keyRepeat" : "0",
+"step" : "704",
+"type" : "1025",
+"xMouse" : "719",
+"xMouseScreen" : "1433",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592558733,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "708",
+"type" : "1026",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592558851,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "716",
+"type" : "1025",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592558935,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "721",
+"type" : "1026",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559036,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "727",
+"type" : "1025",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559103,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "732",
+"type" : "1026",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559188,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "737",
+"type" : "1025",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559272,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "742",
+"type" : "1026",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559356,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "747",
+"type" : "1025",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559456,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1432",
+"keyRepeat" : "0",
+"step" : "754",
+"type" : "1026",
+"xMouse" : "719",
+"xMouseScreen" : "1432",
+"yMouse" : "162",
+"yMouseScreen" : "648"
+}
+},
+{
+"timestamp" : 1621592559725,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1419",
+"keyRepeat" : "0",
+"step" : "771",
+"type" : "1025",
+"xMouse" : "715",
+"xMouseScreen" : "1419",
+"yMouse" : "160",
+"yMouseScreen" : "640"
+}
+},
+{
+"timestamp" : 1621592559793,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "ammo"
+}
+},
+{
+"timestamp" : 1621592559809,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1419",
+"keyRepeat" : "0",
+"step" : "776",
+"type" : "1026",
+"xMouse" : "715",
+"xMouseScreen" : "1419",
+"yMouse" : "160",
+"yMouseScreen" : "640"
+}
+},
+{
+"timestamp" : 1621592560314,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1596",
+"keyRepeat" : "0",
+"step" : "807",
+"type" : "1025",
+"xMouse" : "760",
+"xMouseScreen" : "1596",
+"yMouse" : "86",
+"yMouseScreen" : "345"
+}
+},
+{
+"timestamp" : 1621592560397,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1597",
+"keyRepeat" : "0",
+"step" : "813",
+"type" : "1026",
+"xMouse" : "760",
+"xMouseScreen" : "1597",
+"yMouse" : "86",
+"yMouseScreen" : "345"
+}
+},
+{
+"timestamp" : 1621592560550,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1601",
+"keyRepeat" : "0",
+"step" : "822",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1601",
+"yMouse" : "84",
+"yMouseScreen" : "338"
+}
+},
+{
+"timestamp" : 1621592560633,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "827",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592560750,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "835",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592560834,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "840",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592560952,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "847",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561003,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "850",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561120,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "858",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561188,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "862",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561289,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "868",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561374,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "873",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561491,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "881",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561558,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "885",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561659,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "891",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561693,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592561726,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "896",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561810,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "901",
+"type" : "1025",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592561894,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1602",
+"keyRepeat" : "0",
+"step" : "906",
+"type" : "1026",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592562046,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "916",
+"type" : "768",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592562146,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "922",
+"type" : "769",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592562298,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "931",
+"type" : "768",
+"xMouse" : "761",
+"xMouseScreen" : "1602",
+"yMouse" : "84",
+"yMouseScreen" : "339"
+}
+},
+{
+"timestamp" : 1621592562802,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "963",
+"type" : "768",
+"xMouse" : "797",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592562835,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "965",
+"type" : "768",
+"xMouse" : "801",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592562868,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "967",
+"type" : "768",
+"xMouse" : "804",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592562902,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "969",
+"type" : "768",
+"xMouse" : "808",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592562936,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "971",
+"type" : "768",
+"xMouse" : "812",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592562969,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "973",
+"type" : "768",
+"xMouse" : "816",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592563003,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "975",
+"type" : "768",
+"xMouse" : "819",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592563037,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "977",
+"type" : "768",
+"xMouse" : "823",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592563053,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "979",
+"type" : "769",
+"xMouse" : "827",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "342"
+}
+},
+{
+"timestamp" : 1621592563357,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "997",
+"type" : "768",
+"xMouse" : "847",
+"xMouseScreen" : "1599",
+"yMouse" : "85",
+"yMouseScreen" : "343"
+}
+},
+{
+"timestamp" : 1621592563441,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1003",
+"type" : "768",
+"xMouse" : "847",
+"xMouseScreen" : "1596",
+"yMouse" : "86",
+"yMouseScreen" : "346"
+}
+},
+{
+"timestamp" : 1621592563911,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1032",
+"type" : "769",
+"xMouse" : "890",
+"xMouseScreen" : "1596",
+"yMouse" : "86",
+"yMouseScreen" : "347"
+}
+},
+{
+"timestamp" : 1621592564297,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1056",
+"type" : "768",
+"xMouse" : "929",
+"xMouseScreen" : "1596",
+"yMouse" : "86",
+"yMouseScreen" : "347"
+}
+},
+{
+"timestamp" : 1621592564433,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1065",
+"type" : "769",
+"xMouse" : "945",
+"xMouseScreen" : "1591",
+"yMouse" : "88",
+"yMouseScreen" : "352"
+}
+},
+{
+"timestamp" : 1621592565493,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1604",
+"keyRepeat" : "0",
+"step" : "1131",
+"type" : "1025",
+"xMouse" : "1070",
+"xMouseScreen" : "1604",
+"yMouse" : "66",
+"yMouseScreen" : "266"
+}
+},
+{
+"timestamp" : 1621592565560,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1608",
+"keyRepeat" : "0",
+"step" : "1135",
+"type" : "1026",
+"xMouse" : "1079",
+"xMouseScreen" : "1608",
+"yMouse" : "66",
+"yMouseScreen" : "266"
+}
+},
+{
+"timestamp" : 1621592565813,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1545",
+"keyRepeat" : "0",
+"step" : "1151",
+"type" : "1025",
+"xMouse" : "1094",
+"xMouseScreen" : "1545",
+"yMouse" : "59",
+"yMouseScreen" : "237"
+}
+},
+{
+"timestamp" : 1621592565896,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1538",
+"keyRepeat" : "0",
+"step" : "1156",
+"type" : "1026",
+"xMouse" : "1101",
+"xMouseScreen" : "1538",
+"yMouse" : "60",
+"yMouseScreen" : "240"
+}
+},
+{
+"timestamp" : 1621592566215,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1341",
+"keyRepeat" : "0",
+"step" : "1176",
+"type" : "1025",
+"xMouse" : "1081",
+"xMouseScreen" : "1345",
+"yMouse" : "132",
+"yMouseScreen" : "531"
+}
+},
+{
+"timestamp" : 1621592566282,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1180",
+"type" : "769",
+"xMouse" : "1088",
+"xMouseScreen" : "1350",
+"yMouse" : "138",
+"yMouseScreen" : "554"
+}
+},
+{
+"timestamp" : 1621592566317,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1350",
+"keyRepeat" : "0",
+"step" : "1182",
+"type" : "1026",
+"xMouse" : "1091",
+"xMouseScreen" : "1350",
+"yMouse" : "138",
+"yMouseScreen" : "554"
+}
+},
+{
+"timestamp" : 1621592566636,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1348",
+"keyRepeat" : "0",
+"step" : "1202",
+"type" : "1025",
+"xMouse" : "1101",
+"xMouseScreen" : "1348",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592566652,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "aidKit"
+}
+},
+{
+"timestamp" : 1621592566770,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1348",
+"keyRepeat" : "0",
+"step" : "1211",
+"type" : "1026",
+"xMouse" : "1101",
+"xMouseScreen" : "1348",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592567005,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1225",
+"type" : "768",
+"xMouse" : "1101",
+"xMouseScreen" : "1348",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592567510,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1257",
+"type" : "768",
+"xMouse" : "1144",
+"xMouseScreen" : "1348",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592567543,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1259",
+"type" : "768",
+"xMouse" : "1147",
+"xMouseScreen" : "1348",
+"yMouse" : "138",
+"yMouseScreen" : "552"
+}
+},
+{
+"timestamp" : 1621592567577,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1261",
+"type" : "768",
+"xMouse" : "1149",
+"xMouseScreen" : "1340",
+"yMouse" : "135",
+"yMouseScreen" : "542"
+}
+},
+{
+"timestamp" : 1621592567610,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1263",
+"type" : "768",
+"xMouse" : "1143",
+"xMouseScreen" : "1301",
+"yMouse" : "124",
+"yMouseScreen" : "499"
+}
+},
+{
+"timestamp" : 1621592567644,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1265",
+"type" : "768",
+"xMouse" : "1127",
+"xMouseScreen" : "1227",
+"yMouse" : "108",
+"yMouseScreen" : "435"
+}
+},
+{
+"timestamp" : 1621592567677,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1267",
+"type" : "768",
+"xMouse" : "1116",
+"xMouseScreen" : "1167",
+"yMouse" : "98",
+"yMouseScreen" : "393"
+}
+},
+{
+"timestamp" : 1621592567712,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1270",
+"type" : "768",
+"xMouse" : "1114",
+"xMouseScreen" : "1137",
+"yMouse" : "93",
+"yMouseScreen" : "372"
+}
+},
+{
+"timestamp" : 1621592567745,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1272",
+"type" : "768",
+"xMouse" : "1112",
+"xMouseScreen" : "1114",
+"yMouse" : "89",
+"yMouseScreen" : "359"
+}
+},
+{
+"timestamp" : 1621592567778,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1274",
+"type" : "768",
+"xMouse" : "1114",
+"xMouseScreen" : "1104",
+"yMouse" : "88",
+"yMouseScreen" : "355"
+}
+},
+{
+"timestamp" : 1621592567811,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1276",
+"type" : "768",
+"xMouse" : "1113",
+"xMouseScreen" : "1084",
+"yMouse" : "86",
+"yMouseScreen" : "347"
+}
+},
+{
+"timestamp" : 1621592567845,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1278",
+"type" : "768",
+"xMouse" : "1111",
+"xMouseScreen" : "1067",
+"yMouse" : "85",
+"yMouseScreen" : "341"
+}
+},
+{
+"timestamp" : 1621592567878,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1280",
+"type" : "768",
+"xMouse" : "1115",
+"xMouseScreen" : "1065",
+"yMouse" : "85",
+"yMouseScreen" : "340"
+}
+},
+{
+"timestamp" : 1621592567896,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1281",
+"type" : "768",
+"xMouse" : "1118",
+"xMouseScreen" : "1071",
+"yMouse" : "83",
+"yMouseScreen" : "334"
+}
+},
+{
+"timestamp" : 1621592567931,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "1283",
+"type" : "768",
+"xMouse" : "1140",
+"xMouseScreen" : "1140",
+"yMouse" : "80",
+"yMouseScreen" : "322"
+}
+},
+{
+"timestamp" : 1621592567964,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1285",
+"type" : "769",
+"xMouse" : "1177",
+"xMouseScreen" : "1276",
+"yMouse" : "77",
+"yMouseScreen" : "309"
+}
+},
+{
+"timestamp" : 1621592568080,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1634",
+"keyRepeat" : "0",
+"step" : "1293",
+"type" : "1025",
+"xMouse" : "1277",
+"xMouseScreen" : "1635",
+"yMouse" : "59",
+"yMouseScreen" : "237"
+}
+},
+{
+"timestamp" : 1621592568165,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1635",
+"keyRepeat" : "0",
+"step" : "1298",
+"type" : "1026",
+"xMouse" : "1282",
+"xMouseScreen" : "1635",
+"yMouse" : "59",
+"yMouseScreen" : "236"
+}
+},
+{
+"timestamp" : 1621592568366,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1636",
+"keyRepeat" : "0",
+"step" : "1311",
+"type" : "1025",
+"xMouse" : "1284",
+"xMouseScreen" : "1636",
+"yMouse" : "61",
+"yMouseScreen" : "246"
+}
+},
+{
+"timestamp" : 1621592568433,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1638",
+"keyRepeat" : "0",
+"step" : "1315",
+"type" : "1026",
+"xMouse" : "1285",
+"xMouseScreen" : "1640",
+"yMouse" : "62",
+"yMouseScreen" : "249"
+}
+},
+{
+"timestamp" : 1621592568518,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1320",
+"type" : "768",
+"xMouse" : "1289",
+"xMouseScreen" : "1658",
+"yMouse" : "64",
+"yMouseScreen" : "257"
+}
+},
+{
+"timestamp" : 1621592568534,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1658",
+"keyRepeat" : "0",
+"step" : "1321",
+"type" : "1025",
+"xMouse" : "1289",
+"xMouseScreen" : "1658",
+"yMouse" : "64",
+"yMouseScreen" : "257"
+}
+},
+{
+"timestamp" : 1621592568601,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1662",
+"keyRepeat" : "0",
+"step" : "1325",
+"type" : "1026",
+"xMouse" : "1290",
+"xMouseScreen" : "1662",
+"yMouse" : "64",
+"yMouseScreen" : "259"
+}
+},
+{
+"timestamp" : 1621592568702,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1707",
+"keyRepeat" : "0",
+"step" : "1332",
+"type" : "1025",
+"xMouse" : "1301",
+"xMouseScreen" : "1707",
+"yMouse" : "70",
+"yMouseScreen" : "282"
+}
+},
+{
+"timestamp" : 1621592568736,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1334",
+"type" : "769",
+"xMouse" : "1302",
+"xMouseScreen" : "1709",
+"yMouse" : "70",
+"yMouseScreen" : "282"
+}
+},
+{
+"timestamp" : 1621592568787,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1713",
+"keyRepeat" : "0",
+"step" : "1337",
+"type" : "1026",
+"xMouse" : "1303",
+"xMouseScreen" : "1713",
+"yMouse" : "70",
+"yMouseScreen" : "282"
+}
+},
+{
+"timestamp" : 1621592568903,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1344",
+"type" : "1025",
+"xMouse" : "1314",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592568988,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1349",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592569088,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1356",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592569172,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1361",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592569273,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1367",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592569341,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1371",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "294"
+}
+},
+{
+"timestamp" : 1621592569458,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1379",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569525,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1383",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569626,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1389",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569710,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1395",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569794,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1400",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569878,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1405",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592569962,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1757",
+"keyRepeat" : "0",
+"step" : "1410",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1757",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570030,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592570046,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1756",
+"keyRepeat" : "0",
+"step" : "1416",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570130,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1756",
+"keyRepeat" : "0",
+"step" : "1421",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570214,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1756",
+"keyRepeat" : "0",
+"step" : "1426",
+"type" : "1026",
+"xMouse" : "1312",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570298,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1431",
+"type" : "768",
+"xMouse" : "1312",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570315,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1756",
+"keyRepeat" : "0",
+"step" : "1432",
+"type" : "1025",
+"xMouse" : "1312",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570400,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1756",
+"keyRepeat" : "0",
+"step" : "1438",
+"type" : "1026",
+"xMouse" : "1310",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570450,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "1441",
+"type" : "768",
+"xMouse" : "1306",
+"xMouseScreen" : "1756",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592570601,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "1450",
+"type" : "769",
+"xMouse" : "1289",
+"xMouseScreen" : "1755",
+"yMouse" : "73",
+"yMouseScreen" : "295"
+}
+},
+{
+"timestamp" : 1621592571256,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1491",
+"type" : "768",
+"xMouse" : "1173",
+"xMouseScreen" : "1592",
+"yMouse" : "105",
+"yMouseScreen" : "423"
+}
+},
+{
+"timestamp" : 1621592571391,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1500",
+"type" : "769",
+"xMouse" : "1156",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592571593,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1512",
+"type" : "769",
+"xMouse" : "1132",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592571879,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1530",
+"type" : "768",
+"xMouse" : "1108",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592571995,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1537",
+"type" : "769",
+"xMouse" : "1100",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572046,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1541",
+"type" : "768",
+"xMouse" : "1092",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572315,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1557",
+"type" : "768",
+"xMouse" : "1086",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572686,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1580",
+"type" : "768",
+"xMouse" : "1114",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572686,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "1580",
+"type" : "769",
+"xMouse" : "1114",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572836,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1590",
+"type" : "769",
+"xMouse" : "1142",
+"xMouseScreen" : "1591",
+"yMouse" : "106",
+"yMouseScreen" : "424"
+}
+},
+{
+"timestamp" : 1621592572921,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1595",
+"type" : "769",
+"xMouse" : "1153",
+"xMouseScreen" : "1553",
+"yMouse" : "110",
+"yMouseScreen" : "442"
+}
+},
+{
+"timestamp" : 1621592573225,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1614",
+"type" : "768",
+"xMouse" : "1231",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592573477,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1630",
+"type" : "769",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592573746,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1550",
+"keyRepeat" : "0",
+"step" : "1647",
+"type" : "1025",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592573763,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592573830,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1550",
+"keyRepeat" : "0",
+"step" : "1652",
+"type" : "1026",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592574032,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1550",
+"keyRepeat" : "0",
+"step" : "1665",
+"type" : "1025",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592574116,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1550",
+"keyRepeat" : "0",
+"step" : "1670",
+"type" : "1026",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592574334,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1684",
+"type" : "768",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592574535,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1696",
+"type" : "768",
+"xMouse" : "1245",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592574687,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "1706",
+"type" : "769",
+"xMouse" : "1259",
+"xMouseScreen" : "1550",
+"yMouse" : "111",
+"yMouseScreen" : "444"
+}
+},
+{
+"timestamp" : 1621592575393,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1515",
+"keyRepeat" : "0",
+"step" : "1750",
+"type" : "1025",
+"xMouse" : "1367",
+"xMouseScreen" : "1514",
+"yMouse" : "83",
+"yMouseScreen" : "333"
+}
+},
+{
+"timestamp" : 1621592575494,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1512",
+"keyRepeat" : "0",
+"step" : "1756",
+"type" : "1026",
+"xMouse" : "1379",
+"xMouseScreen" : "1512",
+"yMouse" : "83",
+"yMouseScreen" : "333"
+}
+},
+{
+"timestamp" : 1621592575713,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1770",
+"type" : "769",
+"xMouse" : "1388",
+"xMouseScreen" : "1437",
+"yMouse" : "82",
+"yMouseScreen" : "278"
+}
+},
+{
+"timestamp" : 1621592575781,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1420",
+"keyRepeat" : "0",
+"step" : "1774",
+"type" : "1025",
+"xMouse" : "1392",
+"xMouseScreen" : "1420",
+"yMouse" : "88",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592575867,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1419",
+"keyRepeat" : "0",
+"step" : "1780",
+"type" : "1026",
+"xMouse" : "1394",
+"xMouseScreen" : "1419",
+"yMouse" : "94",
+"yMouseScreen" : "267"
+}
+},
+{
+"timestamp" : 1621592576085,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1793",
+"type" : "1025",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576150,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1797",
+"type" : "1026",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576285,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1805",
+"type" : "1025",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576369,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1811",
+"type" : "1026",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576486,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1818",
+"type" : "1025",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576571,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1823",
+"type" : "1026",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576587,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1824",
+"type" : "768",
+"xMouse" : "1394",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576688,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1831",
+"type" : "1025",
+"xMouse" : "1397",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576706,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "1832",
+"type" : "769",
+"xMouse" : "1398",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576773,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1836",
+"type" : "1026",
+"xMouse" : "1402",
+"xMouseScreen" : "1416",
+"yMouse" : "93",
+"yMouseScreen" : "260"
+}
+},
+{
+"timestamp" : 1621592576890,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1416",
+"keyRepeat" : "0",
+"step" : "1843",
+"type" : "1025",
+"xMouse" : "1406",
+"xMouseScreen" : "1416",
+"yMouse" : "92",
+"yMouseScreen" : "259"
+}
+},
+{
+"timestamp" : 1621592576974,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1415",
+"keyRepeat" : "0",
+"step" : "1849",
+"type" : "1026",
+"xMouse" : "1405",
+"xMouseScreen" : "1415",
+"yMouse" : "92",
+"yMouseScreen" : "259"
+}
+},
+{
+"timestamp" : 1621592577025,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592577092,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1415",
+"keyRepeat" : "0",
+"step" : "1856",
+"type" : "1025",
+"xMouse" : "1405",
+"xMouseScreen" : "1415",
+"yMouse" : "92",
+"yMouseScreen" : "258"
+}
+},
+{
+"timestamp" : 1621592577176,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1414",
+"keyRepeat" : "0",
+"step" : "1861",
+"type" : "1026",
+"xMouse" : "1405",
+"xMouseScreen" : "1414",
+"yMouse" : "92",
+"yMouseScreen" : "258"
+}
+},
+{
+"timestamp" : 1621592577348,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1872",
+"type" : "768",
+"xMouse" : "1448",
+"xMouseScreen" : "1584",
+"yMouse" : "88",
+"yMouseScreen" : "242"
+}
+},
+{
+"timestamp" : 1621592577462,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1696",
+"keyRepeat" : "0",
+"step" : "1879",
+"type" : "1025",
+"xMouse" : "1476",
+"xMouseScreen" : "1696",
+"yMouse" : "87",
+"yMouseScreen" : "237"
+}
+},
+{
+"timestamp" : 1621592577479,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "1880",
+"type" : "769",
+"xMouse" : "1476",
+"xMouseScreen" : "1697",
+"yMouse" : "87",
+"yMouseScreen" : "237"
+}
+},
+{
+"timestamp" : 1621592577546,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1697",
+"keyRepeat" : "0",
+"step" : "1884",
+"type" : "1026",
+"xMouse" : "1476",
+"xMouseScreen" : "1697",
+"yMouse" : "87",
+"yMouseScreen" : "237"
+}
+},
+{
+"timestamp" : 1621592577697,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1702",
+"keyRepeat" : "0",
+"step" : "1894",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1702",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592577781,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1899",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592577932,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1704",
+"keyRepeat" : "0",
+"step" : "1908",
+"type" : "1025",
+"xMouse" : "1478",
+"xMouseScreen" : "1704",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578016,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1914",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578134,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1921",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578201,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1925",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578318,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1933",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578402,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1938",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578503,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1944",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578587,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1949",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578688,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1956",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578738,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1959",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578823,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1964",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578906,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1969",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592578958,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592578991,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1975",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592579074,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1980",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592579159,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1985",
+"type" : "1025",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592579227,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1703",
+"keyRepeat" : "0",
+"step" : "1989",
+"type" : "1026",
+"xMouse" : "1477",
+"xMouseScreen" : "1703",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592579328,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "1996",
+"type" : "768",
+"xMouse" : "1478",
+"xMouseScreen" : "1704",
+"yMouse" : "86",
+"yMouseScreen" : "233"
+}
+},
+{
+"timestamp" : 1621592579446,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "2003",
+"type" : "769",
+"xMouse" : "1478",
+"xMouseScreen" : "1704",
+"yMouse" : "86",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592580439,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2065",
+"type" : "768",
+"xMouse" : "1478",
+"xMouseScreen" : "1705",
+"yMouse" : "86",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592580757,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2085",
+"type" : "768",
+"xMouse" : "1486",
+"xMouseScreen" : "1705",
+"yMouse" : "86",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592580892,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2093",
+"type" : "769",
+"xMouse" : "1502",
+"xMouseScreen" : "1705",
+"yMouse" : "74",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592581060,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2104",
+"type" : "769",
+"xMouse" : "1523",
+"xMouseScreen" : "1705",
+"yMouse" : "58",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592581548,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2134",
+"type" : "768",
+"xMouse" : "1558",
+"xMouseScreen" : "1705",
+"yMouse" : "58",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592581683,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2143",
+"type" : "769",
+"xMouse" : "1566",
+"xMouseScreen" : "1705",
+"yMouse" : "58",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592581968,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2161",
+"type" : "768",
+"xMouse" : "1589",
+"xMouseScreen" : "1705",
+"yMouse" : "85",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592582053,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2166",
+"type" : "768",
+"xMouse" : "1590",
+"xMouseScreen" : "1705",
+"yMouse" : "86",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592582203,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2175",
+"type" : "769",
+"xMouse" : "1609",
+"xMouseScreen" : "1705",
+"yMouse" : "86",
+"yMouseScreen" : "232"
+}
+},
+{
+"timestamp" : 1621592582693,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2206",
+"type" : "768",
+"xMouse" : "1707",
+"xMouseScreen" : "1716",
+"yMouse" : "85",
+"yMouseScreen" : "231"
+}
+},
+{
+"timestamp" : 1621592582808,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2213",
+"type" : "769",
+"xMouse" : "1722",
+"xMouseScreen" : "1728",
+"yMouse" : "79",
+"yMouseScreen" : "231"
+}
+},
+{
+"timestamp" : 1621592583162,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2235",
+"type" : "769",
+"xMouse" : "1795",
+"xMouseScreen" : "1858",
+"yMouse" : "136",
+"yMouseScreen" : "547"
+}
+},
+{
+"timestamp" : 1621592583767,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2273",
+"type" : "768",
+"xMouse" : "1792",
+"xMouseScreen" : "1726",
+"yMouse" : "151",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592583868,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2279",
+"type" : "769",
+"xMouse" : "1794",
+"xMouseScreen" : "1726",
+"yMouse" : "151",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584372,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2311",
+"type" : "1025",
+"xMouse" : "1815",
+"xMouseScreen" : "1726",
+"yMouse" : "183",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584472,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2317",
+"type" : "1026",
+"xMouse" : "1816",
+"xMouseScreen" : "1726",
+"yMouse" : "195",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584573,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2323",
+"type" : "1025",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "207",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584656,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2329",
+"type" : "1026",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584741,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2334",
+"type" : "1025",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584825,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2339",
+"type" : "1026",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584909,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2344",
+"type" : "1025",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592584910,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592584976,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2349",
+"type" : "1026",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585060,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2354",
+"type" : "1025",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585145,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1726",
+"keyRepeat" : "0",
+"step" : "2359",
+"type" : "1026",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585261,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2367",
+"type" : "768",
+"xMouse" : "1817",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585766,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2398",
+"type" : "768",
+"xMouse" : "1858",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585799,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2400",
+"type" : "768",
+"xMouse" : "1861",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585833,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2402",
+"type" : "768",
+"xMouse" : "1865",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585866,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2404",
+"type" : "768",
+"xMouse" : "1869",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585900,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2406",
+"type" : "768",
+"xMouse" : "1872",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585935,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2409",
+"type" : "768",
+"xMouse" : "1878",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585967,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2411",
+"type" : "768",
+"xMouse" : "1881",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592585984,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2412",
+"type" : "768",
+"xMouse" : "1883",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592586034,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2415",
+"type" : "768",
+"xMouse" : "1889",
+"xMouseScreen" : "1727",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592586051,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2416",
+"type" : "768",
+"xMouse" : "1891",
+"xMouseScreen" : "1726",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592586085,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2418",
+"type" : "768",
+"xMouse" : "1893",
+"xMouseScreen" : "1722",
+"yMouse" : "211",
+"yMouseScreen" : "606"
+}
+},
+{
+"timestamp" : 1621592586119,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2420",
+"type" : "768",
+"xMouse" : "1895",
+"xMouseScreen" : "1713",
+"yMouse" : "212",
+"yMouseScreen" : "608"
+}
+},
+{
+"timestamp" : 1621592586153,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2422",
+"type" : "768",
+"xMouse" : "1895",
+"xMouseScreen" : "1702",
+"yMouse" : "212",
+"yMouseScreen" : "611"
+}
+},
+{
+"timestamp" : 1621592586185,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2424",
+"type" : "768",
+"xMouse" : "1897",
+"xMouseScreen" : "1692",
+"yMouse" : "213",
+"yMouseScreen" : "613"
+}
+},
+{
+"timestamp" : 1621592586219,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2426",
+"type" : "768",
+"xMouse" : "1897",
+"xMouseScreen" : "1678",
+"yMouse" : "213",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592586253,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2428",
+"type" : "768",
+"xMouse" : "1898",
+"xMouseScreen" : "1664",
+"yMouse" : "214",
+"yMouseScreen" : "616"
+}
+},
+{
+"timestamp" : 1621592586286,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2431",
+"type" : "768",
+"xMouse" : "1898",
+"xMouseScreen" : "1644",
+"yMouse" : "214",
+"yMouseScreen" : "616"
+}
+},
+{
+"timestamp" : 1621592586321,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "1",
+"step" : "2433",
+"type" : "768",
+"xMouse" : "1894",
+"xMouseScreen" : "1614",
+"yMouse" : "212",
+"yMouseScreen" : "610"
+}
+},
+{
+"timestamp" : 1621592586338,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2434",
+"type" : "769",
+"xMouse" : "1894",
+"xMouseScreen" : "1604",
+"yMouse" : "211",
+"yMouseScreen" : "605"
+}
+},
+{
+"timestamp" : 1621592586588,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2449",
+"type" : "768",
+"xMouse" : "1904",
+"xMouseScreen" : "1579",
+"yMouse" : "186",
+"yMouseScreen" : "507"
+}
+},
+{
+"timestamp" : 1621592586690,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2456",
+"type" : "769",
+"xMouse" : "1902",
+"xMouseScreen" : "1570",
+"yMouse" : "185",
+"yMouseScreen" : "526"
+}
+},
+{
+"timestamp" : 1621592586706,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2457",
+"type" : "768",
+"xMouse" : "1901",
+"xMouseScreen" : "1567",
+"yMouse" : "184",
+"yMouseScreen" : "536"
+}
+},
+{
+"timestamp" : 1621592586841,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2465",
+"type" : "769",
+"xMouse" : "1894",
+"xMouseScreen" : "1520",
+"yMouse" : "185",
+"yMouseScreen" : "640"
+}
+},
+{
+"timestamp" : 1621592586908,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1504",
+"keyRepeat" : "0",
+"step" : "2469",
+"type" : "1025",
+"xMouse" : "1895",
+"xMouseScreen" : "1504",
+"yMouse" : "184",
+"yMouseScreen" : "678"
+}
+},
+{
+"timestamp" : 1621592586992,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1464",
+"keyRepeat" : "0",
+"step" : "2475",
+"type" : "1026",
+"xMouse" : "1889",
+"xMouseScreen" : "1446",
+"yMouse" : "193",
+"yMouseScreen" : "723"
+}
+},
+{
+"timestamp" : 1621592587109,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1302",
+"keyRepeat" : "0",
+"step" : "2482",
+"type" : "1025",
+"xMouse" : "1861",
+"xMouseScreen" : "1302",
+"yMouse" : "213",
+"yMouseScreen" : "803"
+}
+},
+{
+"timestamp" : 1621592587177,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1292",
+"keyRepeat" : "0",
+"step" : "2486",
+"type" : "1026",
+"xMouse" : "1863",
+"xMouseScreen" : "1292",
+"yMouse" : "212",
+"yMouseScreen" : "799"
+}
+},
+{
+"timestamp" : 1621592587212,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "2488",
+"type" : "768",
+"xMouse" : "1860",
+"xMouseScreen" : "1275",
+"yMouse" : "211",
+"yMouseScreen" : "793"
+}
+},
+{
+"timestamp" : 1621592587280,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "2493",
+"type" : "769",
+"xMouse" : "1853",
+"xMouseScreen" : "1230",
+"yMouse" : "206",
+"yMouseScreen" : "774"
+}
+},
+{
+"timestamp" : 1621592587431,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1224",
+"keyRepeat" : "0",
+"step" : "2502",
+"type" : "1025",
+"xMouse" : "1852",
+"xMouseScreen" : "1224",
+"yMouse" : "208",
+"yMouseScreen" : "732"
+}
+},
+{
+"timestamp" : 1621592587514,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1224",
+"keyRepeat" : "0",
+"step" : "2507",
+"type" : "1026",
+"xMouse" : "1852",
+"xMouseScreen" : "1224",
+"yMouse" : "211",
+"yMouseScreen" : "732"
+}
+},
+{
+"timestamp" : 1621592587716,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1199",
+"keyRepeat" : "0",
+"step" : "2520",
+"type" : "1025",
+"xMouse" : "1844",
+"xMouseScreen" : "1195",
+"yMouse" : "214",
+"yMouseScreen" : "746"
+}
+},
+{
+"timestamp" : 1621592587784,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1176",
+"keyRepeat" : "0",
+"step" : "2524",
+"type" : "1026",
+"xMouse" : "1840",
+"xMouseScreen" : "1176",
+"yMouse" : "218",
+"yMouseScreen" : "761"
+}
+},
+{
+"timestamp" : 1621592587934,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1119",
+"keyRepeat" : "0",
+"step" : "2534",
+"type" : "1025",
+"xMouse" : "1825",
+"xMouseScreen" : "1119",
+"yMouse" : "235",
+"yMouseScreen" : "828"
+}
+},
+{
+"timestamp" : 1621592588019,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1119",
+"keyRepeat" : "0",
+"step" : "2539",
+"type" : "1026",
+"xMouse" : "1825",
+"xMouseScreen" : "1119",
+"yMouse" : "235",
+"yMouseScreen" : "828"
+}
+},
+{
+"timestamp" : 1621592588170,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1098",
+"keyRepeat" : "0",
+"step" : "2548",
+"type" : "1025",
+"xMouse" : "1820",
+"xMouseScreen" : "1098",
+"yMouse" : "240",
+"yMouseScreen" : "850"
+}
+},
+{
+"timestamp" : 1621592588237,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1098",
+"keyRepeat" : "0",
+"step" : "2552",
+"type" : "1026",
+"xMouse" : "1820",
+"xMouseScreen" : "1098",
+"yMouse" : "240",
+"yMouseScreen" : "850"
+}
+},
+{
+"timestamp" : 1621592588456,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1125",
+"keyRepeat" : "0",
+"step" : "2566",
+"type" : "1025",
+"xMouse" : "1827",
+"xMouseScreen" : "1125",
+"yMouse" : "226",
+"yMouseScreen" : "795"
+}
+},
+{
+"timestamp" : 1621592588556,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1125",
+"keyRepeat" : "0",
+"step" : "2572",
+"type" : "1026",
+"xMouse" : "1827",
+"xMouseScreen" : "1126",
+"yMouse" : "225",
+"yMouseScreen" : "791"
+}
+},
+{
+"timestamp" : 1621592588809,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1095",
+"keyRepeat" : "0",
+"step" : "2588",
+"type" : "1025",
+"xMouse" : "1819",
+"xMouseScreen" : "1095",
+"yMouse" : "238",
+"yMouseScreen" : "840"
+}
+},
+{
+"timestamp" : 1621592588892,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1094",
+"keyRepeat" : "0",
+"step" : "2593",
+"type" : "1026",
+"xMouse" : "1819",
+"xMouseScreen" : "1094",
+"yMouse" : "238",
+"yMouseScreen" : "840"
+}
+},
+{
+"timestamp" : 1621592589129,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1100",
+"keyRepeat" : "0",
+"step" : "2608",
+"type" : "1025",
+"xMouse" : "1821",
+"xMouseScreen" : "1100",
+"yMouse" : "233",
+"yMouseScreen" : "820"
+}
+},
+{
+"timestamp" : 1621592589163,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592589246,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1099",
+"keyRepeat" : "0",
+"step" : "2616",
+"type" : "1026",
+"xMouse" : "1820",
+"xMouseScreen" : "1099",
+"yMouse" : "233",
+"yMouseScreen" : "820"
+}
+},
+{
+"timestamp" : 1621592589262,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2617",
+"type" : "768",
+"xMouse" : "1821",
+"xMouseScreen" : "1100",
+"yMouse" : "233",
+"yMouseScreen" : "820"
+}
+},
+{
+"timestamp" : 1621592589346,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2622",
+"type" : "769",
+"xMouse" : "1820",
+"xMouseScreen" : "1099",
+"yMouse" : "234",
+"yMouseScreen" : "824"
+}
+},
+{
+"timestamp" : 1621592589515,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1080",
+"keyRepeat" : "0",
+"step" : "2632",
+"type" : "1025",
+"xMouse" : "1816",
+"xMouseScreen" : "1080",
+"yMouse" : "241",
+"yMouseScreen" : "854"
+}
+},
+{
+"timestamp" : 1621592589615,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1080",
+"keyRepeat" : "0",
+"step" : "2639",
+"type" : "1026",
+"xMouse" : "1816",
+"xMouseScreen" : "1080",
+"yMouse" : "241",
+"yMouseScreen" : "854"
+}
+},
+{
+"timestamp" : 1621592589766,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2648",
+"type" : "768",
+"xMouse" : "1816",
+"xMouseScreen" : "1080",
+"yMouse" : "241",
+"yMouseScreen" : "853"
+}
+},
+{
+"timestamp" : 1621592589850,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2653",
+"type" : "769",
+"xMouse" : "1817",
+"xMouseScreen" : "1080",
+"yMouse" : "241",
+"yMouseScreen" : "852"
+}
+},
+{
+"timestamp" : 1621592589952,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1072",
+"keyRepeat" : "0",
+"step" : "2660",
+"type" : "1025",
+"xMouse" : "1818",
+"xMouseScreen" : "1071",
+"yMouse" : "242",
+"yMouseScreen" : "858"
+}
+},
+{
+"timestamp" : 1621592590036,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1070",
+"keyRepeat" : "0",
+"step" : "2665",
+"type" : "1026",
+"xMouse" : "1818",
+"xMouseScreen" : "1066",
+"yMouse" : "243",
+"yMouseScreen" : "860"
+}
+},
+{
+"timestamp" : 1621592590287,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "984",
+"keyRepeat" : "0",
+"step" : "2681",
+"type" : "1025",
+"xMouse" : "1798",
+"xMouseScreen" : "984",
+"yMouse" : "245",
+"yMouseScreen" : "870"
+}
+},
+{
+"timestamp" : 1621592590304,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592590372,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "986",
+"keyRepeat" : "0",
+"step" : "2686",
+"type" : "1026",
+"xMouse" : "1798",
+"xMouseScreen" : "987",
+"yMouse" : "245",
+"yMouseScreen" : "868"
+}
+},
+{
+"timestamp" : 1621592590624,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1035",
+"keyRepeat" : "0",
+"step" : "2702",
+"type" : "1025",
+"xMouse" : "1810",
+"xMouseScreen" : "1035",
+"yMouse" : "238",
+"yMouseScreen" : "843"
+}
+},
+{
+"timestamp" : 1621592590658,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592590707,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1037",
+"keyRepeat" : "0",
+"step" : "2707",
+"type" : "1026",
+"xMouse" : "1811",
+"xMouseScreen" : "1037",
+"yMouse" : "239",
+"yMouseScreen" : "845"
+}
+},
+{
+"timestamp" : 1621592590909,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1035",
+"keyRepeat" : "0",
+"step" : "2719",
+"type" : "1025",
+"xMouse" : "1810",
+"xMouseScreen" : "1035",
+"yMouse" : "243",
+"yMouseScreen" : "860"
+}
+},
+{
+"timestamp" : 1621592591011,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1035",
+"keyRepeat" : "0",
+"step" : "2726",
+"type" : "1026",
+"xMouse" : "1810",
+"xMouseScreen" : "1035",
+"yMouse" : "243",
+"yMouseScreen" : "861"
+}
+},
+{
+"timestamp" : 1621592591011,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "2726",
+"type" : "768",
+"xMouse" : "1810",
+"xMouseScreen" : "1035",
+"yMouse" : "243",
+"yMouseScreen" : "861"
+}
+},
+{
+"timestamp" : 1621592591111,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "2732",
+"type" : "769",
+"xMouse" : "1812",
+"xMouseScreen" : "1041",
+"yMouse" : "242",
+"yMouseScreen" : "857"
+}
+},
+{
+"timestamp" : 1621592591295,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2744",
+"type" : "768",
+"xMouse" : "1825",
+"xMouseScreen" : "1094",
+"yMouse" : "237",
+"yMouseScreen" : "836"
+}
+},
+{
+"timestamp" : 1621592591447,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2753",
+"type" : "769",
+"xMouse" : "1829",
+"xMouseScreen" : "1094",
+"yMouse" : "237",
+"yMouseScreen" : "836"
+}
+},
+{
+"timestamp" : 1621592591917,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "2782",
+"type" : "768",
+"xMouse" : "1876",
+"xMouseScreen" : "1165",
+"yMouse" : "272",
+"yMouseScreen" : "812"
+}
+},
+{
+"timestamp" : 1621592592171,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2798",
+"type" : "768",
+"xMouse" : "1911",
+"xMouseScreen" : "1254",
+"yMouse" : "273",
+"yMouseScreen" : "788"
+}
+},
+{
+"timestamp" : 1621592592305,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "2807",
+"type" : "769",
+"xMouse" : "1940",
+"xMouseScreen" : "1279",
+"yMouse" : "268",
+"yMouseScreen" : "771"
+}
+},
+{
+"timestamp" : 1621592592792,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2837",
+"type" : "768",
+"xMouse" : "2064",
+"xMouseScreen" : "1392",
+"yMouse" : "241",
+"yMouseScreen" : "662"
+}
+},
+{
+"timestamp" : 1621592592927,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "2846",
+"type" : "769",
+"xMouse" : "2072",
+"xMouseScreen" : "1392",
+"yMouse" : "227",
+"yMouseScreen" : "662"
+}
+},
+{
+"timestamp" : 1621592593265,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1506",
+"keyRepeat" : "0",
+"step" : "2867",
+"type" : "1025",
+"xMouse" : "2131",
+"xMouseScreen" : "1506",
+"yMouse" : "237",
+"yMouseScreen" : "858"
+}
+},
+{
+"timestamp" : 1621592593364,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1506",
+"keyRepeat" : "0",
+"step" : "2873",
+"type" : "1026",
+"xMouse" : "2142",
+"xMouseScreen" : "1506",
+"yMouse" : "237",
+"yMouseScreen" : "858"
+}
+},
+{
+"timestamp" : 1621592593649,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1497",
+"keyRepeat" : "0",
+"step" : "2891",
+"type" : "1025",
+"xMouse" : "2175",
+"xMouseScreen" : "1497",
+"yMouse" : "252",
+"yMouseScreen" : "858"
+}
+},
+{
+"timestamp" : 1621592593734,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1494",
+"keyRepeat" : "0",
+"step" : "2896",
+"type" : "1026",
+"xMouse" : "2179",
+"xMouseScreen" : "1493",
+"yMouse" : "258",
+"yMouseScreen" : "856"
+}
+},
+{
+"timestamp" : 1621592594002,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1430",
+"keyRepeat" : "0",
+"step" : "2913",
+"type" : "1025",
+"xMouse" : "2193",
+"xMouseScreen" : "1430",
+"yMouse" : "239",
+"yMouseScreen" : "736"
+}
+},
+{
+"timestamp" : 1621592594069,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1429",
+"keyRepeat" : "0",
+"step" : "2917",
+"type" : "1026",
+"xMouse" : "2200",
+"xMouseScreen" : "1429",
+"yMouse" : "247",
+"yMouseScreen" : "736"
+}
+},
+{
+"timestamp" : 1621592594321,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1410",
+"keyRepeat" : "0",
+"step" : "2933",
+"type" : "1025",
+"xMouse" : "2222",
+"xMouseScreen" : "1410",
+"yMouse" : "265",
+"yMouseScreen" : "696"
+}
+},
+{
+"timestamp" : 1621592594405,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1411",
+"keyRepeat" : "0",
+"step" : "2938",
+"type" : "1026",
+"xMouse" : "2228",
+"xMouseScreen" : "1411",
+"yMouse" : "265",
+"yMouseScreen" : "695"
+}
+},
+{
+"timestamp" : 1621592594641,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "1",
+"key" : "1411",
+"keyRepeat" : "0",
+"step" : "2953",
+"type" : "1025",
+"xMouse" : "2256",
+"xMouseScreen" : "1411",
+"yMouse" : "265",
+"yMouseScreen" : "695"
+}
+},
+{
+"timestamp" : 1621592594658,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592594742,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "3",
+"buttonState" : "0",
+"key" : "1411",
+"keyRepeat" : "0",
+"step" : "2959",
+"type" : "1026",
+"xMouse" : "2266",
+"xMouseScreen" : "1411",
+"yMouse" : "265",
+"yMouseScreen" : "695"
+}
+},
+{
+"timestamp" : 1621592595567,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3011",
+"type" : "769",
+"xMouse" : "2342",
+"xMouseScreen" : "1478",
+"yMouse" : "156",
+"yMouseScreen" : "258"
+}
+},
+{
+"timestamp" : 1621592595669,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1478",
+"keyRepeat" : "0",
+"step" : "3017",
+"type" : "1025",
+"xMouse" : "2351",
+"xMouseScreen" : "1478",
+"yMouse" : "153",
+"yMouseScreen" : "246"
+}
+},
+{
+"timestamp" : 1621592595769,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1478",
+"keyRepeat" : "0",
+"step" : "3023",
+"type" : "1026",
+"xMouse" : "2357",
+"xMouseScreen" : "1478",
+"yMouse" : "153",
+"yMouseScreen" : "246"
+}
+},
+{
+"timestamp" : 1621592596055,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1554",
+"keyRepeat" : "0",
+"step" : "3041",
+"type" : "1025",
+"xMouse" : "2377",
+"xMouseScreen" : "1554",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592596156,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1554",
+"keyRepeat" : "0",
+"step" : "3047",
+"type" : "1026",
+"xMouse" : "2377",
+"xMouseScreen" : "1554",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592596239,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "3053",
+"type" : "768",
+"xMouse" : "2377",
+"xMouseScreen" : "1554",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592596526,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1561",
+"keyRepeat" : "0",
+"step" : "3070",
+"type" : "1025",
+"xMouse" : "2379",
+"xMouseScreen" : "1563",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592596576,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "3074",
+"type" : "769",
+"xMouse" : "2380",
+"xMouseScreen" : "1567",
+"yMouse" : "159",
+"yMouseScreen" : "271"
+}
+},
+{
+"timestamp" : 1621592596609,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1567",
+"keyRepeat" : "0",
+"step" : "3076",
+"type" : "1026",
+"xMouse" : "2376",
+"xMouseScreen" : "1567",
+"yMouse" : "159",
+"yMouseScreen" : "271"
+}
+},
+{
+"timestamp" : 1621592596828,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1570",
+"keyRepeat" : "0",
+"step" : "3089",
+"type" : "1025",
+"xMouse" : "2369",
+"xMouseScreen" : "1571",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592596929,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1572",
+"keyRepeat" : "0",
+"step" : "3096",
+"type" : "1026",
+"xMouse" : "2370",
+"xMouseScreen" : "1572",
+"yMouse" : "159",
+"yMouseScreen" : "270"
+}
+},
+{
+"timestamp" : 1621592597097,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1581",
+"keyRepeat" : "0",
+"step" : "3106",
+"type" : "1025",
+"xMouse" : "2372",
+"xMouseScreen" : "1581",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592597181,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1581",
+"keyRepeat" : "0",
+"step" : "3111",
+"type" : "1026",
+"xMouse" : "2372",
+"xMouseScreen" : "1581",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592597298,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "3119",
+"type" : "768",
+"xMouse" : "2372",
+"xMouseScreen" : "1582",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592597298,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1582",
+"keyRepeat" : "0",
+"step" : "3119",
+"type" : "1025",
+"xMouse" : "2372",
+"xMouseScreen" : "1582",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592597333,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "coin"
+}
+},
+{
+"timestamp" : 1621592597399,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1582",
+"keyRepeat" : "0",
+"step" : "3125",
+"type" : "1026",
+"xMouse" : "2370",
+"xMouseScreen" : "1582",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592597466,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1582",
+"keyRepeat" : "0",
+"step" : "3129",
+"type" : "1025",
+"xMouse" : "2366",
+"xMouseScreen" : "1582",
+"yMouse" : "159",
+"yMouseScreen" : "269"
+}
+},
+{
+"timestamp" : 1621592597551,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1582",
+"keyRepeat" : "0",
+"step" : "3135",
+"type" : "1026",
+"xMouse" : "2356",
+"xMouseScreen" : "1582",
+"yMouse" : "159",
+"yMouseScreen" : "268"
+}
+},
+{
+"timestamp" : 1621592597701,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "3144",
+"type" : "768",
+"xMouse" : "2346",
+"xMouseScreen" : "1615",
+"yMouse" : "163",
+"yMouseScreen" : "284"
+}
+},
+{
+"timestamp" : 1621592597835,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "21",
+"buttonState" : "0",
+"key" : "114",
+"keyRepeat" : "0",
+"step" : "3152",
+"type" : "769",
+"xMouse" : "2332",
+"xMouseScreen" : "1615",
+"yMouse" : "163",
+"yMouseScreen" : "285"
+}
+},
+{
+"timestamp" : 1621592598222,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3177",
+"type" : "768",
+"xMouse" : "2286",
+"xMouseScreen" : "1614",
+"yMouse" : "164",
+"yMouseScreen" : "291"
+}
+},
+{
+"timestamp" : 1621592598390,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3187",
+"type" : "769",
+"xMouse" : "2268",
+"xMouseScreen" : "1614",
+"yMouse" : "164",
+"yMouseScreen" : "291"
+}
+},
+{
+"timestamp" : 1621592598558,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3198",
+"type" : "768",
+"xMouse" : "2248",
+"xMouseScreen" : "1614",
+"yMouse" : "164",
+"yMouseScreen" : "291"
+}
+},
+{
+"timestamp" : 1621592598742,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3209",
+"type" : "769",
+"xMouse" : "2244",
+"xMouseScreen" : "1614",
+"yMouse" : "142",
+"yMouseScreen" : "291"
+}
+},
+{
+"timestamp" : 1621592599012,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "4",
+"buttonState" : "0",
+"key" : "97",
+"keyRepeat" : "0",
+"step" : "3226",
+"type" : "769",
+"xMouse" : "2214",
+"xMouseScreen" : "1614",
+"yMouse" : "108",
+"yMouseScreen" : "292"
+}
+},
+{
+"timestamp" : 1621592599197,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3237",
+"type" : "768",
+"xMouse" : "2220",
+"xMouseScreen" : "1702",
+"yMouse" : "116",
+"yMouseScreen" : "327"
+}
+},
+{
+"timestamp" : 1621592599297,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3244",
+"type" : "768",
+"xMouse" : "2223",
+"xMouseScreen" : "1730",
+"yMouse" : "119",
+"yMouseScreen" : "337"
+}
+},
+{
+"timestamp" : 1621592599482,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3255",
+"type" : "769",
+"xMouse" : "2223",
+"xMouseScreen" : "1731",
+"yMouse" : "129",
+"yMouseScreen" : "481"
+}
+},
+{
+"timestamp" : 1621592600070,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3292",
+"type" : "769",
+"xMouse" : "2262",
+"xMouseScreen" : "1640",
+"yMouse" : "152",
+"yMouseScreen" : "608"
+}
+},
+{
+"timestamp" : 1621592600154,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1590",
+"keyRepeat" : "0",
+"step" : "3297",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1590",
+"yMouse" : "156",
+"yMouseScreen" : "624"
+}
+},
+{
+"timestamp" : 1621592600238,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1589",
+"keyRepeat" : "0",
+"step" : "3303",
+"type" : "1026",
+"xMouse" : "2256",
+"xMouseScreen" : "1589",
+"yMouse" : "156",
+"yMouseScreen" : "624"
+}
+},
+{
+"timestamp" : 1621592600440,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1585",
+"keyRepeat" : "0",
+"step" : "3315",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1585",
+"yMouse" : "156",
+"yMouseScreen" : "627"
+}
+},
+{
+"timestamp" : 1621592600523,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1585",
+"keyRepeat" : "0",
+"step" : "3320",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "156",
+"yMouseScreen" : "627"
+}
+},
+{
+"timestamp" : 1621592600641,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3328",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "154",
+"yMouseScreen" : "617"
+}
+},
+{
+"timestamp" : 1621592600708,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3332",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "154",
+"yMouseScreen" : "616"
+}
+},
+{
+"timestamp" : 1621592600811,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3338",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592600876,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3342",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592600976,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3349",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601044,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3353",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601128,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3358",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601216,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3363",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601249,
+"event_id" : "drop",
+"info" : "",
+"attributes" : {
+"type" : "ammo"
+}
+},
+{
+"timestamp" : 1621592601282,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3368",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601366,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3373",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601451,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "1",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3378",
+"type" : "1025",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601518,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "1584",
+"keyRepeat" : "0",
+"step" : "3383",
+"type" : "1026",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601534,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3384",
+"type" : "768",
+"xMouse" : "2255",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601619,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3389",
+"type" : "768",
+"xMouse" : "2256",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592601769,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "44",
+"buttonState" : "0",
+"key" : "32",
+"keyRepeat" : "0",
+"step" : "3398",
+"type" : "769",
+"xMouse" : "2266",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592602832,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "3465",
+"type" : "768",
+"xMouse" : "2386",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592603069,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "225",
+"buttonState" : "0",
+"key" : "1073742049",
+"keyRepeat" : "0",
+"step" : "3479",
+"type" : "769",
+"xMouse" : "2428",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592603792,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "7",
+"buttonState" : "0",
+"key" : "100",
+"keyRepeat" : "0",
+"step" : "3525",
+"type" : "769",
+"xMouse" : "2539",
+"xMouseScreen" : "1584",
+"yMouse" : "153",
+"yMouseScreen" : "615"
+}
+},
+{
+"timestamp" : 1621592604633,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "41",
+"buttonState" : "0",
+"key" : "27",
+"keyRepeat" : "0",
+"step" : "3577",
+"type" : "768",
+"xMouse" : "2553",
+"xMouseScreen" : "1578",
+"yMouse" : "154",
+"yMouseScreen" : "618"
+}
+},
+{
+"timestamp" : 1621592605659,
+"event_id" : "application_ends",
+"info" : "Anyaroth",
+"attributes" : {}
+}
+]

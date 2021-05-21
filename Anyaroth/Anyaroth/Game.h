@@ -64,6 +64,7 @@ private:
 	map <string, Dialogue> _dialogues;
 
 	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>> _inputEvents;
+	queue<string> _drops;
 	
 	SDL_GameController* _joystick = nullptr;
 	bool _joystickAttached;//Indica si hay algun mando conectado se este usando o no
@@ -130,4 +131,6 @@ public:
 	inline double getSensitivity() const { return _controllerSensitivity; }
 
 	void toggleFullscreen();
+
+	string getDrop();
 };

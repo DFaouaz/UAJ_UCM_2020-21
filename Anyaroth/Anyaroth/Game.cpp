@@ -49,6 +49,8 @@ void Game::readEvents()
 			}
 			else if (jFile[i]["event_id"] == "seed")
 				_botSeed = stoi(jFile[i]["attributes"]["seed"].get<string>());
+			else if (jFile[i]["event_id"] == "drop")
+				_drops.push(jFile[i]["attributes"]["type"].get<string>());
 
 		}
 	}
@@ -204,6 +206,13 @@ void Game::toggleFullscreen()
 	SDL_SetWindowFullscreen(_window, IsFullscreen ? 0 : FullscreenFlag);
 }
 
+string Game::getDrop()
+{
+	string drop = _drops.front();
+	_drops.pop();
+	return drop;
+}
+
 Game::Game()
 {
 	// Replay settings
@@ -215,7 +224,7 @@ Game::Game()
 
 	// If replaying, use stored bot seed
 	time_t seed = _replaySettings.replaying ? _botSeed : time(NULL);
-	srand(seed);//random seed
+	srand(1);//random seed
 
 	Tracker::TrackEvent("seed", std::map<std::string, std::string>(
 		{

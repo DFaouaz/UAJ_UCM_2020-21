@@ -6,6 +6,7 @@
 #include "AmmoPackage.h"
 #include "AidKit.h"
 #include "GameManager.h"
+#include "Tracker.h"
 
 Enemy::Enemy(Game* g, Player* player, Vector2D pos, Texture* texture, string death, string hit, string meleeHit) : GameObject(g, "Enemy"), _player(player), _deathSound(death), _hitSound(hit), _meleeHit(meleeHit)
 {
@@ -90,27 +91,58 @@ void Enemy::die()
 
 	_game->getSoundManager()->playSFX(_deathSound);
 
-	if (GameManager::getInstance()->getCurrentLevel() != LevelManager::Level::Tutorial)
-	{
-
-	}
 }
 
 void Enemy::drop()
 {
+
+	if (_game->getReplaySettings().replaying)
+	{
+		string drop = _game->getDrop();
+
+		if (drop == "coin")
+			addChild(new Coin(_game, Vector2D(_body->getBody()->GetPosition().x * M_TO_PIXEL, _body->getBody()->GetPosition().y * M_TO_PIXEL), _coinValue));
+		else if (drop == "ammo")
+			addChild(new AmmoPackage(_game, Vector2D(_body->getBody()->GetPosition().x * M_TO_PIXEL, _body->getBody()->GetPosition().y * M_TO_PIXEL), 1));
+		else
+			addChild(new AidKit(_game, Vector2D(_body->getBody()->GetPosition().x * M_TO_PIXEL, _body->getBody()->GetPosition().y * M_TO_PIXEL), _player->getMaxLife() / 4));
+		return;
+	}
 	int rnd = _game->random(0, 100);
+
+
+
 
 	if (rnd < 50 && _dropMelee)
 	{
 		addChild(new AidKit(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), _player->getMaxLife() / 4));
+
+		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+			{
+				{ "type", "aidKit" }
+
+			})
+		);
 	}
 	else if (rnd < 15)
 	{
 		addChild(new AmmoPackage(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), 1));
+		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+			{
+				{ "type", "ammo" }
+
+			})
+		);
 	}
 	else if (rnd > 15 && GameManager::getInstance()->getCurrentLevel() != LevelManager::Boss3)
 	{
 		addChild(new Coin(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), _coinValue));
+		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+			{
+				{ "type", "coin" }
+
+			})
+		);
 	}
 }
 
