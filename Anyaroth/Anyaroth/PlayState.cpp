@@ -80,16 +80,11 @@ bool PlayState::handleEvent(const SDL_Event& event)
 		
 		int xMouse = -1;
 		int yMouse = -1;
-		int xMouseScreen = -1;
-		int yMouseScreen = -1;
 
 
 		Vector2D pos = getMousePositionInWorld();
 		xMouse = pos.getX();
 		yMouse = pos.getY();
-		Vector2D posScreen = getMousePositionOnScreen();
-		xMouseScreen = posScreen.getX();
-		yMouseScreen = posScreen.getY();
 		
 
 		if (_gameptr->getReplaySettings().recording)
@@ -103,9 +98,7 @@ bool PlayState::handleEvent(const SDL_Event& event)
 					{ "button", to_string(event.button.button) },
 					{ "buttonState", to_string(event.button.state) },
 					{ "xMouse", to_string(xMouse) },
-					{ "yMouse", to_string(yMouse) },
-					{ "xMouseScreen", to_string(xMouseScreen) },
-					{ "yMouseScreen", to_string(yMouseScreen) }
+					{ "yMouse", to_string(yMouse) }
 
 				})
 			);
@@ -135,7 +128,6 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 		if (evento.second.mouse.x != -1 && evento.second.mouse.y != -1)
 		{
 			setMousePositionInWorldBot(Vector2D(evento.second.mouse.x, evento.second.mouse.y));
-			setMousePositionOnScreenBot(Vector2D(evento.second.mouseScreen.x, evento.second.mouseScreen.y));
 		}
 
 		GameState::handleEvent(evento.second.event);
@@ -279,4 +271,42 @@ void PlayState::update(double deltaTime)
 		}
 	}
 	_step++;
+	if (_step % 5 == 0)
+	{
+		if (_gameptr->getReplaySettings().recording)
+		{
+			Vector2D posScreen = getMousePositionOnScreen();
+			int xMouseScreen = posScreen.getX();
+			int yMouseScreen = posScreen.getY();
+			Tracker::TrackEvent("posScreen", std::map<std::string, std::string>(
+				{
+					{ "xMouseScreen", to_string(xMouseScreen) },
+					{ "yMouseScreen", to_string(yMouseScreen) }
+
+				})
+			);
+		}
+		else
+		{
+			pair<int, int> mousepos = _gameptr->getMousePos();
+			setMousePositionOnScreenBot(Vector2D(mousepos.first, mousepos.second));
+		}
+	}
+	if (_step % 100 == 0)
+	{
+		if (_gameptr->getReplaySettings().replaying)
+		{
+			pair<int, int> playpos = _gameptr->getPlayerPos();
+			_player->getComponent<BodyComponent>()->getBody()->SetTransform(b2Vec2(playpos.first, playpos.second), _player->getComponent<BodyComponent>()->getBody()->GetAngle());
+		}
+		else
+			Tracker::TrackEvent("playerPos", std::map<std::string, std::string>(
+				{
+					{ "x", to_string(_player->getComponent<BodyComponent>()->getBody()->GetPosition().x) },
+					{ "y", to_string(_player->getComponent<BodyComponent>()->getBody()->GetPosition().y) }
+				
+				}));
+	}
+
+
 }

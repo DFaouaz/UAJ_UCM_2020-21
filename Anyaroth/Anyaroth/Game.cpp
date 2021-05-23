@@ -38,11 +38,7 @@ void Game::readEvents()
 				int y = stoi(attributes["yMouse"].get<string>());
 				Mouse m(x, y);
 
-				int xS = stoi(attributes["xMouseScreen"].get<string>());
-				int yS = stoi(attributes["yMouseScreen"].get<string>());
-				Mouse mS(xS, yS);
-
-				InputEvent input(e, m, mS);
+				InputEvent input(e, m);
 
 				int step = stoi(attributes["step"].get<string>());
 				_inputEvents.push(make_pair(step, input));
@@ -51,6 +47,14 @@ void Game::readEvents()
 				_botSeed = stoi(jFile[i]["attributes"]["seed"].get<string>());
 			else if (jFile[i]["event_id"] == "drop")
 				_drops.push(jFile[i]["attributes"]["type"].get<string>());
+			else if (jFile[i]["event_id"] == "playerPos")
+			{
+				_playerPos.push(make_pair(stoi(jFile[i]["attributes"]["x"].get<string>()), stoi(jFile[i]["attributes"]["y"].get<string>())));
+			}
+			else if (jFile[i]["event_id"] == "posScreen")
+			{
+				_mousePos.push(make_pair(stoi(jFile[i]["attributes"]["xMouseScreen"].get<string>()), stoi(jFile[i]["attributes"]["yMouseScreen"].get<string>())));
+			}
 
 		}
 	}
@@ -211,6 +215,20 @@ string Game::getDrop()
 	string drop = _drops.front();
 	_drops.pop();
 	return drop;
+}
+
+pair<int, int> Game::getPlayerPos()
+{
+	pair<int, int> playpos = _playerPos.front();
+	_playerPos.pop();
+	return playpos;
+}
+
+pair<int, int> Game::getMousePos()
+{
+	pair<int, int> mousepos = _mousePos.front();
+	_mousePos.pop();
+	return mousepos;
 }
 
 Game::Game()

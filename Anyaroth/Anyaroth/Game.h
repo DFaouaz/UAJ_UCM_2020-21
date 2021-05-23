@@ -65,6 +65,8 @@ private:
 
 	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>> _inputEvents;
 	queue<string> _drops;
+	queue<pair<int,int>> _playerPos;
+	queue<pair<int, int>> _mousePos;
 	
 	SDL_GameController* _joystick = nullptr;
 	bool _joystickAttached;//Indica si hay algun mando conectado se este usando o no
@@ -133,4 +135,6 @@ public:
 	void toggleFullscreen();
 
 	string getDrop();
+	pair<int, int> getPlayerPos();
+	pair<int, int> getMousePos();
 };

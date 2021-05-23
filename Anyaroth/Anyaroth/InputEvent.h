@@ -10,8 +10,7 @@ struct InputEvent
 {
 	SDL_Event event;
 	Mouse mouse;
-	Mouse mouseScreen;
-	InputEvent(SDL_Event e, Mouse m, Mouse mS) : event(e), mouse(m), mouseScreen(mS){}
+	InputEvent(SDL_Event e, Mouse m) : event(e), mouse(m){}
 
 	inline bool operator<(InputEvent const& a) const
 	{
