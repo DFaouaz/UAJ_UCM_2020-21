@@ -292,7 +292,7 @@ void PlayState::update(double deltaTime)
 			setMousePositionOnScreenBot(Vector2D(mousepos.first, mousepos.second));
 		}
 	}
-	if (_step % 100 == 0)
+	if (_step % 40 == 0)
 	{
 		if (_gameptr->getReplaySettings().replaying)
 		{
@@ -311,11 +311,15 @@ void PlayState::update(double deltaTime)
 	if (!_gameptr->getReplaySettings().recording)
 	{
 		auto enemiesDeath = _gameptr->getEnemiesDeath();
-		pair<int, EnemyDeathEvent> info = enemiesDeath.top();
-		if (_step >= info.first)
+		auto& enemiesDeath = _gameptr->getEnemiesDeath();
+		if (!enemiesDeath.empty())
 		{
-			enemiesDeath.pop();
-			static_cast<Map*>(getObjects().front()->getChildren().front())->killEnemy(info.second);
+			pair<int, EnemyDeathEvent> info = enemiesDeath.top();
+			if (_step >= info.first)
+			{
+				enemiesDeath.pop();
+				static_cast<Map*>(getObjects().front()->getChildren().front())->killEnemy(info.second);
+			}
 		}
 	}
 }
