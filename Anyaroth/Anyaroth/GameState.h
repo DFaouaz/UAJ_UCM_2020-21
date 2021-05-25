@@ -78,6 +78,8 @@ public:
 	inline virtual CutScene* getCutScene() const { return _cutScene; }
 	inline virtual void setCanvas(Canvas* canvas) { _canvas = canvas; }
 
+	inline virtual int getStep() { return -1; };
+
 	virtual void addCutScene(CutScene* cutScene);
 
 	Vector2D getMousePositionInWorld() const;

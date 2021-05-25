@@ -32,6 +32,9 @@ protected:
 
 	string _deathSound = "", _hitSound = "", _meleeHit = "";
 
+	// Indice en el vector de objetos
+	int _id = -1;
+
 public:
 	Enemy(Game* g, Player* player, Vector2D pos, Texture* texture, string death = "", string hit = "", string meleeHit = "");
 	virtual ~Enemy() {}
@@ -49,6 +52,8 @@ public:
 
 	inline bool isStunned() { return _stunned; }
 	inline void setStunned(bool value) { _stunned = value; }
+
+	virtual inline void setEnemyId(int id) { _id = id; }
 
 	bool inCamera();
 };

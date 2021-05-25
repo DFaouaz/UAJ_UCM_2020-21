@@ -27,6 +27,8 @@ public:
 	virtual bool handleEvent(const SDL_Event& event);
 	virtual bool handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>>& events);
 
+	inline virtual int getStep() { return _step; }
+
 	void saveGame();
 	void loadGame();
 };
