@@ -1027,11 +1027,11 @@
     <ClInclude Include="Trigger.h">
       <Filter>Archivos de encabezado\Objects\Interactables</Filter>
     </ClInclude>
-    <ClInclude Include="InputEvent.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="ReplaySettings.h">
       <Filter>Archivos de encabezado\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -308,6 +308,26 @@ void Map::restartLevel()
 	}
 }
 
+void Map::killEnemy(EnemyDeathEvent info)
+{
+	int i = 0;
+	for (auto object : _objects->getChildren())
+	{
+		if (i == info.id)
+		{
+			Enemy* enemy = static_cast<Enemy*>(object);
+			if (!enemy->isDead())
+			{
+				enemy->getComponent<BodyComponent>()->getBody()->SetTransform(b2Vec2(info.x, info.y), 
+											enemy->getComponent<BodyComponent>()->getBody()->GetAngle());
+				enemy->die();
+			}
+			break;
+		}
+		i++;
+	}
+}
+
 bool Map::handleEvent(const SDL_Event & event)
 {
 	return GameObject::handleEvent(event);

@@ -1,0 +1,22 @@
+[
+{
+"timestamp" : 1621957554799,
+"event_id" : "application_start",
+"info" : "Anyaroth",
+"attributes" : {}
+},
+{
+"timestamp" : 1621957554800,
+"event_id" : "seed",
+"info" : "",
+"attributes" : {
+"seed" : "1621957554"
+}
+},
+{
+"timestamp" : 1621957569497,
+"event_id" : "application_ends",
+"info" : "Anyaroth",
+"attributes" : {}
+}
+]

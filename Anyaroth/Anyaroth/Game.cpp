@@ -55,6 +55,19 @@ void Game::readEvents()
 			{
 				_mousePos.push(make_pair(stoi(jFile[i]["attributes"]["xMouseScreen"].get<string>()), stoi(jFile[i]["attributes"]["yMouseScreen"].get<string>())));
 			}
+			else if (jFile[i]["event_id"] == "enemyDeath")
+			{
+				json attributes = jFile[i]["attributes"];
+
+				int id = stoi(attributes["id"].get<string>());
+				int x = stoi(attributes["x"].get<string>());
+				int y = stoi(attributes["y"].get<string>());
+
+				EnemyDeathEvent enemy(id, x, y);
+
+				int step = stoi(attributes["step"].get<string>());
+				_enemiesDeathEvents.push(make_pair(step, enemy));
+			}
 
 		}
 	}
@@ -229,6 +242,11 @@ pair<int, int> Game::getMousePos()
 	pair<int, int> mousepos = _mousePos.front();
 	_mousePos.pop();
 	return mousepos;
+}
+
+priority_queue<pair<int, EnemyDeathEvent>, vector<pair<int, EnemyDeathEvent>>, greater<pair<int, EnemyDeathEvent>>>& Game::getEnemiesDeath()
+{
+	return _enemiesDeathEvents;
 }
 
 Game::Game()

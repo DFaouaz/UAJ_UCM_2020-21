@@ -9,7 +9,7 @@
 #include "PauseStateHUD.h"
 #include "DebugDraw.h"
 #include "CollisionManager.h"
-#include <Anyaroth/InputEvent.h>
+#include <Anyaroth/Events.h>
 
 class Game;
 class CutScene;

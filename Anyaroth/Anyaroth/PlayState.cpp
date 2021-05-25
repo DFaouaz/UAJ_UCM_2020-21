@@ -308,5 +308,14 @@ void PlayState::update(double deltaTime)
 				}));
 	}
 
-
+	if (!_gameptr->getReplaySettings().recording)
+	{
+		auto enemiesDeath = _gameptr->getEnemiesDeath();
+		pair<int, EnemyDeathEvent> info = enemiesDeath.top();
+		if (_step >= info.first)
+		{
+			enemiesDeath.pop();
+			static_cast<Map*>(getObjects().front()->getChildren().front())->killEnemy(info.second);
+		}
+	}
 }

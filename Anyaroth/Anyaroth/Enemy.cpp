@@ -91,15 +91,18 @@ void Enemy::die()
 
 	_game->getSoundManager()->playSFX(_deathSound);
 
-	// Guarda la informacion de la muerte del enemigo para su posible replicacion
-	Tracker::TrackEvent("enemyDeath", std::map<std::string, std::string>(
-		{
-			{ "step", to_string(_game->getCurrentState()->getStep())},
-			{ "id", to_string(_id)},
-			{ "x", to_string(_body->getBody()->GetPosition().x) },
-			{ "y", to_string(_body->getBody()->GetPosition().y) }
+	if (_game->getReplaySettings().recording)
+	{
+		// Guarda la informacion de la muerte del enemigo para su posible replicacion
+		Tracker::TrackEvent("enemyDeath", std::map<std::string, std::string>(
+			{
+				{ "step", to_string(_game->getCurrentState()->getStep())},
+				{ "id", to_string(_id)},
+				{ "x", to_string(_body->getBody()->GetPosition().x) },
+				{ "y", to_string(_body->getBody()->GetPosition().y) }
 
-		}));
+			}));
+	}
 }
 
 void Enemy::drop()

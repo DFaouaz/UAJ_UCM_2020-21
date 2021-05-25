@@ -363,7 +363,7 @@
     <ClInclude Include="AnimatedSpriteComponent.h" />
     <ClInclude Include="Arm.h" />
     <ClInclude Include="GoodCredits.h" />
-    <ClInclude Include="InputEvent.h" />
+    <ClInclude Include="Events.h" />
     <ClInclude Include="Knife.h" />
     <ClInclude Include="PlayMusicEvent.h" />
     <ClInclude Include="PlaySoundEvent.h" />

@@ -1,0 +1,31 @@
+[
+{
+"timestamp" : 1621957653349,
+"event_id" : "application_start",
+"info" : "Anyaroth",
+"attributes" : {}
+},
+{
+"timestamp" : 1621957653350,
+"event_id" : "seed",
+"info" : "",
+"attributes" : {
+"seed" : "1621957653"
+}
+},
+{
+"timestamp" : 1621957656316,
+"event_id" : "input",
+"info" : "",
+"attributes" : {
+"button" : "1",
+"buttonState" : "0",
+"key" : "681",
+"keyRepeat" : "0",
+"step" : "0",
+"type" : "1026",
+"xMouse" : "163",
+"yMouse" : "189"
+}
+}
+]

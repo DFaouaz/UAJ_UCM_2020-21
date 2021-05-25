@@ -5,6 +5,7 @@
 #include "BulletPool.h"
 #include "PlayStateHUD.h"
 #include <vector>
+#include <Anyaroth/Events.h>
 
 class Player;
 
@@ -26,6 +27,8 @@ public:
 
 	void createObjects();
 	void restartLevel();
+
+	void killEnemy(EnemyDeathEvent info);
 
 	virtual bool handleEvent(const SDL_Event& event);
 	virtual void update(double deltaTime);

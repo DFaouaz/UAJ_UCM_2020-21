@@ -11,7 +11,7 @@
 #include "DialoguePanel.h"
 #include "SoundManager.h"
 
-#include <Anyaroth/InputEvent.h>
+#include <Anyaroth/Events.h>
 #include "ReplaySettings.h"
 
 // Resolución interna del juego
@@ -64,6 +64,7 @@ private:
 	map <string, Dialogue> _dialogues;
 
 	priority_queue<pair<int, InputEvent>, vector<pair<int, InputEvent>>, greater<pair<int, InputEvent>>> _inputEvents;
+	priority_queue<pair<int, EnemyDeathEvent>, vector<pair<int, EnemyDeathEvent>>, greater<pair<int, EnemyDeathEvent>>> _enemiesDeathEvents;
 	queue<string> _drops;
 	queue<pair<int,int>> _playerPos;
 	queue<pair<int, int>> _mousePos;
@@ -137,4 +138,5 @@ public:
 	string getDrop();
 	pair<int, int> getPlayerPos();
 	pair<int, int> getMousePos();
+	priority_queue<pair<int, EnemyDeathEvent>, vector<pair<int, EnemyDeathEvent>>, greater<pair<int, EnemyDeathEvent>>>& getEnemiesDeath();
 };
