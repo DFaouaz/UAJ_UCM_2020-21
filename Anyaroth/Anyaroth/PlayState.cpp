@@ -77,13 +77,6 @@ bool PlayState::handleEvent(const SDL_Event& event)
 	GameState::handleEvent(event);
 	if (event.type == SDL_KEYDOWN || event.type == SDL_MOUSEBUTTONDOWN || event.type == SDL_KEYUP || event.type == SDL_MOUSEBUTTONUP)
 	{
-		
-		int xMouse = -1;
-		int yMouse = -1;
-
-
-
-
 		Vector2D posScreen = getMousePositionOnScreen();
 		int xMouseScreen = posScreen.getX();
 		int yMouseScreen = posScreen.getY();
