@@ -84,7 +84,7 @@ private:
 	ReplaySettings _replaySettings;
 
 public:
-	Game();
+	Game(ReplaySettings& replaySettings);
 	~Game();
 
 	void run();

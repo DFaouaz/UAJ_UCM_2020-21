@@ -310,7 +310,6 @@ void PlayState::update(double deltaTime)
 
 	if (!_gameptr->getReplaySettings().recording)
 	{
-		auto enemiesDeath = _gameptr->getEnemiesDeath();
 		auto& enemiesDeath = _gameptr->getEnemiesDeath();
 		if (!enemiesDeath.empty())
 		{

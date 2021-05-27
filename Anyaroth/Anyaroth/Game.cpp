@@ -249,10 +249,10 @@ priority_queue<pair<int, EnemyDeathEvent>, vector<pair<int, EnemyDeathEvent>>, g
 	return _enemiesDeathEvents;
 }
 
-Game::Game()
+Game::Game(ReplaySettings& replaySettings)
 {
 	// Replay settings
-	_replaySettings = ReplaySettings::FromFile("./replay_config.cfg");
+	_replaySettings = replaySettings;
 
 	//---Read events if replaying
 	if(_replaySettings.replaying)	
@@ -262,11 +262,15 @@ Game::Game()
 	time_t seed = _replaySettings.replaying ? _botSeed : time(NULL);
 	srand(1);//random seed
 
-	Tracker::TrackEvent("seed", std::map<std::string, std::string>(
-		{
-			{ "seed", to_string(seed) }
-		})
-	);
+
+	if (!getReplaySettings().replaying)
+	{
+		Tracker::TrackEvent("seed", std::map<std::string, std::string>(
+			{
+				{ "seed", to_string(seed) }
+			})
+		);
+	}
 
 	SDL_Init(SDL_INIT_TIMER | SDL_INIT_AUDIO | SDL_INIT_VIDEO | SDL_INIT_EVENTS| SDL_INIT_GAMECONTROLLER);
 	TTF_Init(); //Ventana del tamaño de la pantalla de cada dispositivo

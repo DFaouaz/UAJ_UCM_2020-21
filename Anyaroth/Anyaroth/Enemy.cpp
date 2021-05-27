@@ -129,32 +129,43 @@ void Enemy::drop()
 	{
 		addChild(new AidKit(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), _player->getMaxLife() / 4));
 
-		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
-			{
-				{ "type", "aidKit" }
+		if (!_game->getReplaySettings().replaying)
+		{
+			Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+				{
+					{ "type", "aidKit" }
 
-			})
-		);
+				})
+			);
+		}
 	}
 	else if (rnd < 15)
 	{
 		addChild(new AmmoPackage(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), 1));
-		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
-			{
-				{ "type", "ammo" }
 
-			})
-		);
+		if (!_game->getReplaySettings().replaying)
+		{
+			Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+				{
+					{ "type", "ammo" }
+
+				})
+			);
+		}
 	}
 	else if (rnd > 15 && GameManager::getInstance()->getCurrentLevel() != LevelManager::Boss3)
 	{
 		addChild(new Coin(_game, Vector2D(_body->getBody()->GetPosition().x*M_TO_PIXEL, _body->getBody()->GetPosition().y*M_TO_PIXEL), _coinValue));
-		Tracker::TrackEvent("drop", std::map<std::string, std::string>(
-			{
-				{ "type", "coin" }
 
-			})
-		);
+		if (!_game->getReplaySettings().replaying) 
+		{
+			Tracker::TrackEvent("drop", std::map<std::string, std::string>(
+				{
+					{ "type", "coin" }
+
+				})
+			);
+		}
 	}
 }
 

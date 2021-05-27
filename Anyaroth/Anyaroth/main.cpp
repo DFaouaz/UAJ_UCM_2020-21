@@ -9,14 +9,18 @@ int main(int argc, char* argv[])
 {
 	try
 	{
-		// Tracker init 
-		Tracker::Init(TrackerSettings::FromFile("./tracker_config"));
+		ReplaySettings replaySettings = ReplaySettings::FromFile("./replay_config.cfg");
 
-		Game game;
+		// Tracker init 
+		if (replaySettings.recording)
+			Tracker::Init(TrackerSettings::FromFile("./tracker_config"));
+
+		Game game(replaySettings);
 		game.run();
 			
 		// End of the system
-		Tracker::End();
+		if (replaySettings.recording)
+			Tracker::End();
 	}
 	catch (string& exception)
 	{
