@@ -50,7 +50,7 @@ void PlayState::start()
 	BulletPool* enemyPool = new BulletPool(_gameptr);
 
 	//Level
-	GameManager::getInstance()->setCurrentLevel(LevelManager::Level1_1);
+	GameManager::getInstance()->setCurrentLevel(LevelManager::Tutorial);
 
 	_level = new GameObject(_gameptr);
 	_levelManager = LevelManager(_gameptr, _player, _level, enemyPool);
@@ -82,10 +82,11 @@ bool PlayState::handleEvent(const SDL_Event& event)
 		int yMouse = -1;
 
 
-		Vector2D pos = getMousePositionInWorld();
-		xMouse = pos.getX();
-		yMouse = pos.getY();
-		
+
+
+		Vector2D posScreen = getMousePositionOnScreen();
+		int xMouseScreen = posScreen.getX();
+		int yMouseScreen = posScreen.getY();
 
 		if (_gameptr->getReplaySettings().recording)
 		{
@@ -97,8 +98,8 @@ bool PlayState::handleEvent(const SDL_Event& event)
 					{ "keyRepeat", to_string(event.key.repeat) },
 					{ "button", to_string(event.button.button) },
 					{ "buttonState", to_string(event.button.state) },
-					{ "xMouse", to_string(xMouse) },
-					{ "yMouse", to_string(yMouse) }
+					{ "xMouse", to_string(xMouseScreen) },
+					{ "yMouse", to_string(yMouseScreen) }
 
 				})
 			);
@@ -127,7 +128,7 @@ bool PlayState::handleEventBot(priority_queue<pair<int, InputEvent>, vector<pair
 	{
 		if (evento.second.mouse.x != -1 && evento.second.mouse.y != -1)
 		{
-			setMousePositionInWorldBot(Vector2D(evento.second.mouse.x, evento.second.mouse.y));
+			setMousePositionOnScreenBot(Vector2D(evento.second.mouse.x, evento.second.mouse.y));
 		}
 
 		GameState::handleEvent(evento.second.event);
@@ -275,13 +276,13 @@ void PlayState::update(double deltaTime)
 	{
 		if (_gameptr->getReplaySettings().recording)
 		{
-			Vector2D posScreen = getMousePositionOnScreen();
-			int xMouseScreen = posScreen.getX();
-			int yMouseScreen = posScreen.getY();
+			Vector2D pos = getMousePositionInWorld();
+			int xMouse = pos.getX();
+			int yMouse = pos.getY();
 			Tracker::TrackEvent("posScreen", std::map<std::string, std::string>(
 				{
-					{ "xMouseScreen", to_string(xMouseScreen) },
-					{ "yMouseScreen", to_string(yMouseScreen) }
+					{ "xMouseScreen", to_string(xMouse) },
+					{ "yMouseScreen", to_string(yMouse) }
 
 				})
 			);
@@ -289,7 +290,7 @@ void PlayState::update(double deltaTime)
 		else
 		{
 			pair<int, int> mousepos = _gameptr->getMousePos();
-			setMousePositionOnScreenBot(Vector2D(mousepos.first, mousepos.second));
+			setMousePositionInWorldBot(Vector2D(mousepos.first, mousepos.second));
 		}
 	}
 	if (_step % 40 == 0)
@@ -311,14 +312,11 @@ void PlayState::update(double deltaTime)
 	if (!_gameptr->getReplaySettings().recording)
 	{
 		auto& enemiesDeath = _gameptr->getEnemiesDeath();
-		if (!enemiesDeath.empty())
+		pair<int, EnemyDeathEvent> info = enemiesDeath.top();
+		if (_step >= info.first)
 		{
-			pair<int, EnemyDeathEvent> info = enemiesDeath.top();
-			if (_step >= info.first)
-			{
-				enemiesDeath.pop();
-				static_cast<Map*>(getObjects().front()->getChildren().front())->killEnemy(info.second);
-			}
+			enemiesDeath.pop();
+			static_cast<Map*>(getObjects().front()->getChildren().front())->killEnemy(info.second);
 		}
 	}
 }
